@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.app.app.server.service.SurveyAnswerTestCase</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.app.app.server.service.SurveyAnswerTestCase</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.app.app.server.service.html">com.app.app.server.service</a> &gt; SurveyAnswerTestCase</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.215s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">test1Save</td>
+<td>0.060s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2Update</td>
+<td>0.056s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3FindById</td>
+<td>0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test4Delete</td>
+<td>0.095s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Setting logged in user info for ADD
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:22.292--ClientSession(502545891)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_SurveyAnswer_M (surveyAnswerId, surveyAnswerDesc, surveyAnswerName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [5F8EF8AD-54B9-4077-BC4D-B538C822FE6A, 8UZFyYdTzzmw2g1kqHEQG1CjIwvKSZCf8kfWD28ctnKrtQtS0p, sngymHiCttAxRO2RWhnVj4INsdmy7UHs5zz1xUMbSVDiTD6nlS, 1, AAAAA, 2015-11-06 13:08:22.286, null, 2015-11-06 13:08:22.286, 1, null]
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:22.337--ClientSession(1822279462)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT surveyAnswerId, surveyAnswerDesc, surveyAnswerName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SurveyAnswer_M WHERE ((activeStatus = ?) AND (surveyAnswerId = ?))
+	bind =&gt; [1, 5F8EF8AD-54B9-4077-BC4D-B538C822FE6A]
+Setting logged in user info for UPDATE
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:22.34--ClientSession(1155149588)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT surveyAnswerId, surveyAnswerDesc, surveyAnswerName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SurveyAnswer_M WHERE (surveyAnswerId = ?)
+	bind =&gt; [5F8EF8AD-54B9-4077-BC4D-B538C822FE6A]
+[EL Fine]: sql: 2015-11-06 07:38:22.342--ClientSession(1155149588)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--UPDATE ast_SurveyAnswer_M SET surveyAnswerDesc = ?, surveyAnswerName = ?, updatedBy = ?, versionId = ? WHERE ((surveyAnswerId = ?) AND (versionId = ?))
+	bind =&gt; [d72HWwlXn8pezL49YQ2XlLcq7jJ7I9xiWku3yQVd1kEQoNwDHN, RavnXh6UzyysoOlNc9U1bKqQ7Q8awghOXvQrxanFV8ULatrI4I, AAAAA, 2, 5F8EF8AD-54B9-4077-BC4D-B538C822FE6A, 1]
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:22.393--ClientSession(203223644)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT surveyAnswerId, surveyAnswerDesc, surveyAnswerName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SurveyAnswer_M WHERE ((activeStatus = ?) AND (surveyAnswerId = ?))
+	bind =&gt; [1, 5F8EF8AD-54B9-4077-BC4D-B538C822FE6A]
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:22.398--ClientSession(1448856013)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT surveyAnswerId, surveyAnswerDesc, surveyAnswerName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SurveyAnswer_M WHERE (surveyAnswerId = ?)
+	bind =&gt; [5F8EF8AD-54B9-4077-BC4D-B538C822FE6A]
+[EL Fine]: sql: 2015-11-06 07:38:22.399--ClientSession(1448856013)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_SurveyAnswer_M WHERE ((surveyAnswerId = ?) AND (versionId = ?))
+	bind =&gt; [5F8EF8AD-54B9-4077-BC4D-B538C822FE6A, 2]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.3</a> at Nov 6, 2015 7:38:28 AM</p>
+</div>
+</div>
+</body>
+</html>

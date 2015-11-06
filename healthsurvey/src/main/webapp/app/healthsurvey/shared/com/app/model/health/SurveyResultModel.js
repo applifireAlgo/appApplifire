@@ -1,0 +1,39 @@
+Ext.define('Healthsurvey.healthsurvey.shared.com.app.model.health.SurveyResultModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "surveyResultId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "surveyquestionid",
+          "reference": "SurveyQuestion",
+          "defaultValue": ""
+     }, {
+          "name": "surveyanswerid",
+          "reference": "SurveyAnswer",
+          "defaultValue": ""
+     }, {
+          "name": "contactid",
+          "reference": "User",
+          "defaultValue": ""
+     }, {
+          "name": "surveyDate",
+          "type": "date",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

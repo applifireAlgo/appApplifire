@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppLogConfig>
+<LoggingProperties>
+<!--Logging Framework is Asynchronous in nature. Log Events goes to the  Queue first and connectors takes the event from the queue for processing.
+ Event Queue Type 0 - Circular Queue (RECOMMENDED 1 - Infinite Queue with Initial Capacity and events will be wrapped in Soft References 
+(JVM will garbage collect these soft references when it runs out of memory. 2 - Infinite Queue (NOT RECOMMENDED) --><eventQueue type="0">10000</eventQueue>
+<refresh timeUnit="minutes">1</refresh>
+</LoggingProperties>
+<connectors>
+<connector id="1" enable="true" connectorClass="com.spartan.healthmeter.msgWriter.connector.db.StatusConnector" dataModel="com.spartan.healthmeter.entity.scheduler.ArtSchedulerHealthStatus" name="connector.status">
+<map>
+<!-- JDBCBatchSize -->
+<attribute name="batchSize">3</attribute>
+<attribute name="refreshUnit">minutes</attribute>
+<attribute name="refreshTime">1</attribute>
+<!-- BatchwillbecommitedifTimeOuthappensbeforethebatchsizereached -->
+<attribute name="thread.timeout">5000</attribute>
+<!-- JDBCConnectionPoolSize -->
+<attribute name="threadPoolSize">5</attribute>
+<attribute name="diskPath">/home</attribute>
+<attribute name="diskThreshold">2064</attribute>
+<attribute name="executeSql">SELECT 1;</attribute>
+</map>
+</connector>
+<connector id="2" enable="true" connectorClass="com.spartan.healthmeter.msgWriter.connector.db.CounterConnector" dataModel="com.spartan.healthmeter.entity.scheduler.ArtSchedulerHealthCounter" name="connector.counter">
+<map>
+<!-- JDBCBatchSize -->
+<attribute name="batchSize">3</attribute>
+<attribute name="refreshUnit">minutes</attribute>
+<attribute name="refreshTime">1</attribute>
+<!-- BatchwillbecommitedifTimeOuthappensbeforethebatchsizereached -->
+<attribute name="thread.timeout">5000</attribute>
+<!-- JDBCConnectionPoolSize -->
+<attribute name="threadPoolSize">5</attribute>
+</map>
+</connector>
+<connector id="3" enable="true" connectorClass="com.spartan.healthmeter.msgWriter.connector.db.GaugeConnector" dataModel="com.spartan.healthmeter.entity.scheduler.ArtSchedulerHealthGauge" name="connector.gauge">
+<map>
+<!-- JDBCBatchSize -->
+<attribute name="batchSize">3</attribute>
+<attribute name="refreshUnit">minutes</attribute>
+<attribute name="refreshTime">1</attribute>
+<!-- BatchwillbecommitedifTimeOuthappensbeforethebatchsizereached -->
+<attribute name="thread.timeout">5000</attribute>
+<!-- JDBCConnectionPoolSize -->
+<attribute name="threadPoolSize">5</attribute>
+</map>
+</connector>
+<connector id="4" enable="true" connectorClass="com.spartan.healthmeter.msgWriter.connector.db.HealthConnector" dataModel="com.spartan.healthmeter.entity.scheduler.ArtSchedulerHealth" name="connector.health">
+<map>
+<!-- JDBCBatchSize -->
+<attribute name="batchSize">3</attribute>
+<attribute name="refreshUnit">minutes</attribute>
+<attribute name="refreshTime">1</attribute>
+<!-- BatchwillbecommitedifTimeOuthappensbeforethebatchsizereached -->
+<attribute name="thread.timeout">5000</attribute>
+<!-- JDBCConnectionPoolSize -->
+<attribute name="threadPoolSize">5</attribute>
+</map>
+</connector>
+<connector id="5" enable="true" connectorClass="com.spartan.healthmeter.msgWriter.connector.db.RequestDetailConnector" dataModel="com.spartan.healthmeter.entity.scheduler.ArtMethodCallStack" name="connector.request">
+<map>
+<!-- JDBCBatchSize -->
+<attribute name="batchSize">3</attribute>
+<attribute name="refreshUnit">minutes</attribute>
+<attribute name="refreshTime">1</attribute>
+<!-- BatchwillbecommitedifTimeOuthappensbeforethebatchsizereached -->
+<attribute name="thread.timeout">5000</attribute>
+<!-- JDBCConnectionPoolSize -->
+<attribute name="threadPoolSize">5</attribute>
+</map>
+</connector>
+</connectors></AppLogConfig>

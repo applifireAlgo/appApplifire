@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><AppAlarms>
+<BusinessComponent name="sales1">
+<LogModule name="RESTful SERVICES" severity="3" connectorOrder="1,2,-1,-1" idRangeStartsWith="1000">
+<AppAlarm id="1000" severity="3" connectorOrder="4,5,-1,-1">
+<message>Call for Object %s with input params : %s</message>
+<diag></diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="1001" severity="3" connectorOrder="4,5,-1,-1">
+<message>Call complete for input params : %s </message>
+<diag></diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="1002" severity="3" connectorOrder="4,5,-1,-1">
+<message>Incorrect request method type</message>
+<diag>Call for invalid method</diag>
+<solution>Enter correct method type</solution>
+</AppAlarm>
+<AppAlarm id="1003" severity="3" connectorOrder="4,5,-1,-1">
+<message>Incorrect request headers</message>
+<diag>Incorrect request headers</diag>
+<solution>Enter correct request header</solution>
+</AppAlarm>
+<AppAlarm id="1004" severity="3" connectorOrder="4,5,-1,-1">
+<message>RESTful call with invalid input parameters : %s </message>
+<diag>Parameters type mismatch </diag>
+<solution>Provide correct and valid input parameters</solution>
+</AppAlarm>
+</LogModule>
+<LogModule name="Repository/Database Operations" severity="3" connectorOrder="1,2,-1,-1" idRangeStartsWith="2000">
+<AppAlarm id="2000" severity="3" connectorOrder="4,5,-1,-1">
+<message>Call with input params %s</message>
+<diag></diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="2001" severity="3" connectorOrder="4,5,-1,-1">
+<message>Call complete with input params</message>
+<diag></diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="2002" severity="3" connectorOrder="4,5,-1,-1">
+<message>%s Saved successfully</message>
+<diag></diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="2003" severity="3" connectorOrder="4,5,-1,-1">
+<message>%s Updated successfully</message>
+<diag></diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="2004" severity="3" connectorOrder="4,5,-1,-1">
+<message>%s Deleted successfully</message>
+<diag></diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="2005" severity="3" connectorOrder="4,5,-1,-1">
+<message>Executed named query %s</message>
+<diag></diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="2006" severity="3" connectorOrder="4,5,-1,-1">
+<message>Executed native query %s</message>
+<diag></diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="2007" severity="3" connectorOrder="4,5,-1,-1">
+<message>Error in %s entity %s</message>
+<diag>Error while performing operation on entity</diag>
+<solution>Modify the entity with valid data</solution>
+</AppAlarm>
+<AppAlarm id="2008" severity="3" connectorOrder="4,5,-1,-1">
+<message>Constraints violated by input.</message>
+<diag>Constraints applied on entity did not satisfied with input.</diag>
+<solution>Modify the entity with valid data.</solution>
+</AppAlarm>
+<AppAlarm id="2009" severity="3" connectorOrder="4,5,-1,-1">
+<message>The object %s cannot be updated because it has changed or been deleted since it was last read</message>
+<diag>Incorrect update operation </diag>
+<solution>Incorrect update operation </solution>
+</AppAlarm>
+<AppAlarm id="2010" severity="3" connectorOrder="4,5,-1,-1">
+<message>Lock Timeout Exception</message>
+<diag>Lock Timeout Exception</diag>
+<solution>Update version ID</solution>
+</AppAlarm>
+<AppAlarm id="2011" severity="3" connectorOrder="4,5,-1,-1">
+<message>NonUnique Result Exception</message>
+<diag>query did not return a unique result</diag>
+<solution>update the query</solution>
+</AppAlarm>
+<AppAlarm id="2012" severity="3" connectorOrder="4,5,-1,-1">
+<message>getSingleResult() did not retrieve any entities</message>
+<diag>update the query</diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="2013" severity="3" connectorOrder="4,5,-1,-1">
+<message>An optimistic lock violation was detected when flushing object.</message>
+<diag>the object was concurrently modified in another transaction.</diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="2014" severity="3" connectorOrder="4,5,-1,-1">
+<message>PessimisticLockException: Timeout trying to lock table</message>
+<diag>Timeout trying to lock table</diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="2015" severity="3" connectorOrder="4,5,-1,-1">
+<message>QueryTimeoutException</message>
+<diag>Could not perform Operation</diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="2016" severity="3" connectorOrder="4,5,-1,-1">
+<message>RollbackException: The transaction was set to rollback only</message>
+<diag>The transaction was set to rollback only</diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="2017" severity="3" connectorOrder="4,5,-1,-1">
+<message>Transaction Required</message>
+<diag>operation must be written within a transaction</diag>
+<solution>operation must be written within a transaction</solution>
+</AppAlarm>
+<AppAlarm id="2018" severity="3" connectorOrder="4,5,-1,-1">
+<message>Database Communication Failure</message>
+<diag>Database Communication Failure Exception</diag>
+<solution>Please check your database connection</solution>
+</AppAlarm>
+</LogModule>
+<LogModule name="BUSINESS Service" severity="3" connectorOrder="1,2,-1,-1" idRangeStartsWith="3000">
+<AppAlarm id="3000" severity="3" connectorOrder="4,5,-1,-1">
+<message>calling %s business logic</message>
+<diag></diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="3001" severity="3" connectorOrder="4,5,-1,-1">
+<message>Invalid input %s to business service</message>
+<diag>Invalid input to business service</diag>
+<solution>Provide valid input</solution>
+</AppAlarm>
+<AppAlarm id="3002" severity="3" connectorOrder="4,5,-1,-1">
+<message>Data %s not found exception </message>
+<diag>Request invalid  </diag>
+<solution>Provide valid request</solution>
+</AppAlarm>
+<AppAlarm id="3003" severity="3" connectorOrder="4,5,-1,-1">
+<message>Constraint %s violation Exception </message>
+<diag>Constraints violated by request   </diag>
+<solution>Provide valid input</solution>
+</AppAlarm>
+<AppAlarm id="3005" severity="3" connectorOrder="4,5,-1,-1">
+<message>drool exception occured</message>
+<diag>drool exception occured</diag>
+<solution>drool exception occured. Please contact your administrator</solution>
+</AppAlarm>
+</LogModule>
+<LogModule name="Security" severity="3" connectorOrder="1,2,-1,-1" idRangeStartsWith="4000">
+<AppAlarm id="4000" severity="3" connectorOrder="4,5,-1,-1">
+<message>Login Successful by %s </message>
+<diag></diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="4001" severity="3" connectorOrder="4,5,-1,-1">
+<message>Service accessed by %s successfully</message>
+<diag></diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="4002" severity="3" connectorOrder="4,5,-1,-1">
+<message>Incorrect credentials attempt by %s</message>
+<diag>Invalid UserName or Password</diag>
+<solution>Enter right credentials</solution>
+</AppAlarm>
+<AppAlarm id="4003" severity="3" connectorOrder="4,5,-1,-1">
+<message>Authentication Exception for %s</message>
+<diag>Invalid UserName or Password</diag>
+<solution>Enter right credentials</solution>
+</AppAlarm>
+<AppAlarm id="4004" severity="3" connectorOrder="4,5,-1,-1">
+<message>Account disabled for %s </message>
+<diag>Not authorized User</diag>
+<solution>Provide userName and Password credentials</solution>
+</AppAlarm>
+<AppAlarm id="4005" severity="3" connectorOrder="4,5,-1,-1">
+<message>Unauthorized request call by %s</message>
+<diag>Invalid UserName or Password</diag>
+<solution>Enter right credentials</solution>
+</AppAlarm>
+</LogModule>
+<LogModule name="Health" severity="3" connectorOrder="1,2,-1,-1" idRangeStartsWith="5000">
+<AppAlarm id="5000" severity="3" connectorOrder="4,5,-1,-1">
+<message>Disk Space is going out of limit</message>
+<diag></diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="5001" severity="3" connectorOrder="4,5,-1,-1">
+<message>Database is not up</message>
+<diag></diag>
+<solution></solution>
+</AppAlarm>
+<AppAlarm id="5002" severity="3" connectorOrder="4,5,-1,-1">
+<message>Threshold limit is exceeding</message>
+<diag></diag>
+<solution></solution>
+</AppAlarm>
+</LogModule>
+</BusinessComponent>
+</AppAlarms>

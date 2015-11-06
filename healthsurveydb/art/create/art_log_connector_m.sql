@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS `art_log_connector_m`;
+
+CREATE TABLE `art_log_connector_m` ( `connector_id`  varchar(64) NOT NULL , `log_config_id` varchar(64) NOT NULL , `connector_log_level` INT(11) NOT NULL, `cid` INT(11) NOT NULL, `id` VARCHAR(256) DEFAULT NULL, `enabled` TINYINT(1) NOT NULL, `connector_name` VARCHAR(256) NOT NULL, `class_name` VARCHAR(256) NOT NULL, `system_defined` TINYINT(1) DEFAULT NULL, `version_id` INT(11) DEFAULT NULL, `created_by` INT(11) DEFAULT NULL, `created_date` TIMESTAMP NULL DEFAULT NULL, `updated_by` INT(11) DEFAULT NULL, `updated_date` DATETIME DEFAULT NULL, `active_status` TINYINT(1) DEFAULT NULL, PRIMARY KEY (`connector_id`), KEY `LogConfigFK` (`log_config_id`), CONSTRAINT `ArtLogConfigFK` FOREIGN KEY (`log_config_id`) REFERENCES `art_log_config_m` (`log_config_id`) ) ;
+

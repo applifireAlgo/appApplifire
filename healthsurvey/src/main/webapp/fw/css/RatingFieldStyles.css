@@ -1,0 +1,28 @@
+.starOn {
+	background-image:	url(../image/starOn.png);
+	margin 			:	1px 1px;
+	width			:	16px;
+	height			:	16px;
+	display			:	inline-block;
+}
+
+.starOff {
+	background-image:	url(../image/starOff.png);
+	margin 			:	1px 1px;
+	width			:	16px;
+	height			:	16px;
+	display			:	inline-block;
+}
+
+.starHiddenClearMode {
+	clear 			: 	left;
+}
+
+.starReset {
+    background-image:   url(../image/starReset.png);
+    margin          :   2px 2px;
+    width           :   16px;
+    height          :   16px;
+    display         :   inline-block;
+    float           :   left;
+}

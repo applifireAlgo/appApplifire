@@ -1,0 +1,691 @@
+1#appfire#3D Crossword Plugin#appfire#application/vnd.hzn-3d-crossword#appfire#.x3d#appfire#
+10#appfire#7-Zip#appfire#application/x-7z-compressed#appfire#.7z#appfire#
+100#appfire#Critical Tools - PERT Chart EXPERT#appfire#application/vnd.criticaltools.wbs+xml#appfire#.wbs#appfire#
+101#appfire#CryptoNote#appfire#application/vnd.rig.cryptonote#appfire#.cryptonote#appfire#
+102#appfire#Crystallographic Interchange Format#appfire#chemical/x-cif#appfire#.cif#appfire#
+103#appfire#CrystalMaker Data Format#appfire#chemical/x-cmdf#appfire#.cmdf#appfire#
+104#appfire#CU-SeeMe#appfire#application/cu-seeme#appfire#.cu#appfire#
+105#appfire#CU-Writer#appfire#application/prs.cww#appfire#.cww#appfire#
+106#appfire#Curl - Applet#appfire#text/vnd.curl#appfire#.curl#appfire#
+107#appfire#Curl - Detached Applet#appfire#text/vnd.curl.dcurl#appfire#.dcurl#appfire#
+108#appfire#Curl - Manifest File#appfire#text/vnd.curl.mcurl#appfire#.mcurl#appfire#
+109#appfire#Curl - Source Code#appfire#text/vnd.curl.scurl#appfire#.scurl#appfire#
+11#appfire#AbiWord#appfire#application/x-abiword#appfire#.abw#appfire#
+110#appfire#CURL Applet#appfire#application/vnd.curl.car#appfire#.car#appfire#
+111#appfire#CURL Applet#appfire#application/vnd.curl.pcurl#appfire#.pcurl#appfire#
+112#appfire#CustomMenu#appfire#application/vnd.yellowriver-custom-menu#appfire#.cmp#appfire#
+113#appfire#Data Structure for the Security Suitability of Cry#appfire#application/dssc+der#appfire#.dssc#appfire#
+114#appfire#Data Structure for the Security Suitability of Cry#appfire#application/dssc+xml#appfire#.xdssc#appfire#
+115#appfire#Debian Package#appfire#application/x-debian-package#appfire#.deb#appfire#
+116#appfire#DECE Audio#appfire#audio/vnd.dece.audio#appfire#.uva#appfire#
+117#appfire#DECE Graphic#appfire#image/vnd.dece.graphic#appfire#.uvi#appfire#
+118#appfire#DECE High Definition Video#appfire#video/vnd.dece.hd#appfire#.uvh#appfire#
+119#appfire#DECE Mobile Video#appfire#video/vnd.dece.mobile#appfire#.uvm#appfire#
+12#appfire#Ace Archive#appfire#application/x-ace-compressed#appfire#.ace#appfire#
+120#appfire#DECE MP4#appfire#video/vnd.uvvu.mp4#appfire#.uvu#appfire#
+121#appfire#DECE PD Video#appfire#video/vnd.dece.pd#appfire#.uvp#appfire#
+122#appfire#DECE SD Video#appfire#video/vnd.dece.sd#appfire#.uvs#appfire#
+123#appfire#DECE Video#appfire#video/vnd.dece.video#appfire#.uvv#appfire#
+124#appfire#Device Independent File Format (DVI)#appfire#application/x-dvi#appfire#.dvi#appfire#
+125#appfire#Digital Siesmograph Networks - SEED Datafiles#appfire#application/vnd.fdsn.seed#appfire#.seed#appfire#
+126#appfire#Digital Talking Book#appfire#application/x-dtbook+xml#appfire#.dtb#appfire#
+127#appfire#Digital Talking Book - Resource File#appfire#application/x-dtbresource+xml#appfire#.res#appfire#
+128#appfire#Digital Video Broadcasting#appfire#application/vnd.dvb.ait#appfire#.ait#appfire#
+129#appfire#Digital Video Broadcasting#appfire#application/vnd.dvb.service#appfire#.svc#appfire#
+13#appfire#Active Content Compression#appfire#application/vnd.americandynamics.acc#appfire#.acc#appfire#
+130#appfire#Digital Winds Music#appfire#audio/vnd.digital-winds#appfire#.eol#appfire#
+131#appfire#DjVu#appfire#image/vnd.djvu#appfire#.djvu#appfire#
+132#appfire#Document Type Definition#appfire#application/xml-dtd#appfire#.dtd#appfire#
+133#appfire#Dolby Meridian Lossless Packing#appfire#application/vnd.dolby.mlp#appfire#.mlp#appfire#
+134#appfire#Doom Video Game#appfire#application/x-doom#appfire#.wad#appfire#
+135#appfire#DPGraph#appfire#application/vnd.dpgraph#appfire#.dpg#appfire#
+136#appfire#DRA Audio#appfire#audio/vnd.dra#appfire#.dra#appfire#
+137#appfire#DreamFactory#appfire#application/vnd.dreamfactory#appfire#.dfac#appfire#
+138#appfire#DTS Audio#appfire#audio/vnd.dts#appfire#.dts#appfire#
+139#appfire#DTS High Definition Audio#appfire#audio/vnd.dts.hd#appfire#.dtshd#appfire#
+14#appfire#ACU Cobol#appfire#application/vnd.acucobol#appfire#.acu#appfire#
+140#appfire#DWG Drawing#appfire#image/vnd.dwg#appfire#.dwg#appfire#
+141#appfire#DynaGeo#appfire#application/vnd.dynageo#appfire#.geo#appfire#
+142#appfire#ECMAScript#appfire#application/ecmascript#appfire#.es#appfire#
+143#appfire#EcoWin Chart#appfire#application/vnd.ecowin.chart#appfire#.mag#appfire#
+144#appfire#EDMICS 2000#appfire#image/vnd.fujixerox.edmics-mmr#appfire#.mmr#appfire#
+145#appfire#EDMICS 2000#appfire#image/vnd.fujixerox.edmics-rlc#appfire#.rlc#appfire#
+146#appfire#Efficient XML Interchange#appfire#application/exi#appfire#.exi#appfire#
+147#appfire#EFI Proteus#appfire#application/vnd.proteus.magazine#appfire#.mgz#appfire#
+148#appfire#Electronic Publication#appfire#application/epub+zip#appfire#.epub#appfire#
+149#appfire#Email Message#appfire#message/rfc822#appfire#.eml#appfire#
+15#appfire#ACU Cobol#appfire#application/vnd.acucorp#appfire#.atc#appfire#
+150#appfire#Enliven Viewer#appfire#application/vnd.enliven#appfire#.nml#appfire#
+151#appfire#Express by Infoseek#appfire#application/vnd.is-xpr#appfire#.xpr#appfire#
+152#appfire#eXtended Image File Format (XIFF)#appfire#image/vnd.xiff#appfire#.xif#appfire#
+153#appfire#Extensible Forms Description Language#appfire#application/vnd.xfdl#appfire#.xfdl#appfire#
+154#appfire#Extensible MultiModal Annotation#appfire#application/emma+xml#appfire#.emma#appfire#
+155#appfire#EZPix Secure Photo Album#appfire#application/vnd.ezpix-album#appfire#.ez2#appfire#
+156#appfire#EZPix Secure Photo Album#appfire#application/vnd.ezpix-package#appfire#.ez3#appfire#
+157#appfire#FAST Search & Transfer ASA#appfire#image/vnd.fst#appfire#.fst#appfire#
+158#appfire#FAST Search & Transfer ASA#appfire#video/vnd.fvt#appfire#.fvt#appfire#
+159#appfire#FastBid Sheet#appfire#image/vnd.fastbidsheet#appfire#.fbs#appfire#
+16#appfire#Adaptive differential pulse-code modulation#appfire#audio/adpcm#appfire#.adp#appfire#
+160#appfire#FCS Express Layout Link#appfire#application/vnd.denovo.fcselayout-link#appfire#.fe_launch#appfire#
+161#appfire#Flash Video#appfire#video/x-f4v#appfire#.f4v#appfire#
+162#appfire#Flash Video#appfire#video/x-flv#appfire#.flv#appfire#
+163#appfire#FlashPix#appfire#image/vnd.fpx#appfire#.fpx#appfire#
+164#appfire#FlashPix#appfire#image/vnd.net-fpx#appfire#.npx#appfire#
+165#appfire#FLEXSTOR#appfire#text/vnd.fmi.flexstor#appfire#.flx#appfire#
+166#appfire#FLI/FLC Animation Format#appfire#video/x-fli#appfire#.fli#appfire#
+167#appfire#FluxTime Clip#appfire#application/vnd.fluxtime.clip#appfire#.ftc#appfire#
+168#appfire#Forms Data Format#appfire#application/vnd.fdf#appfire#.fdf#appfire#
+169#appfire#Fortran Source File#appfire#text/x-fortran#appfire#.f#appfire#
+17#appfire#Adobe (Macropedia) Authorware - Binary File#appfire#application/x-authorware-bin#appfire#.aab#appfire#
+170#appfire#FrameMaker Interchange Format#appfire#application/vnd.mif#appfire#.mif#appfire#
+171#appfire#FrameMaker Normal Format#appfire#application/vnd.framemaker#appfire#.fm#appfire#
+172#appfire#FreeHand MX#appfire#image/x-freehand#appfire#.fh#appfire#
+173#appfire#Friendly Software Corporation#appfire#application/vnd.fsc.weblaunch#appfire#.fsc#appfire#
+174#appfire#Frogans Player#appfire#application/vnd.frogans.fnc#appfire#.fnc#appfire#
+175#appfire#Frogans Player#appfire#application/vnd.frogans.ltf#appfire#.ltf#appfire#
+176#appfire#Fujitsu - Xerox 2D CAD Data#appfire#application/vnd.fujixerox.ddd#appfire#.ddd#appfire#
+177#appfire#Fujitsu - Xerox DocuWorks#appfire#application/vnd.fujixerox.docuworks#appfire#.xdw#appfire#
+178#appfire#Fujitsu - Xerox DocuWorks Binder#appfire#application/vnd.fujixerox.docuworks.binder#appfire#.xbd#appfire#
+179#appfire#Fujitsu Oasys#appfire#application/vnd.fujitsu.oasys#appfire#.oas#appfire#
+18#appfire#Adobe (Macropedia) Authorware - Map#appfire#application/x-authorware-map#appfire#.aam#appfire#
+180#appfire#Fujitsu Oasys#appfire#application/vnd.fujitsu.oasys2#appfire#.oa2#appfire#
+181#appfire#Fujitsu Oasys#appfire#application/vnd.fujitsu.oasys3#appfire#.oa3#appfire#
+182#appfire#Fujitsu Oasys#appfire#application/vnd.fujitsu.oasysgp#appfire#.fg5#appfire#
+183#appfire#Fujitsu Oasys#appfire#application/vnd.fujitsu.oasysprs#appfire#.bh2#appfire#
+184#appfire#FutureSplash Animator#appfire#application/x-futuresplash#appfire#.spl#appfire#
+185#appfire#FuzzySheet#appfire#application/vnd.fuzzysheet#appfire#.fzs#appfire#
+186#appfire#G3 Fax Image#appfire#image/g3fax#appfire#.g3#appfire#
+187#appfire#GameMaker ActiveX#appfire#application/vnd.gmx#appfire#.gmx#appfire#
+188#appfire#Gen-Trix Studio#appfire#model/vnd.gtw#appfire#.gtw#appfire#
+189#appfire#Genomatix Tuxedo Framework#appfire#application/vnd.genomatix.tuxedo#appfire#.txd#appfire#
+19#appfire#Adobe (Macropedia) Authorware - Segment File#appfire#application/x-authorware-seg#appfire#.aas#appfire#
+190#appfire#GeoGebra#appfire#application/vnd.geogebra.file#appfire#.ggb#appfire#
+191#appfire#GeoGebra#appfire#application/vnd.geogebra.tool#appfire#.ggt#appfire#
+192#appfire#Geometric Description Language (GDL)#appfire#model/vnd.gdl#appfire#.gdl#appfire#
+193#appfire#GeoMetry Explorer#appfire#application/vnd.geometry-explorer#appfire#.gex#appfire#
+194#appfire#GEONExT and JSXGraph#appfire#application/vnd.geonext#appfire#.gxt#appfire#
+195#appfire#GeoplanW#appfire#application/vnd.geoplan#appfire#.g2w#appfire#
+196#appfire#GeospacW#appfire#application/vnd.geospace#appfire#.g3w#appfire#
+197#appfire#Ghostscript Font#appfire#application/x-font-ghostscript#appfire#.gsf#appfire#
+198#appfire#Glyph Bitmap Distribution Format#appfire#application/x-font-bdf#appfire#.bdf#appfire#
+199#appfire#GNU Tar Files#appfire#application/x-gtar#appfire#.gtar#appfire#
+2#appfire#3GP#appfire#video/3gpp#appfire#.3gp#appfire#
+20#appfire#Adobe AIR Application#appfire#application/vnd.adobe.air-application-installer-pa#appfire#.air#appfire#
+200#appfire#GNU Texinfo Document#appfire#application/x-texinfo#appfire#.texinfo#appfire#
+201#appfire#Gnumeric#appfire#application/x-gnumeric#appfire#.gnumeric#appfire#
+202#appfire#Google Earth - KML#appfire#application/vnd.google-earth.kml+xml#appfire#.kml#appfire#
+203#appfire#Google Earth - Zipped KML#appfire#application/vnd.google-earth.kmz#appfire#.kmz#appfire#
+204#appfire#GrafEq#appfire#application/vnd.grafeq#appfire#.gqf#appfire#
+205#appfire#Graphics Interchange Format#appfire#image/gif#appfire#.gif#appfire#
+206#appfire#Graphviz#appfire#text/vnd.graphviz#appfire#.gv#appfire#
+207#appfire#Groove - Account#appfire#application/vnd.groove-account#appfire#.gac#appfire#
+208#appfire#Groove - Help#appfire#application/vnd.groove-help#appfire#.ghf#appfire#
+209#appfire#Groove - Identity Message#appfire#application/vnd.groove-identity-message#appfire#.gim#appfire#
+21#appfire#Adobe Flash#appfire#application/x-shockwave-flash#appfire#.swf#appfire#
+210#appfire#Groove - Injector#appfire#application/vnd.groove-injector#appfire#.grv#appfire#
+211#appfire#Groove - Tool Message#appfire#application/vnd.groove-tool-message#appfire#.gtm#appfire#
+212#appfire#Groove - Tool Template#appfire#application/vnd.groove-tool-template#appfire#.tpl#appfire#
+213#appfire#Groove - Vcard#appfire#application/vnd.groove-vcard#appfire#.vcg#appfire#
+214#appfire#H.261#appfire#video/h261#appfire#.h261#appfire#
+215#appfire#H.263#appfire#video/h263#appfire#.h263#appfire#
+216#appfire#H.264#appfire#video/h264#appfire#.h264#appfire#
+217#appfire#Hewlett Packard Instant Delivery#appfire#application/vnd.hp-hpid#appfire#.hpid#appfire#
+218#appfire#Hewlett-Packard's WebPrintSmart#appfire#application/vnd.hp-hps#appfire#.hps#appfire#
+219#appfire#Hierarchical Data Format#appfire#application/x-hdf#appfire#.hdf#appfire#
+22#appfire#Adobe Flex Project#appfire#application/vnd.adobe.fxp#appfire#.fxp#appfire#
+220#appfire#Hit'n'Mix#appfire#audio/vnd.rip#appfire#.rip#appfire#
+221#appfire#Homebanking Computer Interface (HBCI)#appfire#application/vnd.hbci#appfire#.hbci#appfire#
+222#appfire#HP Indigo Digital Press - Job Layout Languate#appfire#application/vnd.hp-jlyt#appfire#.jlt#appfire#
+223#appfire#HP Printer Command Language#appfire#application/vnd.hp-pcl#appfire#.pcl#appfire#
+224#appfire#HP-GL/2 and HP RTL#appfire#application/vnd.hp-hpgl#appfire#.hpgl#appfire#
+225#appfire#HV Script#appfire#application/vnd.yamaha.hv-script#appfire#.hvs#appfire#
+226#appfire#HV Voice Dictionary#appfire#application/vnd.yamaha.hv-dic#appfire#.hvd#appfire#
+227#appfire#HV Voice Parameter#appfire#application/vnd.yamaha.hv-voice#appfire#.hvp#appfire#
+228#appfire#Hydrostatix Master Suite#appfire#application/vnd.hydrostatix.sof-data#appfire#.sfd-hdstx#appfire#
+229#appfire#Hyperstudio#appfire#application/hyperstudio#appfire#.stk#appfire#
+23#appfire#Adobe Portable Document Format#appfire#application/pdf#appfire#.pdf#appfire#pdfIcon.png
+230#appfire#Hypertext Application Language#appfire#application/vnd.hal+xml#appfire#.hal#appfire#
+231#appfire#HyperText Markup Language (HTML)#appfire#text/html#appfire#.html#appfire#
+232#appfire#IBM DB2 Rights Manager#appfire#application/vnd.ibm.rights-management#appfire#.irm#appfire#
+233#appfire#IBM Electronic Media Management System - Secure Co#appfire#application/vnd.ibm.secure-container#appfire#.sc#appfire#
+234#appfire#iCalendar#appfire#text/calendar#appfire#.ics#appfire#
+235#appfire#ICC profile#appfire#application/vnd.iccprofile#appfire#.icc#appfire#
+236#appfire#Icon Image#appfire#image/x-icon#appfire#.ico#appfire#
+237#appfire#igLoader#appfire#application/vnd.igloader#appfire#.igl#appfire#
+238#appfire#Image Exchange Format#appfire#image/ief#appfire#.ief#appfire#
+239#appfire#ImmerVision PURE Players#appfire#application/vnd.immervision-ivp#appfire#.ivp#appfire#
+24#appfire#Adobe PostScript Printer Description File Format#appfire#application/vnd.cups-ppd#appfire#.ppd#appfire#
+240#appfire#ImmerVision PURE Players#appfire#application/vnd.immervision-ivu#appfire#.ivu#appfire#
+241#appfire#IMS Networks#appfire#application/reginfo+xml#appfire#.rif#appfire#
+242#appfire#In3D - 3DML#appfire#text/vnd.in3d.3dml#appfire#.3dml#appfire#
+243#appfire#In3D - 3DML#appfire#text/vnd.in3d.spot#appfire#.spot#appfire#
+244#appfire#Initial Graphics Exchange Specification (IGES)#appfire#model/iges#appfire#.igs#appfire#
+245#appfire#Interactive Geometry Software#appfire#application/vnd.intergeo#appfire#.i2g#appfire#
+246#appfire#Interactive Geometry Software Cinderella#appfire#application/vnd.cinderella#appfire#.cdy#appfire#
+247#appfire#Intercon FormNet#appfire#application/vnd.intercon.formnet#appfire#.xpw#appfire#
+248#appfire#International Society for Advancement of Cytometry#appfire#application/vnd.isac.fcs#appfire#.fcs#appfire#
+249#appfire#Internet Protocol Flow Information Export#appfire#application/ipfix#appfire#.ipfix#appfire#
+25#appfire#Adobe Shockwave Player#appfire#application/x-director#appfire#.dir#appfire#
+250#appfire#Internet Public Key Infrastructure - Certificate#appfire#application/pkix-cert#appfire#.cer#appfire#
+251#appfire#Internet Public Key Infrastructure - Certificate M#appfire#application/pkixcmp#appfire#.pki#appfire#
+252#appfire#Internet Public Key Infrastructure - Certificate R#appfire#application/pkix-crl#appfire#.crl#appfire#
+253#appfire#Internet Public Key Infrastructure - Certification#appfire#application/pkix-pkipath#appfire#.pkipath#appfire#
+254#appfire#IOCOM Visimeet#appfire#application/vnd.insors.igm#appfire#.igm#appfire#
+255#appfire#IP Unplugged Roaming Client#appfire#application/vnd.ipunplugged.rcprofile#appfire#.rcprofile#appfire#
+256#appfire#iRepository / Lucidoc Editor#appfire#application/vnd.irepository.package+xml#appfire#.irp#appfire#
+257#appfire#J2ME App Descriptor#appfire#text/vnd.sun.j2me.app-descriptor#appfire#.jad#appfire#
+258#appfire#Java Archive#appfire#application/java-archive#appfire#.jar#appfire#
+259#appfire#Java Bytecode File#appfire#application/java-vm#appfire#.class#appfire#
+26#appfire#Adobe XML Data Package#appfire#application/vnd.adobe.xdp+xml#appfire#.xdp#appfire#
+260#appfire#Java Network Launching Protocol#appfire#application/x-java-jnlp-file#appfire#.jnlp#appfire#
+261#appfire#Java Serialized Object#appfire#application/java-serialized-object#appfire#.ser#appfire#
+262#appfire#Java Source File#appfire#text/x-java-source,java#appfire#.java#appfire#
+263#appfire#JavaScript#appfire#application/javascript#appfire#.js#appfire#
+264#appfire#JavaScript Object Notation (JSON)#appfire#application/json#appfire#.json#appfire#
+265#appfire#Joda Archive#appfire#application/vnd.joost.joda-archive#appfire#.joda#appfire#
+266#appfire#JPEG 2000 Compound Image File Format#appfire#video/jpm#appfire#.jpm#appfire#
+267#appfire#JPEG Image#appfire#image/jpeg#appfire#.jpeg, .jpg#appfire#pictureIcon.png
+268#appfire#JPGVideo#appfire#video/jpeg#appfire#.jpgv#appfire#pictureIcon.png
+269#appfire#Kahootz#appfire#application/vnd.kahootz#appfire#.ktz#appfire#
+27#appfire#Adobe XML Forms Data Format#appfire#application/vnd.adobe.xfdf#appfire#.xfdf#appfire#
+270#appfire#Karaoke on Chipnuts Chipsets#appfire#application/vnd.chipnuts.karaoke-mmd#appfire#.mmd#appfire#
+271#appfire#KDE KOffice Office Suite - Karbon#appfire#application/vnd.kde.karbon#appfire#.karbon#appfire#
+272#appfire#KDE KOffice Office Suite - KChart#appfire#application/vnd.kde.kchart#appfire#.chrt#appfire#
+273#appfire#KDE KOffice Office Suite - Kformula#appfire#application/vnd.kde.kformula#appfire#.kfo#appfire#
+274#appfire#KDE KOffice Office Suite - Kivio#appfire#application/vnd.kde.kivio#appfire#.flw#appfire#
+275#appfire#KDE KOffice Office Suite - Kontour#appfire#application/vnd.kde.kontour#appfire#.kon#appfire#
+276#appfire#KDE KOffice Office Suite - Kpresenter#appfire#application/vnd.kde.kpresenter#appfire#.kpr#appfire#
+277#appfire#KDE KOffice Office Suite - Kspread#appfire#application/vnd.kde.kspread#appfire#.ksp#appfire#
+278#appfire#KDE KOffice Office Suite - Kword#appfire#application/vnd.kde.kword#appfire#.kwd#appfire#
+279#appfire#Kenamea App#appfire#application/vnd.kenameaapp#appfire#.htke#appfire#
+28#appfire#Advanced Audio Coding (AAC)#appfire#audio/x-aac#appfire#.aac#appfire#
+280#appfire#Kidspiration#appfire#application/vnd.kidspiration#appfire#.kia#appfire#
+281#appfire#Kinar Applications#appfire#application/vnd.kinar#appfire#.kne#appfire#
+282#appfire#Kodak Storyshare#appfire#application/vnd.kodak-descriptor#appfire#.sse#appfire#
+283#appfire#Laser App Enterprise#appfire#application/vnd.las.las+xml#appfire#.lasxml#appfire#
+284#appfire#LaTeX#appfire#application/x-latex#appfire#.latex#appfire#
+285#appfire#Life Balance - Desktop Edition#appfire#application/vnd.llamagraphics.life-balance.desktop#appfire#.lbd#appfire#
+286#appfire#Life Balance - Exchange Format#appfire#application/vnd.llamagraphics.life-balance.exchang#appfire#.lbe#appfire#
+287#appfire#Lightspeed Audio Lab#appfire#application/vnd.jam#appfire#.jam#appfire#
+288#appfire#Lotus 1-2-3#appfire#application/vnd.lotus-1-2-3#appfire#0.123#appfire#
+289#appfire#Lotus Approach#appfire#application/vnd.lotus-approach#appfire#.apr#appfire#
+29#appfire#Ahead AIR Application#appfire#application/vnd.ahead.space#appfire#.ahead#appfire#
+290#appfire#Lotus Freelance#appfire#application/vnd.lotus-freelance#appfire#.pre#appfire#
+291#appfire#Lotus Notes#appfire#application/vnd.lotus-notes#appfire#.nsf#appfire#
+292#appfire#Lotus Organizer#appfire#application/vnd.lotus-organizer#appfire#.org#appfire#
+293#appfire#Lotus Screencam#appfire#application/vnd.lotus-screencam#appfire#.scm#appfire#
+294#appfire#Lotus Wordpro#appfire#application/vnd.lotus-wordpro#appfire#.lwp#appfire#
+295#appfire#Lucent Voice#appfire#audio/vnd.lucent.voice#appfire#.lvp#appfire#
+296#appfire#M3U (Multimedia Playlist)#appfire#audio/x-mpegurl#appfire#.m3u#appfire#
+297#appfire#M4v#appfire#video/x-m4v#appfire#.m4v#appfire#
+298#appfire#Macintosh BinHex 4.0#appfire#application/mac-binhex40#appfire#.hqx#appfire#
+299#appfire#MacPorts Port System#appfire#application/vnd.macports.portpkg#appfire#.portpkg#appfire#
+3#appfire#3GP2#appfire#video/3gpp2#appfire#.3g2#appfire#
+30#appfire#AirZip FileSECURE#appfire#application/vnd.airzip.filesecure.azf#appfire#.azf#appfire#
+300#appfire#MapGuide DBXML#appfire#application/vnd.osgeo.mapguide.package#appfire#.mgp#appfire#
+301#appfire#MARC Formats#appfire#application/marc#appfire#.mrc#appfire#
+302#appfire#MARC21 XML Schema#appfire#application/marcxml+xml#appfire#.mrcx#appfire#
+303#appfire#Material Exchange Format#appfire#application/mxf#appfire#.mxf#appfire#
+304#appfire#Mathematica Notebook Player#appfire#application/vnd.wolfram.player#appfire#.nbp#appfire#
+305#appfire#Mathematica Notebooks#appfire#application/mathematica#appfire#.ma#appfire#
+306#appfire#Mathematical Markup Language#appfire#application/mathml+xml#appfire#.mathml#appfire#
+307#appfire#Mbox database files#appfire#application/mbox#appfire#.mbox#appfire#
+308#appfire#MedCalc#appfire#application/vnd.medcalcdata#appfire#.mc1#appfire#
+309#appfire#Media Server Control Markup Language#appfire#application/mediaservercontrol+xml#appfire#.mscml#appfire#
+31#appfire#AirZip FileSECURE#appfire#application/vnd.airzip.filesecure.azs#appfire#.azs#appfire#
+310#appfire#MediaRemote#appfire#application/vnd.mediastation.cdkey#appfire#.cdkey#appfire#
+311#appfire#Medical Waveform Encoding Format#appfire#application/vnd.mfer#appfire#.mwf#appfire#
+312#appfire#Melody Format for Mobile Platform#appfire#application/vnd.mfmp#appfire#.mfm#appfire#
+313#appfire#Mesh Data Type#appfire#model/mesh#appfire#.msh#appfire#
+314#appfire#Metadata Authority Description Schema#appfire#application/mads+xml#appfire#.mads#appfire#
+315#appfire#Metadata Encoding and Transmission Standard#appfire#application/mets+xml#appfire#.mets#appfire#
+316#appfire#Metadata Object Description Schema#appfire#application/mods+xml#appfire#.mods#appfire#
+317#appfire#Metalink#appfire#application/metalink4+xml#appfire#.meta4#appfire#
+318#appfire#Micosoft PowerPoint - Macro-Enabled Template File#appfire#application/vnd.ms-powerpoint.template.macroenable#appfire#.potm#appfire#
+319#appfire#Micosoft Word - Macro-Enabled Document#appfire#application/vnd.ms-word.document.macroenabled.12#appfire#.docm#appfire#
+32#appfire#Amazon Kindle eBook format#appfire#application/vnd.amazon.ebook#appfire#.azw#appfire#
+320#appfire#Micosoft Word - Macro-Enabled Template#appfire#application/vnd.ms-word.template.macroenabled.12#appfire#.dotm#appfire#
+321#appfire#Micro CADAM Helix D&D#appfire#application/vnd.mcd#appfire#.mcd#appfire#
+322#appfire#Micrografx#appfire#application/vnd.micrografx.flo#appfire#.flo#appfire#
+323#appfire#Micrografx iGrafx Professional#appfire#application/vnd.micrografx.igx#appfire#.igx#appfire#
+324#appfire#MICROSEC e-SzignÃÂ¢#appfire#application/vnd.eszigno3+xml#appfire#.es3#appfire#
+325#appfire#Microsoft Access#appfire#application/x-msaccess#appfire#.mdb#appfire#
+326#appfire#Microsoft Advanced Systems Format (ASF)#appfire#video/x-ms-asf#appfire#.asf#appfire#
+327#appfire#Microsoft Application#appfire#application/x-msdownload#appfire#.exe#appfire#
+328#appfire#Microsoft Artgalry#appfire#application/vnd.ms-artgalry#appfire#.cil#appfire#
+329#appfire#Microsoft Cabinet File#appfire#application/vnd.ms-cab-compressed#appfire#.cab#appfire#
+33#appfire#AmigaDE#appfire#application/vnd.amiga.ami#appfire#.ami#appfire#
+330#appfire#Microsoft Class Server#appfire#application/vnd.ms-ims#appfire#.ims#appfire#
+331#appfire#Microsoft ClickOnce#appfire#application/x-ms-application#appfire#.application#appfire#
+332#appfire#Microsoft Clipboard Clip#appfire#application/x-msclip#appfire#.clp#appfire#
+333#appfire#Microsoft Document Imaging Format#appfire#image/vnd.ms-modi#appfire#.mdi#appfire#
+334#appfire#Microsoft Embedded OpenType#appfire#application/vnd.ms-fontobject#appfire#.eot#appfire#
+335#appfire#Microsoft Excel#appfire#application/vnd.ms-excel#appfire#.xls#appfire#excelIcon.png
+336#appfire#Microsoft Excel - Add-In File#appfire#application/vnd.ms-excel.addin.macroenabled.12#appfire#.xlam#appfire#
+337#appfire#Microsoft Excel - Binary Workbook#appfire#application/vnd.ms-excel.sheet.binary.macroenabled#appfire#.xlsb#appfire#
+338#appfire#Microsoft Excel - Macro-Enabled Template File#appfire#application/vnd.ms-excel.template.macroenabled.12#appfire#.xltm#appfire#
+339#appfire#Microsoft Excel - Macro-Enabled Workbook#appfire#application/vnd.ms-excel.sheet.macroenabled.12#appfire#.xlsm#appfire#
+34#appfire#Andrew Toolkit#appfire#application/andrew-inset#appfire#N/A#appfire#
+340#appfire#Microsoft Html Help File#appfire#application/vnd.ms-htmlhelp#appfire#.chm#appfire#
+341#appfire#Microsoft Information Card#appfire#application/x-mscardfile#appfire#.crd#appfire#
+342#appfire#Microsoft Learning Resource Module#appfire#application/vnd.ms-lrm#appfire#.lrm#appfire#
+343#appfire#Microsoft MediaView#appfire#application/x-msmediaview#appfire#.mvb#appfire#
+344#appfire#Microsoft Money#appfire#application/x-msmoney#appfire#.mny#appfire#
+345#appfire#Microsoft Office - OOXML - Presentation#appfire#application/vnd.openxmlformats-officedocument.pres#appfire#.pptx#appfire#
+346#appfire#Microsoft Office - OOXML - Presentation (Slide)#appfire#application/vnd.openxmlformats-officedocument.pres#appfire#.sldx#appfire#
+347#appfire#Microsoft Office - OOXML - Presentation (Slideshow#appfire#application/vnd.openxmlformats-officedocument.pres#appfire#.ppsx#appfire#
+348#appfire#Microsoft Office - OOXML - Presentation Template#appfire#application/vnd.openxmlformats-officedocument.pres#appfire#.potx#appfire#
+349#appfire#Microsoft Office - OOXML - Spreadsheet#appfire#application/vnd.openxmlformats-officedocument.spre#appfire#.xlsx#appfire#
+35#appfire#Android Package Archive#appfire#application/vnd.android.package-archive#appfire#.apk#appfire#
+350#appfire#Microsoft Office - OOXML - Spreadsheet Teplate#appfire#application/vnd.openxmlformats-officedocument.spre#appfire#.xltx#appfire#
+351#appfire#Microsoft Office - OOXML - Word Document#appfire#application/vnd.openxmlformats-officedocument.word#appfire#.docx#appfire#wordIcon.png
+352#appfire#Microsoft Office - OOXML - Word Document Template#appfire#application/vnd.openxmlformats-officedocument.word#appfire#.dotx#appfire#
+353#appfire#Microsoft Office Binder#appfire#application/x-msbinder#appfire#.obd#appfire#
+354#appfire#Microsoft Office System Release Theme#appfire#application/vnd.ms-officetheme#appfire#.thmx#appfire#
+355#appfire#Microsoft OneNote#appfire#application/onenote#appfire#.onetoc#appfire#
+356#appfire#Microsoft PlayReady Ecosystem#appfire#audio/vnd.ms-playready.media.pya#appfire#.pya#appfire#
+357#appfire#Microsoft PlayReady Ecosystem Video#appfire#video/vnd.ms-playready.media.pyv#appfire#.pyv#appfire#
+358#appfire#Microsoft PowerPoint#appfire#application/vnd.ms-powerpoint#appfire#.ppt#appfire#
+359#appfire#Microsoft PowerPoint - Add-in file#appfire#application/vnd.ms-powerpoint.addin.macroenabled.1#appfire#.ppam#appfire#
+36#appfire#ANSER-WEB Terminal Client - Certificate Issue#appfire#application/vnd.anser-web-certificate-issue-initia#appfire#.cii#appfire#
+360#appfire#Microsoft PowerPoint - Macro-Enabled Open XML Slid#appfire#application/vnd.ms-powerpoint.slide.macroenabled.1#appfire#.sldm#appfire#
+361#appfire#Microsoft PowerPoint - Macro-Enabled Presentation #appfire#application/vnd.ms-powerpoint.presentation.macroen#appfire#.pptm#appfire#
+362#appfire#Microsoft PowerPoint - Macro-Enabled Slide Show Fi#appfire#application/vnd.ms-powerpoint.slideshow.macroenabl#appfire#.ppsm#appfire#
+363#appfire#Microsoft Project#appfire#application/vnd.ms-project#appfire#.mpp#appfire#
+364#appfire#Microsoft Publisher#appfire#application/x-mspublisher#appfire#.pub#appfire#
+365#appfire#Microsoft Schedule+#appfire#application/x-msschedule#appfire#.scd#appfire#
+366#appfire#Microsoft Silverlight#appfire#application/x-silverlight-app#appfire#.xap#appfire#
+367#appfire#Microsoft Trust UI Provider - Certificate Trust Li#appfire#application/vnd.ms-pki.stl#appfire#.stl#appfire#
+368#appfire#Microsoft Trust UI Provider - Security Catalog#appfire#application/vnd.ms-pki.seccat#appfire#.cat#appfire#
+369#appfire#Microsoft Visio#appfire#application/vnd.visio#appfire#.vsd#appfire#
+37#appfire#ANSER-WEB Terminal Client - Web Funds Transfer#appfire#application/vnd.anser-web-funds-transfer-initiatio#appfire#.fti#appfire#
+370#appfire#Microsoft Windows Media#appfire#video/x-ms-wm#appfire#.wm#appfire#
+371#appfire#Microsoft Windows Media Audio#appfire#audio/x-ms-wma#appfire#.wma#appfire#
+372#appfire#Microsoft Windows Media Audio Redirector#appfire#audio/x-ms-wax#appfire#.wax#appfire#
+373#appfire#Microsoft Windows Media Audio/Video Playlist#appfire#video/x-ms-wmx#appfire#.wmx#appfire#
+374#appfire#Microsoft Windows Media Player Download Package#appfire#application/x-ms-wmd#appfire#.wmd#appfire#
+375#appfire#Microsoft Windows Media Player Playlist#appfire#application/vnd.ms-wpl#appfire#.wpl#appfire#
+376#appfire#Microsoft Windows Media Player Skin Package#appfire#application/x-ms-wmz#appfire#.wmz#appfire#
+377#appfire#Microsoft Windows Media Video#appfire#video/x-ms-wmv#appfire#.wmv#appfire#
+378#appfire#Microsoft Windows Media Video Playlist#appfire#video/x-ms-wvx#appfire#.wvx#appfire#
+379#appfire#Microsoft Windows Metafile#appfire#application/x-msmetafile#appfire#.wmf#appfire#
+38#appfire#Antix Game Player#appfire#application/vnd.antix.game-component#appfire#.atx#appfire#
+380#appfire#Microsoft Windows Terminal Services#appfire#application/x-msterminal#appfire#.trm#appfire#
+381#appfire#Microsoft Word#appfire#application/msword#appfire#.doc#appfire#wordIcon.png
+382#appfire#Microsoft Wordpad#appfire#application/x-mswrite#appfire#.wri#appfire#
+383#appfire#Microsoft Works#appfire#application/vnd.ms-works#appfire#.wps#appfire#
+384#appfire#Microsoft XAML Browser Application#appfire#application/x-ms-xbap#appfire#.xbap#appfire#
+385#appfire#Microsoft XML Paper Specification#appfire#application/vnd.ms-xpsdocument#appfire#.xps#appfire#
+386#appfire#MIDI - Musical Instrument Digital Interface#appfire#audio/midi#appfire#.mid#appfire#
+387#appfire#MiniPay#appfire#application/vnd.ibm.minipay#appfire#.mpy#appfire#
+388#appfire#MO:DCA-P#appfire#application/vnd.ibm.modcap#appfire#.afp#appfire#
+389#appfire#Mobile Information Device Profile#appfire#application/vnd.jcp.javame.midlet-rms#appfire#.rms#appfire#
+39#appfire#Apple Installer Package#appfire#application/vnd.apple.installer+xml#appfire#.mpkg#appfire#
+390#appfire#MobileTV#appfire#application/vnd.tmobile-livetv#appfire#.tmo#appfire#
+391#appfire#Mobipocket#appfire#application/x-mobipocket-ebook#appfire#.prc#appfire#
+392#appfire#Mobius Management Systems - Basket file#appfire#application/vnd.mobius.mbk#appfire#.mbk#appfire#
+393#appfire#Mobius Management Systems - Distribution Database#appfire#application/vnd.mobius.dis#appfire#.dis#appfire#
+394#appfire#Mobius Management Systems - Policy Definition Lang#appfire#application/vnd.mobius.plc#appfire#.plc#appfire#
+395#appfire#Mobius Management Systems - Query File#appfire#application/vnd.mobius.mqy#appfire#.mqy#appfire#
+396#appfire#Mobius Management Systems - Script Language#appfire#application/vnd.mobius.msl#appfire#.msl#appfire#
+397#appfire#Mobius Management Systems - Topic Index File#appfire#application/vnd.mobius.txf#appfire#.txf#appfire#
+398#appfire#Mobius Management Systems - UniversalArchive#appfire#application/vnd.mobius.daf#appfire#.daf#appfire#
+399#appfire#mod_fly / fly.cgi#appfire#text/vnd.fly#appfire#.fly#appfire#
+4#appfire#3GPP MSEQ File#appfire#application/vnd.mseq#appfire#.mseq#appfire#
+40#appfire#Applixware#appfire#application/applixware#appfire#.aw#appfire#
+400#appfire#Mophun Certificate#appfire#application/vnd.mophun.certificate#appfire#.mpc#appfire#
+401#appfire#Mophun VM#appfire#application/vnd.mophun.application#appfire#.mpn#appfire#
+402#appfire#Motion JPEG 2000#appfire#video/mj2#appfire#.mj2#appfire#
+403#appfire#MPEG Audio#appfire#audio/mpeg#appfire#.mpga#appfire#
+404#appfire#MPEG Url#appfire#video/vnd.mpegurl#appfire#.mxu#appfire#
+405#appfire#MPEG Video#appfire#video/mpeg#appfire#.mpeg#appfire#
+406#appfire#MPEG-21#appfire#application/mp21#appfire#.m21#appfire#
+407#appfire#MPEG-4 Audio#appfire#audio/mp4#appfire#.mp4a#appfire#
+408#appfire#MPEG-4 Video#appfire#video/mp4#appfire#.mp4#appfire#
+409#appfire#MPEG4#appfire#application/mp4#appfire#.mp4#appfire#
+41#appfire#Archipelago Lesson Player#appfire#application/vnd.hhe.lesson-player#appfire#.les#appfire#
+410#appfire#Multimedia Playlist Unicode#appfire#application/vnd.apple.mpegurl#appfire#.m3u8#appfire#
+411#appfire#MUsical Score Interpreted Code Invented for the AS#appfire#application/vnd.musician#appfire#.mus#appfire#
+412#appfire#Muvee Automatic Video Editing#appfire#application/vnd.muvee.style#appfire#.msty#appfire#
+413#appfire#MXML#appfire#application/xv+xml#appfire#.mxml#appfire#
+414#appfire#N-Gage Game Data#appfire#application/vnd.nokia.n-gage.data#appfire#.ngdat#appfire#
+415#appfire#N-Gage Game Installer#appfire#application/vnd.nokia.n-gage.symbian.install#appfire#.n-gage#appfire#
+416#appfire#Navigation Control file for XML (for ePub)#appfire#application/x-dtbncx+xml#appfire#.ncx#appfire#
+417#appfire#Network Common Data Form (NetCDF)#appfire#application/x-netcdf#appfire#.nc#appfire#
+418#appfire#neuroLanguage#appfire#application/vnd.neurolanguage.nlu#appfire#.nlu#appfire#
+419#appfire#New Moon Liftoff/DNA#appfire#application/vnd.dna#appfire#.dna#appfire#
+42#appfire#Arista Networks Software Image#appfire#application/vnd.aristanetworks.swi#appfire#.swi#appfire#
+420#appfire#NobleNet Directory#appfire#application/vnd.noblenet-directory#appfire#.nnd#appfire#
+421#appfire#NobleNet Sealer#appfire#application/vnd.noblenet-sealer#appfire#.nns#appfire#
+422#appfire#NobleNet Web#appfire#application/vnd.noblenet-web#appfire#.nnw#appfire#
+423#appfire#Nokia Radio Application - Preset#appfire#application/vnd.nokia.radio-preset#appfire#.rpst#appfire#
+424#appfire#Nokia Radio Application - Preset#appfire#application/vnd.nokia.radio-presets#appfire#.rpss#appfire#
+425#appfire#Notation3#appfire#text/n3#appfire#.n3#appfire#
+426#appfire#Novadigm's RADIA and EDM products#appfire#application/vnd.novadigm.edm#appfire#.edm#appfire#
+427#appfire#Novadigm's RADIA and EDM products#appfire#application/vnd.novadigm.edx#appfire#.edx#appfire#
+428#appfire#Novadigm's RADIA and EDM products#appfire#application/vnd.novadigm.ext#appfire#.ext#appfire#
+429#appfire#NpGraphIt#appfire#application/vnd.flographit#appfire#.gph#appfire#
+43#appfire#Assembler Source File#appfire#text/x-asm#appfire#.s#appfire#
+430#appfire#Nuera ECELP 4800#appfire#audio/vnd.nuera.ecelp4800#appfire#.ecelp4800#appfire#
+431#appfire#Nuera ECELP 7470#appfire#audio/vnd.nuera.ecelp7470#appfire#.ecelp7470#appfire#
+432#appfire#Nuera ECELP 9600#appfire#audio/vnd.nuera.ecelp9600#appfire#.ecelp9600#appfire#
+433#appfire#Office Document Architecture#appfire#application/oda#appfire#.oda#appfire#
+434#appfire#Ogg#appfire#application/ogg#appfire#.ogx#appfire#
+435#appfire#Ogg Audio#appfire#audio/ogg#appfire#.oga#appfire#
+436#appfire#Ogg Video#appfire#video/ogg#appfire#.ogv#appfire#
+437#appfire#OMA Download Agents#appfire#application/vnd.oma.dd2+xml#appfire#.dd2#appfire#
+438#appfire#Open Document Text Web#appfire#application/vnd.oasis.opendocument.text-web#appfire#.oth#appfire#
+439#appfire#Open eBook Publication Structure#appfire#application/oebps-package+xml#appfire#.opf#appfire#
+44#appfire#Atom Publishing Protocol#appfire#application/atomcat+xml#appfire#.atomcat#appfire#
+440#appfire#Open Financial Exchange#appfire#application/vnd.intu.qbo#appfire#.qbo#appfire#
+441#appfire#Open Office Extension#appfire#application/vnd.openofficeorg.extension#appfire#.oxt#appfire#
+442#appfire#Open Score Format#appfire#application/vnd.yamaha.openscoreformat#appfire#.osf#appfire#
+443#appfire#Open Web Media Project - Audio#appfire#audio/webm#appfire#.weba#appfire#
+444#appfire#Open Web Media Project - Video#appfire#video/webm#appfire#.webm#appfire#
+445#appfire#OpenDocument Chart#appfire#application/vnd.oasis.opendocument.chart#appfire#.odc#appfire#
+446#appfire#OpenDocument Chart Template#appfire#application/vnd.oasis.opendocument.chart-template#appfire#.otc#appfire#
+447#appfire#OpenDocument Database#appfire#application/vnd.oasis.opendocument.database#appfire#.odb#appfire#
+448#appfire#OpenDocument Formula#appfire#application/vnd.oasis.opendocument.formula#appfire#.odf#appfire#
+449#appfire#OpenDocument Formula Template#appfire#application/vnd.oasis.opendocument.formula-templat#appfire#.odft#appfire#
+45#appfire#Atom Publishing Protocol Service Document#appfire#application/atomsvc+xml#appfire#.atomsvc#appfire#
+450#appfire#OpenDocument Graphics#appfire#application/vnd.oasis.opendocument.graphics#appfire#.odg#appfire#
+451#appfire#OpenDocument Graphics Template#appfire#application/vnd.oasis.opendocument.graphics-templa#appfire#.otg#appfire#
+452#appfire#OpenDocument Image#appfire#application/vnd.oasis.opendocument.image#appfire#.odi#appfire#
+453#appfire#OpenDocument Image Template#appfire#application/vnd.oasis.opendocument.image-template#appfire#.oti#appfire#
+454#appfire#OpenDocument Presentation#appfire#application/vnd.oasis.opendocument.presentation#appfire#.odp#appfire#
+455#appfire#OpenDocument Presentation Template#appfire#application/vnd.oasis.opendocument.presentation-te#appfire#.otp#appfire#
+456#appfire#OpenDocument Spreadsheet#appfire#application/vnd.oasis.opendocument.spreadsheet#appfire#.ods#appfire#
+457#appfire#OpenDocument Spreadsheet Template#appfire#application/vnd.oasis.opendocument.spreadsheet-tem#appfire#.ots#appfire#
+458#appfire#OpenDocument Text#appfire#application/vnd.oasis.opendocument.text#appfire#.odt#appfire#
+459#appfire#OpenDocument Text Master#appfire#application/vnd.oasis.opendocument.text-master#appfire#.odm#appfire#
+46#appfire#Atom Syndication Format#appfire#application/atom+xml#appfire#.atom, .xml#appfire#
+460#appfire#OpenDocument Text Template#appfire#application/vnd.oasis.opendocument.text-template#appfire#.ott#appfire#
+461#appfire#OpenGL Textures (KTX)#appfire#image/ktx#appfire#.ktx#appfire#
+462#appfire#OpenOffice - Calc (Spreadsheet)#appfire#application/vnd.sun.xml.calc#appfire#.sxc#appfire#
+463#appfire#OpenOffice - Calc Template (Spreadsheet)#appfire#application/vnd.sun.xml.calc.template#appfire#.stc#appfire#
+464#appfire#OpenOffice - Draw (Graphics)#appfire#application/vnd.sun.xml.draw#appfire#.sxd#appfire#
+465#appfire#OpenOffice - Draw Template (Graphics)#appfire#application/vnd.sun.xml.draw.template#appfire#.std#appfire#
+466#appfire#OpenOffice - Impress (Presentation)#appfire#application/vnd.sun.xml.impress#appfire#.sxi#appfire#
+467#appfire#OpenOffice - Impress Template (Presentation)#appfire#application/vnd.sun.xml.impress.template#appfire#.sti#appfire#
+468#appfire#OpenOffice - Math (Formula)#appfire#application/vnd.sun.xml.math#appfire#.sxm#appfire#
+469#appfire#OpenOffice - Writer (Text - HTML)#appfire#application/vnd.sun.xml.writer#appfire#.sxw#appfire#
+47#appfire#Attribute Certificate#appfire#application/pkix-attr-cert#appfire#.ac#appfire#
+470#appfire#OpenOffice - Writer (Text - HTML)#appfire#application/vnd.sun.xml.writer.global#appfire#.sxg#appfire#
+471#appfire#OpenOffice - Writer Template (Text - HTML)#appfire#application/vnd.sun.xml.writer.template#appfire#.stw#appfire#
+472#appfire#OpenType Font File#appfire#application/x-font-otf#appfire#.otf#appfire#
+473#appfire#OSFPVG#appfire#application/vnd.yamaha.openscoreformat.osfpvg+xml#appfire#.osfpvg#appfire#
+474#appfire#OSGi Deployment Package#appfire#application/vnd.osgi.dp#appfire#.dp#appfire#
+475#appfire#PalmOS Data#appfire#application/vnd.palm#appfire#.pdb#appfire#
+476#appfire#Pascal Source File#appfire#text/x-pascal#appfire#.p#appfire#
+477#appfire#PawaaFILE#appfire#application/vnd.pawaafile#appfire#.paw#appfire#
+478#appfire#PCL 6 Enhanced (Formely PCL XL)#appfire#application/vnd.hp-pclxl#appfire#.pclxl#appfire#
+479#appfire#Pcsel eFIF File#appfire#application/vnd.picsel#appfire#.efif#appfire#
+48#appfire#Audio Interchange File Format#appfire#audio/x-aiff#appfire#.aif#appfire#
+480#appfire#PCX Image#appfire#image/x-pcx#appfire#.pcx#appfire#
+481#appfire#Photoshop Document#appfire#image/vnd.adobe.photoshop#appfire#.psd#appfire#
+482#appfire#PICSRules#appfire#application/pics-rules#appfire#.prf#appfire#
+483#appfire#PICT Image#appfire#image/x-pict#appfire#.pic#appfire#
+484#appfire#pIRCh#appfire#application/x-chat#appfire#.chat#appfire#
+485#appfire#PKCS \#10 - Certification Request Standard#appfire#application/pkcs10#appfire#.p10#appfire#
+486#appfire#PKCS \#12 - Personal Information Exchange Syntax St#appfire#application/x-pkcs12#appfire#.p12#appfire#
+487#appfire#PKCS \#7 - Cryptographic Message Syntax Standard#appfire#application/pkcs7-mime#appfire#.p7m#appfire#
+488#appfire#PKCS \#7 - Cryptographic Message Syntax Standard#appfire#application/pkcs7-signature#appfire#.p7s#appfire#
+489#appfire#PKCS \#7 - Cryptographic Message Syntax Standard (C#appfire#application/x-pkcs7-certreqresp#appfire#.p7r#appfire#
+49#appfire#Audio Video Interleave (AVI)#appfire#video/x-msvideo#appfire#.avi#appfire#
+490#appfire#PKCS \#7 - Cryptographic Message Syntax Standard (C#appfire#application/x-pkcs7-certificates#appfire#.p7b#appfire#
+491#appfire#PKCS \#8 - Private-Key Information Syntax Standard#appfire#application/pkcs8#appfire#.p8#appfire#
+492#appfire#PocketLearn Viewers#appfire#application/vnd.pocketlearn#appfire#.plf#appfire#
+493#appfire#Portable Anymap Image#appfire#image/x-portable-anymap#appfire#.pnm#appfire#
+494#appfire#Portable Bitmap Format#appfire#image/x-portable-bitmap#appfire#.pbm#appfire#
+495#appfire#Portable Compiled Format#appfire#application/x-font-pcf#appfire#.pcf#appfire#
+496#appfire#Portable Font Resource#appfire#application/font-tdpfr#appfire#.pfr#appfire#
+497#appfire#Portable Game Notation (Chess Games)#appfire#application/x-chess-pgn#appfire#.pgn#appfire#
+498#appfire#Portable Graymap Format#appfire#image/x-portable-graymap#appfire#.pgm#appfire#
+499#appfire#Portable Network Graphics (PNG)#appfire#image/png#appfire#.png#appfire#pictureIcon.png
+5#appfire#3M Post It Notes#appfire#application/vnd.3m.post-it-notes#appfire#.pwn#appfire#
+50#appfire#Audiograph#appfire#application/vnd.audiograph#appfire#.aep#appfire#
+500#appfire#Portable Pixmap Format#appfire#image/x-portable-pixmap#appfire#.ppm#appfire#
+501#appfire#Portable Symmetric Key Container#appfire#application/pskc+xml#appfire#.pskcxml#appfire#
+502#appfire#PosML#appfire#application/vnd.ctc-posml#appfire#.pml#appfire#
+503#appfire#PostScript#appfire#application/postscript#appfire#.ai#appfire#
+504#appfire#PostScript Fonts#appfire#application/x-font-type1#appfire#.pfa#appfire#
+505#appfire#PowerBuilder#appfire#application/vnd.powerbuilder6#appfire#.pbd#appfire#
+506#appfire#Pretty Good Privacy#appfire#application/pgp-encrypted#appfire##appfire#
+507#appfire#Pretty Good Privacy - Signature#appfire#application/pgp-signature#appfire#.pgp#appfire#
+508#appfire#Preview Systems ZipLock/VBox#appfire#application/vnd.previewsystems.box#appfire#.box#appfire#
+509#appfire#Princeton Video Image#appfire#application/vnd.pvi.ptid1#appfire#.ptid#appfire#
+51#appfire#AutoCAD DXF#appfire#image/vnd.dxf#appfire#.dxf#appfire#
+510#appfire#Pronunciation Lexicon Specification#appfire#application/pls+xml#appfire#.pls#appfire#
+511#appfire#Proprietary P&G Standard Reporting System#appfire#application/vnd.pg.format#appfire#.str#appfire#
+512#appfire#Proprietary P&G Standard Reporting System#appfire#application/vnd.pg.osasli#appfire#.ei6#appfire#
+513#appfire#PRS Lines Tag#appfire#text/prs.lines.tag#appfire#.dsc#appfire#
+514#appfire#PSF Fonts#appfire#application/x-font-linux-psf#appfire#.psf#appfire#
+515#appfire#PubliShare Objects#appfire#application/vnd.publishare-delta-tree#appfire#.qps#appfire#
+516#appfire#Qualcomm's Plaza Mobile Internet#appfire#application/vnd.pmi.widget#appfire#.wg#appfire#
+517#appfire#QuarkXpress#appfire#application/vnd.quark.quarkxpress#appfire#.qxd#appfire#
+518#appfire#QUASS Stream Player#appfire#application/vnd.epson.esf#appfire#.esf#appfire#
+519#appfire#QUASS Stream Player#appfire#application/vnd.epson.msf#appfire#.msf#appfire#
+52#appfire#Autodesk Design Web Format (DWF)#appfire#model/vnd.dwf#appfire#.dwf#appfire#
+520#appfire#QUASS Stream Player#appfire#application/vnd.epson.ssf#appfire#.ssf#appfire#
+521#appfire#QuickAnime Player#appfire#application/vnd.epson.quickanime#appfire#.qam#appfire#
+522#appfire#Quicken#appfire#application/vnd.intu.qfx#appfire#.qfx#appfire#
+523#appfire#Quicktime Video#appfire#video/quicktime#appfire#.qt#appfire#
+524#appfire#RAR Archive#appfire#application/x-rar-compressed#appfire#.rar#appfire#
+525#appfire#Real Audio Sound#appfire#audio/x-pn-realaudio#appfire#.ram#appfire#
+526#appfire#Real Audio Sound#appfire#audio/x-pn-realaudio-plugin#appfire#.rmp#appfire#
+527#appfire#Really Simple Discovery#appfire#application/rsd+xml#appfire#.rsd#appfire#
+528#appfire#RealMedia#appfire#application/vnd.rn-realmedia#appfire#.rm#appfire#
+529#appfire#RealVNC#appfire#application/vnd.realvnc.bed#appfire#.bed#appfire#
+53#appfire#BAS Partitur Format#appfire#text/plain-bas#appfire#.par#appfire#
+530#appfire#Recordare Applications#appfire#application/vnd.recordare.musicxml#appfire#.mxl#appfire#
+531#appfire#Recordare Applications#appfire#application/vnd.recordare.musicxml+xml#appfire#.musicxml#appfire#
+532#appfire#Relax NG Compact Syntax#appfire#application/relax-ng-compact-syntax#appfire#.rnc#appfire#
+533#appfire#RemoteDocs R-Viewer#appfire#application/vnd.data-vision.rdz#appfire#.rdz#appfire#
+534#appfire#Resource Description Framework#appfire#application/rdf+xml#appfire#.rdf#appfire#
+535#appfire#RetroPlatform Player#appfire#application/vnd.cloanto.rp9#appfire#.rp9#appfire#
+536#appfire#RhymBox#appfire#application/vnd.jisp#appfire#.jisp#appfire#
+537#appfire#Rich Text Format#appfire#application/rtf#appfire#.rtf#appfire#
+538#appfire#Rich Text Format (RTF)#appfire#text/richtext#appfire#.rtx#appfire#
+539#appfire#ROUTE 66 Location Based Services#appfire#application/vnd.route66.link66+xml#appfire#.link66#appfire#
+54#appfire#Binary CPIO Archive#appfire#application/x-bcpio#appfire#.bcpio#appfire#
+540#appfire#RSS - Really Simple Syndication#appfire#application/rss+xml#appfire#.rss, .xml#appfire#
+541#appfire#S Hexdump Format#appfire#application/shf+xml#appfire#.shf#appfire#
+542#appfire#SailingTracker#appfire#application/vnd.sailingtracker.track#appfire#.st#appfire#
+543#appfire#Scalable Vector Graphics (SVG)#appfire#image/svg+xml#appfire#.svg#appfire#
+544#appfire#ScheduleUs#appfire#application/vnd.sus-calendar#appfire#.sus#appfire#
+545#appfire#Search/Retrieve via URL Response Format#appfire#application/sru+xml#appfire#.sru#appfire#
+546#appfire#Secure Electronic Transaction - Payment#appfire#application/set-payment-initiation#appfire#.setpay#appfire#
+547#appfire#Secure Electronic Transaction - Registration#appfire#application/set-registration-initiation#appfire#.setreg#appfire#
+548#appfire#Secured eMail#appfire#application/vnd.sema#appfire#.sema#appfire#
+549#appfire#Secured eMail#appfire#application/vnd.semd#appfire#.semd#appfire#
+55#appfire#Binary Data#appfire#application/octet-stream#appfire#.bin#appfire#
+550#appfire#Secured eMail#appfire#application/vnd.semf#appfire#.semf#appfire#
+551#appfire#SeeMail#appfire#application/vnd.seemail#appfire#.see#appfire#
+552#appfire#Server Normal Format#appfire#application/x-font-snf#appfire#.snf#appfire#
+553#appfire#Server-Based Certificate Validation Protocol - Val#appfire#application/scvp-vp-request#appfire#.spq#appfire#
+554#appfire#Server-Based Certificate Validation Protocol - Val#appfire#application/scvp-vp-response#appfire#.spp#appfire#
+555#appfire#Server-Based Certificate Validation Protocol - Val#appfire#application/scvp-cv-request#appfire#.scq#appfire#
+556#appfire#Server-Based Certificate Validation Protocol - Val#appfire#application/scvp-cv-response#appfire#.scs#appfire#
+557#appfire#Session Description Protocol#appfire#application/sdp#appfire#.sdp#appfire#
+558#appfire#Setext#appfire#text/x-setext#appfire#.etx#appfire#
+559#appfire#SGI Movie#appfire#video/x-sgi-movie#appfire#.movie#appfire#
+56#appfire#Bitmap Image File#appfire#image/bmp#appfire#.bmp#appfire#
+560#appfire#Shana Informed Filler#appfire#application/vnd.shana.informed.formdata#appfire#.ifm#appfire#
+561#appfire#Shana Informed Filler#appfire#application/vnd.shana.informed.formtemplate#appfire#.itp#appfire#
+562#appfire#Shana Informed Filler#appfire#application/vnd.shana.informed.interchange#appfire#.iif#appfire#
+563#appfire#Shana Informed Filler#appfire#application/vnd.shana.informed.package#appfire#.ipk#appfire#
+564#appfire#Sharing Transaction Fraud Data#appfire#application/thraud+xml#appfire#.tfi#appfire#
+565#appfire#Shell Archive#appfire#application/x-shar#appfire#.shar#appfire#
+566#appfire#Silicon Graphics RGB Bitmap#appfire#image/x-rgb#appfire#.rgb#appfire#
+567#appfire#SimpleAnimeLite Player#appfire#application/vnd.epson.salt#appfire#.slt#appfire#
+568#appfire#Simply Accounting#appfire#application/vnd.accpac.simply.aso#appfire#.aso#appfire#
+569#appfire#Simply Accounting - Data Import#appfire#application/vnd.accpac.simply.imp#appfire#.imp#appfire#
+57#appfire#BitTorrent#appfire#application/x-bittorrent#appfire#.torrent#appfire#
+570#appfire#SimTech MindMapper#appfire#application/vnd.simtech-mindmapper#appfire#.twd#appfire#
+571#appfire#Sixth Floor Media - CommonSpace#appfire#application/vnd.commonspace#appfire#.csp#appfire#
+572#appfire#SMAF Audio#appfire#application/vnd.yamaha.smaf-audio#appfire#.saf#appfire#
+573#appfire#SMAF File#appfire#application/vnd.smaf#appfire#.mmf#appfire#
+574#appfire#SMAF Phrase#appfire#application/vnd.yamaha.smaf-phrase#appfire#.spf#appfire#
+575#appfire#SMART Technologies Apps#appfire#application/vnd.smart.teacher#appfire#.teacher#appfire#
+576#appfire#SourceView Document#appfire#application/vnd.svd#appfire#.svd#appfire#
+577#appfire#SPARQL - Query#appfire#application/sparql-query#appfire#.rq#appfire#
+578#appfire#SPARQL - Results#appfire#application/sparql-results+xml#appfire#.srx#appfire#
+579#appfire#Speech Recognition Grammar Specification#appfire#application/srgs#appfire#.gram#appfire#
+58#appfire#Blackberry COD File#appfire#application/vnd.rim.cod#appfire#.cod#appfire#
+580#appfire#Speech Recognition Grammar Specification - XML#appfire#application/srgs+xml#appfire#.grxml#appfire#
+581#appfire#Speech Synthesis Markup Language#appfire#application/ssml+xml#appfire#.ssml#appfire#
+582#appfire#SSEYO Koan Play File#appfire#application/vnd.koan#appfire#.skp#appfire#
+583#appfire#Standard Generalized Markup Language (SGML)#appfire#text/sgml#appfire#.sgml#appfire#
+584#appfire#StarOffice - Calc#appfire#application/vnd.stardivision.calc#appfire#.sdc#appfire#
+585#appfire#StarOffice - Draw#appfire#application/vnd.stardivision.draw#appfire#.sda#appfire#
+586#appfire#StarOffice - Impress#appfire#application/vnd.stardivision.impress#appfire#.sdd#appfire#
+587#appfire#StarOffice - Math#appfire#application/vnd.stardivision.math#appfire#.smf#appfire#
+588#appfire#StarOffice - Writer#appfire#application/vnd.stardivision.writer#appfire#.sdw#appfire#
+589#appfire#StarOffice - Writer (Global)#appfire#application/vnd.stardivision.writer-global#appfire#.sgl#appfire#
+59#appfire#Blueice Research Multipass#appfire#application/vnd.blueice.multipass#appfire#.mpm#appfire#
+590#appfire#StepMania#appfire#application/vnd.stepmania.stepchart#appfire#.sm#appfire#
+591#appfire#Stuffit Archive#appfire#application/x-stuffit#appfire#.sit#appfire#
+592#appfire#Stuffit Archive#appfire#application/x-stuffitx#appfire#.sitx#appfire#
+593#appfire#SudokuMagic#appfire#application/vnd.solent.sdkm+xml#appfire#.sdkm#appfire#
+594#appfire#Sugar Linux Application Bundle#appfire#application/vnd.olpc-sugar#appfire#.xo#appfire#
+595#appfire#Sun Audio - Au file format#appfire#audio/basic#appfire#.au#appfire#
+596#appfire#SundaHus WQ#appfire#application/vnd.wqd#appfire#.wqd#appfire#
+597#appfire#Symbian Install Package#appfire#application/vnd.symbian.install#appfire#.sis#appfire#
+598#appfire#Synchronized Multimedia Integration Language#appfire#application/smil+xml#appfire#.smi#appfire#
+599#appfire#SyncML#appfire#application/vnd.syncml+xml#appfire#.xsm#appfire#
+6#appfire#3rd Generation Partnership Project - Pic Large#appfire#application/vnd.3gpp.pic-bw-large#appfire#.plb#appfire#
+60#appfire#BMI Drawing Data Interchange#appfire#application/vnd.bmi#appfire#.bmi#appfire#
+600#appfire#SyncML - Device Management#appfire#application/vnd.syncml.dm+wbxml#appfire#.bdm#appfire#
+601#appfire#SyncML - Device Management#appfire#application/vnd.syncml.dm+xml#appfire#.xdm#appfire#
+602#appfire#System V Release 4 CPIO Archive#appfire#application/x-sv4cpio#appfire#.sv4cpio#appfire#
+603#appfire#System V Release 4 CPIO Checksum Data#appfire#application/x-sv4crc#appfire#.sv4crc#appfire#
+604#appfire#Systems Biology Markup Language#appfire#application/sbml+xml#appfire#.sbml#appfire#
+605#appfire#Tab Seperated Values#appfire#text/tab-separated-values#appfire#.tsv#appfire#
+606#appfire#Tagged Image File Format#appfire#image/tiff#appfire#.tiff#appfire#
+607#appfire#Tao Intent#appfire#application/vnd.tao.intent-module-archive#appfire#.tao#appfire#
+608#appfire#Tar File (Tape Archive)#appfire#application/x-tar#appfire#.tar#appfire#
+609#appfire#Tcl Script#appfire#application/x-tcl#appfire#.tcl#appfire#
+61#appfire#Bourne Shell Script#appfire#application/x-sh#appfire#.sh#appfire#
+610#appfire#TeX#appfire#application/x-tex#appfire#.tex#appfire#
+611#appfire#TeX Font Metric#appfire#application/x-tex-tfm#appfire#.tfm#appfire#
+612#appfire#Text Encoding and Interchange#appfire#application/tei+xml#appfire#.tei#appfire#
+613#appfire#Text File#appfire#text/plain#appfire#.txt#appfire#
+614#appfire#TIBCO Spotfire#appfire#application/vnd.spotfire.dxp#appfire#.dxp#appfire#
+615#appfire#TIBCO Spotfire#appfire#application/vnd.spotfire.sfs#appfire#.sfs#appfire#
+616#appfire#Time Stamped Data Envelope#appfire#application/timestamped-data#appfire#.tsd#appfire#
+617#appfire#TRI Systems Config#appfire#application/vnd.trid.tpt#appfire#.tpt#appfire#
+618#appfire#Triscape Map Explorer#appfire#application/vnd.triscape.mxs#appfire#.mxs#appfire#
+619#appfire#troff#appfire#text/troff#appfire#.t#appfire#
+62#appfire#BTIF#appfire#image/prs.btif#appfire#.btif#appfire#
+620#appfire#True BASIC#appfire#application/vnd.trueapp#appfire#.tra#appfire#
+621#appfire#TrueType Font#appfire#application/x-font-ttf#appfire#.ttf#appfire#
+622#appfire#Turtle (Terse RDF Triple Language)#appfire#text/turtle#appfire#.ttl#appfire#
+623#appfire#UMAJIN#appfire#application/vnd.umajin#appfire#.umj#appfire#
+624#appfire#Unique Object Markup Language#appfire#application/vnd.uoml+xml#appfire#.uoml#appfire#
+625#appfire#Unity 3d#appfire#application/vnd.unity#appfire#.unityweb#appfire#
+626#appfire#Universal Forms Description Language#appfire#application/vnd.ufdl#appfire#.ufd#appfire#
+627#appfire#URI Resolution Services#appfire#text/uri-list#appfire#.uri#appfire#
+628#appfire#User Interface Quartz - Theme (Symbian)#appfire#application/vnd.uiq.theme#appfire#.utz#appfire#
+629#appfire#Ustar (Uniform Standard Tape Archive)#appfire#application/x-ustar#appfire#.ustar#appfire#
+63#appfire#BusinessObjects#appfire#application/vnd.businessobjects#appfire#.rep#appfire#
+630#appfire#UUEncode#appfire#text/x-uuencode#appfire#.uu#appfire#
+631#appfire#vCalendar#appfire#text/x-vcalendar#appfire#.vcs#appfire#
+632#appfire#vCard#appfire#text/x-vcard#appfire#.vcf#appfire#
+633#appfire#Video CD#appfire#application/x-cdlink#appfire#.vcd#appfire#
+634#appfire#Viewport+#appfire#application/vnd.vsf#appfire#.vsf#appfire#
+635#appfire#Virtual Reality Modeling Language#appfire#model/vrml#appfire#.wrl#appfire#
+636#appfire#VirtualCatalog#appfire#application/vnd.vcx#appfire#.vcx#appfire#
+637#appfire#Virtue MTS#appfire#model/vnd.mts#appfire#.mts#appfire#
+638#appfire#Virtue VTU#appfire#model/vnd.vtu#appfire#.vtu#appfire#
+639#appfire#Visionary#appfire#application/vnd.visionary#appfire#.vis#appfire#
+64#appfire#Bzip Archive#appfire#application/x-bzip#appfire#.bz#appfire#
+640#appfire#Vivo#appfire#video/vnd.vivo#appfire#.viv#appfire#
+641#appfire#Voice Browser Call Control#appfire#application/ccxml+xml,#appfire#.ccxml#appfire#
+642#appfire#VoiceXML#appfire#application/voicexml+xml#appfire#.vxml#appfire#
+643#appfire#WAIS Source#appfire#application/x-wais-source#appfire#.src#appfire#
+644#appfire#WAP Binary XML (WBXML)#appfire#application/vnd.wap.wbxml#appfire#.wbxml#appfire#
+645#appfire#WAP Bitamp (WBMP)#appfire#image/vnd.wap.wbmp#appfire#.wbmp#appfire#
+646#appfire#Waveform Audio File Format (WAV)#appfire#audio/x-wav#appfire#.wav#appfire#
+647#appfire#Web Distributed Authoring and Versioning#appfire#application/davmount+xml#appfire#.davmount#appfire#
+648#appfire#Web Open Font Format#appfire#application/x-font-woff#appfire#.woff#appfire#
+649#appfire#Web Services Policy#appfire#application/wspolicy+xml#appfire#.wspolicy#appfire#
+65#appfire#Bzip2 Archive#appfire#application/x-bzip2#appfire#.bz2#appfire#
+650#appfire#WebP Image#appfire#image/webp#appfire#.webp#appfire#
+651#appfire#WebTurbo#appfire#application/vnd.webturbo#appfire#.wtb#appfire#
+652#appfire#Widget Packaging and XML Configuration#appfire#application/widget#appfire#.wgt#appfire#
+653#appfire#WinHelp#appfire#application/winhlp#appfire#.hlp#appfire#
+654#appfire#Wireless Markup Language (WML)#appfire#text/vnd.wap.wml#appfire#.wml#appfire#
+655#appfire#Wireless Markup Language Script (WMLScript)#appfire#text/vnd.wap.wmlscript#appfire#.wmls#appfire#
+656#appfire#WMLScript#appfire#application/vnd.wap.wmlscriptc#appfire#.wmlsc#appfire#
+657#appfire#Wordperfect#appfire#application/vnd.wordperfect#appfire#.wpd#appfire#
+658#appfire#Worldtalk#appfire#application/vnd.wt.stf#appfire#.stf#appfire#
+659#appfire#WSDL - Web Services Description Language#appfire#application/wsdl+xml#appfire#.wsdl#appfire#
+66#appfire#C Shell Script#appfire#application/x-csh#appfire#.csh#appfire#
+660#appfire#X BitMap#appfire#image/x-xbitmap#appfire#.xbm#appfire#
+661#appfire#X PixMap#appfire#image/x-xpixmap#appfire#.xpm#appfire#
+662#appfire#X Window Dump#appfire#image/x-xwindowdump#appfire#.xwd#appfire#
+663#appfire#X.509 Certificate#appfire#application/x-x509-ca-cert#appfire#.der#appfire#
+664#appfire#Xfig#appfire#application/x-xfig#appfire#.fig#appfire#
+665#appfire#XHTML - The Extensible HyperText Markup Language#appfire#application/xhtml+xml#appfire#.xhtml#appfire#
+666#appfire#XML - Extensible Markup Language#appfire#application/xml#appfire#.xml#appfire#
+667#appfire#XML Configuration Access Protocol - XCAP Diff#appfire#application/xcap-diff+xml#appfire#.xdf#appfire#
+668#appfire#XML Encryption Syntax and Processing#appfire#application/xenc+xml#appfire#.xenc#appfire#
+669#appfire#XML Patch Framework#appfire#application/patch-ops-error+xml#appfire#.xer#appfire#
+67#appfire#C Source File#appfire#text/x-c#appfire#.c#appfire#
+670#appfire#XML Resource Lists#appfire#application/resource-lists+xml#appfire#.rl#appfire#
+671#appfire#XML Resource Lists#appfire#application/rls-services+xml#appfire#.rs#appfire#
+672#appfire#XML Resource Lists Diff#appfire#application/resource-lists-diff+xml#appfire#.rld#appfire#
+673#appfire#XML Transformations#appfire#application/xslt+xml#appfire#.xslt#appfire#
+674#appfire#XML-Binary Optimized Packaging#appfire#application/xop+xml#appfire#.xop#appfire#
+675#appfire#XPInstall - Mozilla#appfire#application/x-xpinstall#appfire#.xpi#appfire#
+676#appfire#XSPF - XML Shareable Playlist Format#appfire#application/xspf+xml#appfire#.xspf#appfire#
+677#appfire#XUL - XML User Interface Language#appfire#application/vnd.mozilla.xul+xml#appfire#.xul#appfire#
+678#appfire#XYZ File Format#appfire#chemical/x-xyz#appfire#.xyz#appfire#
+679#appfire#YAML Ain't Markup Language / Yet Another Markup La#appfire#text/yaml#appfire#.yaml#appfire#
+68#appfire#CambridgeSoft Chem Draw#appfire#application/vnd.chemdraw+xml#appfire#.cdxml#appfire#
+680#appfire#YANG Data Modeling Language#appfire#application/yang#appfire#.yang#appfire#
+681#appfire#YIN (YANG - XML)#appfire#application/yin+xml#appfire#.yin#appfire#
+682#appfire#Z.U.L. Geometry#appfire#application/vnd.zul#appfire#.zir#appfire#
+683#appfire#Zip Archive#appfire#application/zip#appfire#.zip#appfire#
+684#appfire#ZVUE Media Manager#appfire#application/vnd.handheld-entertainment+xml#appfire#.zmm#appfire#
+685#appfire#Zzazz Deck#appfire#application/vnd.zzazz.deck+xml#appfire#.zaz#appfire#
+69#appfire#Cascading Style Sheets (CSS)#appfire#text/css#appfire#.css#appfire#
+7#appfire#3rd Generation Partnership Project - Pic Small#appfire#application/vnd.3gpp.pic-bw-small#appfire#.psb#appfire#
+70#appfire#ChemDraw eXchange file#appfire#chemical/x-cdx#appfire#.cdx#appfire#
+71#appfire#Chemical Markup Language#appfire#chemical/x-cml#appfire#.cml#appfire#
+710#appfire#application/sql#appfire#application/sql#appfire##appfire#
+711#appfire#application/x-desktop#appfire#application/x-desktop#appfire##appfire#
+712#appfire#text/x-sql#appfire#text/x-sql#appfire##appfire#
+713#appfire#application/vnd.oasis.opendocument.presentation-template#appfire#application/vnd.oasis.opendocument.presentation-template#appfire##appfire#
+714#appfire#application/vnd.openxmlformats-officedocument.wordprocessingml.document#appfire#application/vnd.openxmlformats-officedocument.wordprocessingml.document#appfire##appfire#
+715#appfire#text/xml#appfire#text/xml#appfire##appfire#
+72#appfire#Chemical Style Markup Language#appfire#chemical/x-csml#appfire#.csml#appfire#
+73#appfire#CIM Database#appfire#application/vnd.contact.cmsg#appfire#.cdbcmsg#appfire#
+74#appfire#Claymore Data Files#appfire#application/vnd.claymore#appfire#.cla#appfire#
+75#appfire#Clonk Game#appfire#application/vnd.clonk.c4group#appfire#.c4g#appfire#
+76#appfire#Close Captioning - Subtitle#appfire#image/vnd.dvb.subtitle#appfire#.sub#appfire#
+77#appfire#Cloud Data Management Interface (CDMI) - Capabilit#appfire#application/cdmi-capability#appfire#.cdmia#appfire#
+78#appfire#Cloud Data Management Interface (CDMI) - Contaimer#appfire#application/cdmi-container#appfire#.cdmic#appfire#
+79#appfire#Cloud Data Management Interface (CDMI) - Domain#appfire#application/cdmi-domain#appfire#.cdmid#appfire#
+8#appfire#3rd Generation Partnership Project - Pic Var#appfire#application/vnd.3gpp.pic-bw-var#appfire#.pvb#appfire#
+80#appfire#Cloud Data Management Interface (CDMI) - Object#appfire#application/cdmi-object#appfire#.cdmio#appfire#
+81#appfire#Cloud Data Management Interface (CDMI) - Queue#appfire#application/cdmi-queue#appfire#.cdmiq#appfire#
+82#appfire#ClueTrust CartoMobile - Config#appfire#application/vnd.cluetrust.cartomobile-config#appfire#.c11amc#appfire#
+83#appfire#ClueTrust CartoMobile - Config Package#appfire#application/vnd.cluetrust.cartomobile-config-pkg#appfire#.c11amz#appfire#
+84#appfire#CMU Image#appfire#image/x-cmu-raster#appfire#.ras#appfire#
+85#appfire#COLLADA#appfire#model/vnd.collada+xml#appfire#.dae#appfire#
+86#appfire#Comma-Seperated Values#appfire#text/csv#appfire#.csv#appfire#
+87#appfire#Compact Pro#appfire#application/mac-compactpro#appfire#.cpt#appfire#
+88#appfire#Compiled Wireless Markup Language (WMLC)#appfire#application/vnd.wap.wmlc#appfire#.wmlc#appfire#
+89#appfire#Computer Graphics Metafile#appfire#image/cgm#appfire#.cgm#appfire#
+9#appfire#3rd Generation Partnership Project - Transaction C#appfire#application/vnd.3gpp2.tcap#appfire#.tcap#appfire#
+90#appfire#CoolTalk#appfire#x-conference/x-cooltalk#appfire#.ice#appfire#
+91#appfire#Corel Metafile Exchange (CMX)#appfire#image/x-cmx#appfire#.cmx#appfire#
+92#appfire#CorelXARA#appfire#application/vnd.xara#appfire#.xar#appfire#
+93#appfire#CosmoCaller#appfire#application/vnd.cosmocaller#appfire#.cmc#appfire#
+94#appfire#CPIO Archive#appfire#application/x-cpio#appfire#.cpio#appfire#
+95#appfire#CrickSoftware - Clicker#appfire#application/vnd.crick.clicker#appfire#.clkx#appfire#
+96#appfire#CrickSoftware - Clicker - Keyboard#appfire#application/vnd.crick.clicker.keyboard#appfire#.clkk#appfire#
+97#appfire#CrickSoftware - Clicker - Palette#appfire#application/vnd.crick.clicker.palette#appfire#.clkp#appfire#
+98#appfire#CrickSoftware - Clicker - Template#appfire#application/vnd.crick.clicker.template#appfire#.clkt#appfire#
+99#appfire#CrickSoftware - Clicker - Wordbank#appfire#application/vnd.crick.clicker.wordbank#appfire#.clkw#appfire#

@@ -1,0 +1,89 @@
+<lst name="defaults">    
+<str name="update.chain">bodychain</str>
+<str name="config">/home/isha/Algo/Isha/apache-tomcat-7.0.42/solr/path_to_instance_directory/conf/data-config.xml</str>  
+</lst>   
+  
+</requestHandler>  
+
+
+
+<updateRequestProcessorChain name="bodychain">
+	<processor class="solr.CloneFieldUpdateProcessorFactory">
+		<str name="source">empid</str>
+		<str name="source">productid</str>
+		
+		<str name="dest">id</str>
+	</processor>
+	
+	<processor class="solr.ConcatFieldUpdateProcessorFactory">
+		<str name="fieldName">id</str>
+		<str name="delimiter">-</str>
+	</processor>
+	
+	<processor class="solr.LogUpdateProcessorFactory" />
+	<processor class="solr.RunUpdateProcessorFactory" />
+</updateRequestProcessorChain>
+
+
+
+
+
+<requestHandler name="/update" class="solr.UpdateRequestHandler">
+ 
+   <lst name="defaults">
+    	
+   </lst>
+</requestHandler>
+
+
+(06:20:58  IST) isha:
+ <requestHandler name="/update/extract" startup="lazy" class="solr.extraction.ExtractingRequestHandler" >
+    <lst name="defaults">
+      <str name="lowernames">true</str>
+      <str name="uprefix">ignored_</str>
+
+      <!-- capture link hrefs but ignore div attributes -->
+      <str name="captureAttr">true</str>
+      <str name="fmap.a">links</str>
+      <str name="fmap.div">ignored_</str>
+    </lst>
+  </requestHandler>
+
+<!-- add requesthandler when make connection between solr and db -->
+
+<requestHandler name="/dataimport" class="org.apache.solr.handler.dataimport.DataImportHandler">
+<lst name="defaults">
+<str name="update.chain">bodychain</str>
+<str name="config">/home/isha/Algo/Isha/apache-tomcat-7.0.42/solr/collection1/conf/data-config.xml</str>
+ 
+</lst>
+</requestHandler>
+<!-- -->
+
+<updateRequestProcessorChain name="bodychain">
+	<processor class="solr.CloneFieldUpdateProcessorFactory">
+		<str name="source">empid</str>
+		<str name="source">productid</str>
+		<str name="dest">id</str>
+	</processor>
+	
+	<processor class="solr.ConcatFieldUpdateProcessorFactory">
+		<str name="fieldName">id</str>
+		<str name="delimiter">-</str>
+	</processor>
+	
+	<processor class="solr.LogUpdateProcessorFactory" />
+	<processor class="solr.RunUpdateProcessorFactory" />
+</updateRequestProcessorChain>
+
+
+
+
+
+<requestHandler name="/update" class="solr.UpdateRequestHandler">
+ 
+   <lst name="defaults">
+    	
+   </lst>
+</requestHandler>
+

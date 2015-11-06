@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppLogConfig>
+<LoggingProperties>
+ <eventQueueSize value="100000"/>
+<!--Refresh Time to reload this configuration file In a production environment, if you want to debug a specific component you can change the Alarm Log Levels (for specific Target like File, DB etc) of that specific components. Once the configuration is refreshed new Log Events will be written to the configured Target (File, DB etc). This will help to isolate and troubleshoot a production environment without shutting down the application. -->
+<refresh timeUnit="minutes">0</refresh><!--Logging Framework is Asynchronous in nature. Log Events goes to the Queue first and connectors takes the event from the queue for processing. Event Queue Type 0 - Circular Queue (RECOMMENDED) 1 - Infinite Queue with Initial Capacity and events will be wrapped in Soft References (JVM will garbage collect these soft references when it runs out of memory). 2 - Infinite Queue (NOT RECOMMENDED)-->
+<eventQueueType value="0"/>
+
+<eventSeverity>
+<map>
+<property id="01EB3E8E-EC24-428D-AE7D-5BCCCF86254E" name="4">Critical</property>
+<property id="1C0AF007-3E88-411F-AE1D-32D960DE07B5" name="3">Warning</property>
+<property id="959D1D76-22F0-4C13-8F27-B4EAD43821DD" name="2">Info</property>
+<property id="A7ACBD17-D9AB-4709-A512-1EBD1FAE2FE3" name="5">Fatal</property>
+<property id="BE6A0285-9552-45CD-9A77-826196CB1253" name="0">Debug</property>
+<property id="E69CFA82-E47F-4583-8696-44A073162C91" name="1">Trace</property>
+</map>
+</eventSeverity>
+</LoggingProperties>
+<connectors>
+<connector cid="4" logLevel="3">
+<name enable="false" class="com.spartan.sprinkler.connectors.socket.SocketConnector"  id="socket.tcp.server" isSystemDefined="false">TCPSocketConnector</name>
+<map>
+<!-- Server IP Address / Host Name -->
+<attribute name="hostname">192.168.2.40</attribute>
+<!--  Server Port Number -->
+<attribute name="port">4444</attribute>
+</map>
+</connector>
+<connector cid="2" logLevel="2">
+<name enable="true" class="com.spartan.sprinkler.connectors.db.DBConnector"  id="db.connector" isSystemDefined="true">DatabaseConnector</name>
+<map>
+<attribute name="tablename">art_log_events_t</attribute>
+<!-- JDBC Connection Pool Size -->
+<attribute name="threadPoolSize">5</attribute>
+<!-- Batch will be commited if Time Out happens before the batch size reached. -->
+<attribute name="thread.timeout">5000</attribute>
+<!-- JDBC Batch Size -->
+<attribute name="batchSize">500</attribute>
+</map>
+</connector>
+<connector cid="1" logLevel="2">
+<name enable="true" class="com.spartan.sprinkler.connectors.file.FileConnector"  id="file.connector" isSystemDefined="true">FileConnector</name>
+<map>
+<!-- File Roll Over Policy 0 - Based on Time ONLY 1 - Based on Size ONLY 2 - Based on Time or Size, which ever happens first. -->
+<attribute name="file.rollover.policy">0</attribute>
+<!--  Flush time in seconds -->
+<attribute name="flush.period">60</attribute>
+<!-- File Roll Over based on File Size. -->
+<attribute name="file.rollover.size">100</attribute>
+<attribute name="output.path">logs</attribute>
+<!-- Keep Latest X number of Backup Files. Valid values = Greater than ZERO or MINUS 1 If you want to keep all the files then give -1 -->
+<attribute name="backup.keep.last.x.files">2</attribute>
+<attribute name="backup.path">logs/backups</attribute>
+<!-- File Roll Over Time Unit Valid values (Hours, Days, Months) -->
+<attribute name="file.rollover.time.unit">Hours</attribute>
+<!--  Buffer size in KB -->
+<attribute name="buffer.size">1</attribute>
+<!-- File Roll Over Size Unit. Valid Values (MB, GB) -->
+<attribute name="file.rollover.size.unit">MB</attribute>
+<!-- File Roll Over based on Time -->
+<attribute name="file.rollover.time">1</attribute>
+<attribute name="backup.date.pattern">yyyyMMddHHmmss</attribute>
+</map>
+</connector>
+<connector cid="3" logLevel="3">
+<name enable="false" class="com.spartan.sprinkler.connectors.syslog.SyslogConnector"  id="socket.udp.syslog" isSystemDefined="false">SyslogConnector</name>
+<map>
+<!-- Syslog Receiver Port Number -->
+<attribute name="port">5001</attribute>
+<!-- Syslog Receiver IP Address -->
+<attribute name="hostname">192.168.2.28</attribute>
+</map>
+</connector>
+</connectors>
+</AppLogConfig>

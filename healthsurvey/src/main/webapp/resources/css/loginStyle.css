@@ -1,0 +1,90 @@
+.gray-bg {
+	background-color: #f3f3f4;
+	font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #676a6c;}
+
+.space {
+	margin-bottom: 15px;
+}
+p.projectDesc {
+    max-height: 300px;
+    max-width: 300px;
+    text-align:center;
+}
+.errorMsg{
+	font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   	font-size: 15px;
+   	color:red;
+   	margin-bottom: 10px;
+}
+.form-widget{
+	width:300px;
+	height: 30px;
+	border: 1px solid #e5e6e7;
+	display: block;
+	padding: 2px 4px;
+}
+
+.form-widget:focus {
+    border: 1px solid #1ab394;
+}
+.btn{
+  	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	width: 300px;
+	height: 35px;}
+
+
+.btn-orange{
+	background-color: #FF5050;
+	border-color: #FF5050;
+	color: #FFFFFF;
+}
+
+.btn-blue{
+  color: white;
+  background: #3892d3;
+  border: 1px solid #3892d3;
+}
+
+.btn-orange:hover {
+     background: #1ab394;
+	 border: 1px solid #1ab394;
+}
+.btn-blue:hover {
+	color:#A8A8A8;
+}
+.login {
+  position: relative;
+  margin: 0 auto;
+  margin-top:150px;
+  padding-top:0px;
+  padding-bottom:7px;
+  width: 35%;
+  background: white;
+  border-radius: 3px;
+  @include box-shadow(0 0 200px rgba(white, .5), 0 1px 2px rgba(black, .3));
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: -8px; right: -8px; bottom: -8px; left: -8px;
+    z-index: -1;
+    background: rgba(black, .08);
+    border-radius: 4px;
+  }

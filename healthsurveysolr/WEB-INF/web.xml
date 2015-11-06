@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="WebApp_ID" version="3.0" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name>applifire</display-name>
+	<context-param>
+		<param-name>webAppRootKey</param-name>
+	
+    <param-value>sales1</param-value>
+    </context-param>
+  <welcome-file-list>
+    <welcome-file>login.html</welcome-file>
+  </welcome-file-list>
+  <!--  
+  <filter>
+    <filter-name>SolrRequestFilter</filter-name>
+    <filter-class>org.apache.solr.servlet.SolrDispatchFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>SolrRequestFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  -->
+</web-app>

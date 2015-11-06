@@ -1,0 +1,460 @@
+1#appfire#label value#appfire#[\
+ {xtype:"textfield",fieldLabel:"Chart Title",itemId:"chartTitle",emptyText:"Enter Chart Title..",labelPad:18}, \
+ {xtype:"fieldset",title: "<input type=radio name=rowColRadio value=0 checked>Row Data",layout:"anchor",itemId:"rowDataFieldSet",listeners:{afterrender:"afterRowFieldSetRender"},\
+	items:[ \
+		{xtype:"combobox",fieldLabel:"Label",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"labelCombo",editable:true,emptyText:"Select..",anchor:"100%"}, \
+		{xtype:"combobox",fieldLabel:"Value",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"valueCombo",editable:true,emptyText:"Select..",anchor:"100%"},\
+		{xtype:"combobox",fieldLabel:"Aggregate",displayField:"aggregate_name",valueField:"aggregate_value",itemId:"aggCombo",editable:true,emptyText:"Select Aggregate..",margin:"0 0 20 0",anchor:"100%"}\
+	]\
+ },\
+ {xtype:"fieldset",disabled:true,title: "<input type=radio name=rowColRadio value=1>Column Data",layout:"anchor",itemId:"colDataFieldSet",listeners:{afterrender:"afterColFieldSetRender"},\
+	items:[ \
+		{xtype:"tagfield",anchor:"100%",fieldLabel:"Label",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"labelTagField",editable:true,emptyText:"Select.."}\
+	]\
+ },\
+		{xtype:"fieldset",title:"Filter Criteria",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+{\
+											   	   xtype: 'radiogroup',\
+											   	   fieldLabel:'Criteria',\
+											   	   itemId:'reportFormRadio',\
+											   	   columns: 2,\
+											   	   width:"30%",\
+											   	   vertical: true,\
+											   	   items: [\
+											            { boxLabel: 'Single Chart', name: 'radio', inputValue: 'single', margin:'0 5 0 0',checked: true },\
+											            { boxLabel: 'Multi Chart', name: 'radio', inputValue: 'multi'}\
+											            ]\
+											        \
+											      },\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"crtColCombo",editable:true,emptyText:"Select.."}, \
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria",displayField:"criteria_name",valueField:"criteria_value",itemId:"criteriaCombo",editable:true,emptyText:"Select Criteria..",margin:"0 0 20 0"},\
+{xtype:"fieldset",itemId:"multiCriteria",title:"Multi",margin:"10 2 20 0",hidden:true, layout:"hbox",\
+			items:[\
+				{xtype:"combobox",width:150,labelWidth:45,fieldLabel:"Criteria",displayField:"displayName",valueField:"name",queryMode:"local",margin:"0 5 0 0",comboType:"multiCriteria",itemId:"crtMultiCriteria",editable:true,emptyText:"Select.."}, \
+				{xtype:"numberfield",minValue:"0",allowNegative:false,labelWidth:35,width:100,fieldLabel:"Value",itemId:"criteriarecord",editable:true,margin:"0 0 5 0"}\
+			]\
+		},\
+			]\
+		},\
+\
+{xtype:"fieldset",title:"Group By for Multiple Chart",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Select Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"groupByCol",editable:true,emptyText:"Select.."}, \
+				\
+			]\
+		}\
+]#appfire#1#appfire#2015-02-23#appfire#1#appfire#2015-02-23#appfire#2#appfire#1
+10#appfire#CandleStick#appfire#[ \
+  {xtype:"textfield",fieldLabel:"Chart Title",itemId:"chartTitle",emptyText:"Enter Chart Title..",labelPad:18},\
+  {xtype:"fieldset",title: "<input type=radio name=rowColRadio value=0 checked>Row Data",layout:"anchor",itemId:"rowDataFieldSet",listeners:{afterrender:"afterRowFieldSetRender"},\
+	items:[ \
+	{xtype:"combobox",fieldLabel:"X",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"numeric",itemId:"categoryCombo",editable:true,emptyText:"Select..",anchor:"100%"},\
+	{xtype:"combobox",fieldLabel:"Open",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"numeric",itemId:"open",editable:true,emptyText:"Select..",anchor:"100%"},\
+	 {xtype:"combobox",fieldLabel:"Low",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"numeric",itemId:"low",editable:true,emptyText:"Select..",anchor:"100%"},\
+	 {xtype:"combobox",fieldLabel:"High",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"numeric",itemId:"high",editable:true,emptyText:"Select..",anchor:"100%"},\
+	{xtype:"combobox",fieldLabel:"Close",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"numeric",itemId:"close",editable:true,emptyText:"Select..",anchor:"100%"},\
+	{xtype:"combobox",fieldLabel:"Volume",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"numeric",itemId:"volume",editable:true,emptyText:"Select..",anchor:"100%"}\
+\
+	 ]\
+  },\
+  {xtype:"fieldset",title: "<input type=radio name=rowColRadio value=1>Column Data",layout:"anchor",itemId:"colDataFieldSet", hidden:true,\
+	items:[ \
+		{xtype:"combobox",anchor:"100%",fieldLabel:"Category",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"categoryCombo1",editable:true,emptyText:"Select.."},\
+		{xtype:"tagfield",anchor:"100%",fieldLabel:"SeriesName",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"seriesnameTagField",editable:true,emptyText:"Select.."}\
+	]\
+  }	 ,\
+		{xtype:"fieldset",title:"Filter Criteria",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+{\
+											   	   xtype: 'radiogroup',\
+											   	   fieldLabel:'Criteria',\
+											   	   itemId:'reportFormRadio',\
+											   	   columns: 2,\
+											   	   width:"30%",\
+											   	   vertical: true,\
+											   	   items: [\
+											            { boxLabel: 'Single Chart', name: 'radio', inputValue: 'single', margin:'0 5 0 0',checked: true },\
+											            { boxLabel: 'Multi Chart', name: 'radio', inputValue: 'multi'}\
+											            ]\
+											        \
+											      },\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"crtColCombo",editable:true,emptyText:"Select.."}, \
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria",displayField:"criteria_name",valueField:"criteria_value",itemId:"criteriaCombo",editable:true,emptyText:"Select Criteria..",margin:"0 0 20 0"},\
+{xtype:"fieldset",itemId:"multiCriteria",title:"Multi",margin:"10 2 20 0",hidden:true, layout:"hbox",\
+			items:[\
+				{xtype:"combobox",width:150,labelWidth:45,fieldLabel:"Criteria",displayField:"displayName",valueField:"name",queryMode:"local",margin:"0 5 0 0",comboType:"multiCriteria",itemId:"crtMultiCriteria",editable:true,emptyText:"Select.."}, \
+				{xtype:"numberfield",minValue:"0",allowNegative:false,labelWidth:35,width:100,fieldLabel:"Value",itemId:"criteriarecord",editable:true,margin:"0 0 5 0"}\
+			]\
+		},\
+			]\
+		}\
+,\
+{xtype:"fieldset",title:"Group By for Multiple Charts",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Select Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"groupByCol",editable:true,emptyText:"Select.."}, \
+				\
+			]\
+		}\
+]#appfire#1#appfire#2015-02-24#appfire#1#appfire#2015-02-24#appfire#1#appfire#1
+2#appfire#value#appfire#[ {xtype:"textfield",fieldLabel:"Chart Title",itemId:"chartTitle",emptyText:"Enter Chart Title..",width:"100%"},\
+ {xtype:"combobox",fieldLabel:"Value",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"valueCombo",editable:true,emptyText:"Select..",width:"100%"},\
+ {xtype:"combobox",fieldLabel:"Aggregate",displayField:"aggregate_name",valueField:"aggregate_value",itemId:"aggCombo",editable:true,emptyText:"Select Aggregate..",width:"100%"},\
+,\
+			{xtype:"fieldset",title:"Filter Criteria",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+{\
+											   	   xtype: 'radiogroup',\
+											   	   fieldLabel:'Criteria',\
+											   	   itemId:'reportFormRadio',\
+											   	   columns: 2,\
+											   	   width:"30%",\
+											   	   vertical: true,\
+											   	   items: [\
+											            { boxLabel: 'Single Chart', name: 'radio', inputValue: 'single', margin:'0 5 0 0',checked: true },\
+											            { boxLabel: 'Multi Chart', name: 'radio', inputValue: 'multi'}\
+											            ]\
+											        \
+											      },\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"crtColCombo",editable:true,emptyText:"Select.."}, \
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria",displayField:"criteria_name",valueField:"criteria_value",itemId:"criteriaCombo",editable:true,emptyText:"Select Criteria..",margin:"0 0 20 0"},\
+{xtype:"fieldset",itemId:"multiCriteria",title:"Multi",margin:"10 2 20 0",hidden:true, layout:"hbox",\
+			items:[\
+				{xtype:"combobox",width:150,labelWidth:45,fieldLabel:"Criteria",displayField:"displayName",valueField:"name",queryMode:"local",margin:"0 5 0 0",comboType:"multiCriteria",itemId:"crtMultiCriteria",editable:true,emptyText:"Select.."}, \
+				{xtype:"numberfield",minValue:"0",allowNegative:false,labelWidth:35,width:100,fieldLabel:"Value",itemId:"criteriarecord",editable:true,margin:"0 0 5 0"}\
+			]\
+		},\
+			]\
+		},\
+{xtype:"fieldset",title:"Group By for Multiple Charts",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Select Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"groupByCol",editable:true,emptyText:"Select.."} \
+				\
+			]\
+		} ]#appfire#1#appfire#2015-02-23#appfire#1#appfire#2015-02-23#appfire#2#appfire#1
+3#appfire#code value#appfire#[ {xtype:"textfield",fieldLabel:"Chart Title",itemId:"chartTitle",emptyText:"Enter Chart Title..",width:"100%"}, \
+ {xtype:"combobox",fieldLabel:"Code",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"codeCombo",editable:true,emptyText:"Select..",width:"100%"},\
+ {xtype:"combobox",fieldLabel:"Value",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"valueCombo",editable:true,emptyText:"Select..",width:"100%"},\
+ {xtype:"combobox",fieldLabel:"Aggregate",displayField:"aggregate_name",valueField:"aggregate_value",itemId:"aggCombo",editable:true,emptyText:"Select Aggregate..",width:"100%"},\
+,\
+			{xtype:"fieldset",title:"Filter Criteria",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+{\
+											   	   xtype: 'radiogroup',\
+											   	   fieldLabel:'Criteria',\
+											   	   itemId:'reportFormRadio',\
+											   	   columns: 2,\
+											   	   width:"30%",\
+											   	   vertical: true,\
+											   	   items: [\
+											            { boxLabel: 'Single Chart', name: 'radio', inputValue: 'single', margin:'0 5 0 0',checked: true },\
+											            { boxLabel: 'Multi Chart', name: 'radio', inputValue: 'multi'}\
+											            ]\
+											        \
+											      },\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"crtColCombo",editable:true,emptyText:"Select.."}, \
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria",displayField:"criteria_name",valueField:"criteria_value",itemId:"criteriaCombo",editable:true,emptyText:"Select Criteria..",margin:"0 0 20 0"},\
+{xtype:"fieldset",itemId:"multiCriteria",title:"Multi",margin:"10 2 20 0",hidden:true, layout:"hbox",\
+			items:[\
+				{xtype:"combobox",width:150,labelWidth:45,fieldLabel:"Criteria",displayField:"displayName",valueField:"name",queryMode:"local",margin:"0 5 0 0",comboType:"multiCriteria",itemId:"crtMultiCriteria",editable:true,emptyText:"Select.."}, \
+				{xtype:"numberfield",minValue:"0",allowNegative:false,labelWidth:35,width:100,fieldLabel:"Value",itemId:"criteriarecord",editable:true,margin:"0 0 5 0"}\
+			]\
+		},\
+			]\
+		},\
+{xtype:"fieldset",title:"Group By for Multiple Charts",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Select Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"groupByCol",editable:true,emptyText:"Select.."}, \
+				\
+			]\
+		} ]#appfire#1#appfire#2015-02-24#appfire#1#appfire#2015-02-24#appfire#2#appfire#1
+4#appfire#category seiesname value#appfire#[ \
+  {xtype:"textfield",fieldLabel:"Chart Title",itemId:"chartTitle",emptyText:"Enter Chart Title..",labelPad:18},\
+  {xtype:"fieldset",title: "<input type=radio name=rowColRadio value=0 checked>Row Data",layout:"anchor",itemId:"rowDataFieldSet",listeners:{afterrender:"afterRowFieldSetRender"},\
+	items:[ \
+	 {xtype:"combobox",fieldLabel:"Category",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"categoryCombo",editable:true,emptyText:"Select..",anchor:"100%"},\
+	 {xtype:"combobox",fieldLabel:"SeriesName",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"seriesnameCombo",editable:true,emptyText:"Select..",anchor:"100%"},\
+	 {xtype:"combobox",fieldLabel:"Value",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"valueCombo",editable:true,emptyText:"Select..",anchor:"100%"},\
+	 {xtype:"combobox",fieldLabel:"Aggregate",displayField:"aggregate_name",valueField:"aggregate_value",itemId:"aggCombo",editable:true,emptyText:"Select Aggregate..",margin:"0 0 20 0",anchor:"100%"}\
+	]\
+  },\
+  {xtype:"fieldset",disabled:true,title: "<input type=radio name=rowColRadio value=1>Column Data",layout:"anchor",itemId:"colDataFieldSet",listeners:{afterrender:"afterColFieldSetRender"},\
+	items:[ \
+		{xtype:"combobox",anchor:"100%",fieldLabel:"Category",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"categoryCombo1",editable:true,emptyText:"Select.."},\
+		{xtype:"tagfield",anchor:"100%",fieldLabel:"SeriesName",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"seriesnameTagField",editable:true,emptyText:"Select.."}\
+	]\
+  }	 ,\
+		{xtype:"fieldset",title:"Filter Criteria",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+{\
+											   	   xtype: 'radiogroup',\
+											   	   fieldLabel:'Criteria',\
+											   	   itemId:'reportFormRadio',\
+											   	   columns: 2,\
+											   	   width:"30%",\
+											   	   vertical: true,\
+											   	   items: [\
+											            { boxLabel: 'Single Chart', name: 'radio', inputValue: 'single', margin:'0 5 0 0',checked: true },\
+											            { boxLabel: 'Multi Chart', name: 'radio', inputValue: 'multi'}\
+											            ]\
+											        \
+											      },\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"crtColCombo",editable:true,emptyText:"Select.."}, \
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria",displayField:"criteria_name",valueField:"criteria_value",itemId:"criteriaCombo",editable:true,emptyText:"Select Criteria..",margin:"0 0 20 0"},\
+{xtype:"fieldset",itemId:"multiCriteria",title:"Multi",margin:"10 2 20 0",hidden:true, layout:"hbox",\
+			items:[\
+				{xtype:"combobox",width:150,labelWidth:45,fieldLabel:"Criteria",displayField:"displayName",valueField:"name",queryMode:"local",margin:"0 5 0 0",comboType:"multiCriteria",itemId:"crtMultiCriteria",editable:true,emptyText:"Select.."}, \
+				{xtype:"numberfield",minValue:"0",allowNegative:false,labelWidth:35,width:100,fieldLabel:"Value",itemId:"criteriarecord",editable:true,margin:"0 0 5 0"}\
+			]\
+		},\
+			]\
+		}\
+,\
+{xtype:"fieldset",title:"Group By for Multiple Charts",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Select Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"groupByCol",editable:true,emptyText:"Select.."}, \
+				\
+			]\
+		}\
+]#appfire#1#appfire#2015-02-24#appfire#1#appfire#2015-02-24#appfire#2#appfire#1
+5#appfire#row column value#appfire#[ \
+  {xtype:"textfield",fieldLabel:"Chart Title",itemId:"chartTitle",emptyText:"Enter Chart Title..",labelPad:18},\
+  {xtype:"fieldset",title: "<input type=radio name=rowColRadio value=0 checked>Row Data",layout:"anchor",itemId:"rowDataFieldSet",listeners:{afterrender:"afterRowFieldSetRender"},\
+	items:[ \
+	 {xtype:"combobox",fieldLabel:"Row",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"rowCombo",editable:true,emptyText:"Select..",anchor:"100%"}, \
+	 {xtype:"combobox",fieldLabel:"Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"columnCombo",editable:true,emptyText:"Select..",anchor:"100%"},\
+	 {xtype:"combobox",fieldLabel:"Value",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"valueCombo",editable:true,emptyText:"Select..",anchor:"100%"},\
+	 {xtype:"combobox",fieldLabel:"Aggregate",displayField:"aggregate_name",valueField:"aggregate_value",itemId:"aggCombo",editable:true,emptyText:"Select Aggregate..",margin:"0 0 20 0",anchor:"100%"}\
+	]\
+  },\
+  {xtype:"fieldset",disabled:true,title: "<input type=radio name=rowColRadio value=1>Column Data",layout:"anchor",itemId:"colDataFieldSet",listeners:{afterrender:"afterColFieldSetRender"},\
+	items:[ \
+		{xtype:"combobox",anchor:"100%",fieldLabel:"Row",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"rowCombo1",editable:true,emptyText:"Select.."},\
+		{xtype:"tagfield",anchor:"100%",fieldLabel:"Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"colTagField",editable:true,emptyText:"Select.."}\
+	]\
+  },\
+		{xtype:"fieldset",title:"Filter Criteria",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+{\
+											   	   xtype: 'radiogroup',\
+											   	   fieldLabel:'Criteria',\
+											   	   itemId:'reportFormRadio',\
+											   	   columns: 2,\
+											   	   width:"30%",\
+											   	   vertical: true,\
+											   	   items: [\
+											            { boxLabel: 'Single Chart', name: 'radio', inputValue: 'single', margin:'0 5 0 0',checked: true },\
+											            { boxLabel: 'Multi Chart', name: 'radio', inputValue: 'multi'}\
+											            ]\
+											        \
+											      },\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"crtColCombo",editable:true,emptyText:"Select.."}, \
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria",displayField:"criteria_name",valueField:"criteria_value",itemId:"criteriaCombo",editable:true,emptyText:"Select Criteria..",margin:"0 0 20 0"},\
+{xtype:"fieldset",itemId:"multiCriteria",title:"Multi",margin:"10 2 20 0",hidden:true, layout:"hbox",\
+			items:[\
+				{xtype:"combobox",width:150,labelWidth:45,fieldLabel:"Criteria",displayField:"displayName",valueField:"name",queryMode:"local",margin:"0 5 0 0",comboType:"multiCriteria",itemId:"crtMultiCriteria",editable:true,emptyText:"Select.."}, \
+				{xtype:"numberfield",minValue:"0",allowNegative:false,labelWidth:35,width:100,fieldLabel:"Value",itemId:"criteriarecord",editable:true,margin:"0 0 5 0"}\
+			]\
+		},\
+			]\
+		},\
+\
+{xtype:"fieldset",title:"Group By for Multiple Charts",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Select Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"groupByCol",editable:true,emptyText:"Select.."}, \
+				\
+			]\
+		}\
+]\
+#appfire#1#appfire#2015-02-24#appfire#1#appfire#2015-02-24#appfire#2#appfire#1
+6#appfire#gantt chart#appfire#[{"xtype":"textfield","fieldLabel":"Chart Title","itemId":"chartTitle","emptyText":"Enter Chart Title..","labelPad":18},{"xtype":"fieldset","title":"<input type=radio name=rowColRadio value=0 checked>Row Data","layout":"anchor","itemId":"rowDataFieldSet","items":[{"xtype":"combobox","fieldLabel":"Process","displayField":"displayName","valueField":"name","queryMode":"local","comboType":"all","itemId":"processCombo","editable":true,"emptyText":"Select..","anchor":"100%"},{\
+									"xtype" : "combobox",\
+									"fieldLabel" : "Task",\
+									"displayField" : "displayName",\
+									"valueField" : "name",\
+									"queryMode" : "local",\
+									"comboType" : "all",\
+									"itemId" : "taskCombo",\
+									"editable" : true,\
+									"emptyText" : "Select..",\
+									"anchor" : "100%"\
+								},{\
+									"xtype" : "combobox",\
+									"fieldLabel" : "Connected Task",\
+									"displayField" : "displayName",\
+									"valueField" : "name",\
+									"queryMode" : "local",\
+									"comboType" : "all",\
+									"itemId" : "conTaskCombo",\
+									"editable" : true,\
+									"emptyText" : "Select..",\
+									"anchor" : "100%"\
+								},{"xtype":"combobox","fieldLabel":"Start Date","displayField":"displayName","valueField":"name","queryMode":"local","comboType":"date","itemId":"startDateCombo","editable":true,"emptyText":"Select..","anchor":"100%"},{"xtype":"combobox","fieldLabel":"End Date","displayField":"displayName","valueField":"name","queryMode":"local","comboType":"date","itemId":"endDateCombo","editable":true,"emptyText":"Select..","anchor":"100%"}]},{"xtype":"fieldset","title":"Categories Grouping","items":[{"xtype":"checkboxgroup","columns":2,"vertical":true,"itemId":"ganttcategoriesFieldSet","items":[{"boxLabel":"Year","xtype":"checkbox","inputValue":"1","itemId":"ganttYear"},{"boxLabel":"Quarter","xtype":"checkbox","inputValue":"1","itemId":"ganttQuarter"},{"boxLabel":"Month","xtype":"checkbox","inputValue":"1","itemId":"ganttMonth"},{"boxLabel":"Week","xtype":"checkbox","inputValue":"1","itemId":"ganttWeek"},{"boxLabel":"Day","xtype":"checkbox","inputValue":"1","itemId":"ganttDay"},{"boxLabel":"Time","xtype":"checkbox","inputValue":"1","itemId":"ganttTime",listeners:{change:'ganttTimeCheck'}}]},{\
+									xtype : "combobox",\
+									\
+									fieldLabel : "Time Interval",\
+									margin:"0 0 0 5",\
+									displayField : "value",\
+									width:150,\
+									valueField : "name",\
+									queryMode : "local",\
+									itemId : "timeinterval",\
+									editable : true,\
+									hidden:true\
+									\
+								}]},{xtype:"fieldset",title:"Query Criteria",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"crtColCombo",editable:true,emptyText:"Select.."}, \
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria",displayField:"criteria_name",valueField:"criteria_value",itemId:"criteriaCombo",editable:true,emptyText:"Select Criteria..",margin:"0 0 20 0"}\
+			]\
+		}]#appfire#1#appfire#2015-02-24#appfire#1#appfire#2015-02-24#appfire#1#appfire#1
+7#appfire#bubble chart#appfire#[ \
+  {xtype:"textfield",fieldLabel:"Chart Title",itemId:"chartTitle",emptyText:"Enter Chart Title..",labelPad:18},\
+  {xtype:"fieldset",title: "<input type=radio name=rowColRadio value=0 checked>Row Data",layout:"anchor",itemId:"rowDataFieldSet",\
+	items:[ \
+	 {xtype:"combobox",fieldLabel:"X",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"numeric",itemId:"categoryCombo",editable:true,emptyText:"Select..",anchor:"100%"},\
+	 {xtype:"combobox",fieldLabel:"Y",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"numeric",itemId:"seriesnameCombo",editable:true,emptyText:"Select..",anchor:"100%"},\
+	{xtype:"combobox",fieldLabel:"Label",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"labelCombo",editable:true,emptyText:"Select..",anchor:"100%"},\
+	 {xtype:"combobox",fieldLabel:"Value",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"valueCombo",editable:true,emptyText:"Select..",anchor:"100%"},\
+ {xtype:"combobox",fieldLabel:"Aggregate",displayField:"aggregate_name",valueField:"aggregate_value",itemId:"aggCombo",editable:true,emptyText:"Select Aggregate..",margin:"0 0 20 0",anchor:"100%"}\
+	]\
+  },\
+  {xtype:"fieldset",title: "<input type=radio name=rowColRadio value=1>Column Data",layout:"anchor",itemId:"colDataFieldSet", hidden:true,\
+	items:[ \
+		{xtype:"combobox",anchor:"100%",fieldLabel:"Category",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"categoryCombo1",editable:true,emptyText:"Select.."},\
+		{xtype:"tagfield",anchor:"100%",fieldLabel:"SeriesName",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"seriesnameTagField",editable:true,emptyText:"Select.."}\
+	]\
+  }	 ,\
+		{xtype:"fieldset",title:"Filter Criteria",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+{\
+											   	   xtype: 'radiogroup',\
+											   	   fieldLabel:'Criteria',\
+											   	   itemId:'reportFormRadio',\
+											   	   columns: 2,\
+											   	   width:"30%",\
+											   	   vertical: true,\
+											   	   items: [\
+											            { boxLabel: 'Single Chart', name: 'radio', inputValue: 'single', margin:'0 5 0 0',checked: true },\
+											            { boxLabel: 'Multi Chart', name: 'radio', inputValue: 'multi'}\
+											            ]\
+											        \
+											      },\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"crtColCombo",editable:true,emptyText:"Select.."}, \
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria",displayField:"criteria_name",valueField:"criteria_value",itemId:"criteriaCombo",editable:true,emptyText:"Select Criteria..",margin:"0 0 20 0"},\
+{xtype:"fieldset",itemId:"multiCriteria",title:"Multi",margin:"10 2 20 0",hidden:true, layout:"hbox",\
+			items:[\
+				{xtype:"combobox",width:150,labelWidth:45,fieldLabel:"Criteria",displayField:"displayName",valueField:"name",queryMode:"local",margin:"0 5 0 0",comboType:"multiCriteria",itemId:"crtMultiCriteria",editable:true,emptyText:"Select.."}, \
+				{xtype:"numberfield",minValue:"0",allowNegative:false,labelWidth:35,width:100,fieldLabel:"Value",itemId:"criteriarecord",editable:true,margin:"0 0 5 0"}\
+			]\
+		},\
+			]\
+		}\
+,\
+{xtype:"fieldset",title:"Group By for Multiple Charts",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Select Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"groupByCol",editable:true,emptyText:"Select.."}, \
+				\
+			]\
+		}\
+]#appfire#1#appfire#2015-02-24#appfire#1#appfire#2015-02-24#appfire#1#appfire#1
+8#appfire#scatter chart#appfire#[ \
+  {xtype:"textfield",fieldLabel:"Chart Title",itemId:"chartTitle",emptyText:"Enter Chart Title..",labelPad:18},\
+  {xtype:"fieldset",title: "<input type=radio name=rowColRadio value=0 checked>Row Data",layout:"anchor",itemId:"rowDataFieldSet",listeners:{afterrender:"afterRowFieldSetRender"},\
+	items:[ \
+	{xtype:"combobox",fieldLabel:"Series",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"labelCombo",editable:true,emptyText:"Select..",anchor:"100%"},\
+	 {xtype:"combobox",fieldLabel:"X",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"numeric",itemId:"categoryCombo",editable:true,emptyText:"Select..",anchor:"100%"},\
+	 {xtype:"combobox",fieldLabel:"Y",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"numeric",itemId:"seriesnameCombo",editable:true,emptyText:"Select..",anchor:"100%"}\
+\
+	 ]\
+  },\
+  {xtype:"fieldset",title: "<input type=radio name=rowColRadio value=1>Column Data",layout:"anchor",itemId:"colDataFieldSet", hidden:true,listeners:{afterrender:"afterColFieldSetRender"},disabled:true,\
+	items:[ \
+		{xtype:"combobox",anchor:"100%",fieldLabel:"Category",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"categoryCombo1",editable:true,emptyText:"Select.."},\
+		{xtype:"tagfield",anchor:"100%",fieldLabel:"SeriesName",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"seriesnameTagField",editable:true,emptyText:"Select.."}\
+	]\
+  }	 ,\
+		{xtype:"fieldset",title:"Filter Criteria",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+{\
+											   	   xtype: 'radiogroup',\
+											   	   fieldLabel:'Criteria',\
+											   	   itemId:'reportFormRadio',\
+											   	   columns: 2,\
+											   	   width:"30%",\
+											   	   vertical: true,\
+											   	   items: [\
+											            { boxLabel: 'Single Chart', name: 'radio', inputValue: 'single', margin:'0 5 0 0',checked: true },\
+											            { boxLabel: 'Multi Chart', name: 'radio', inputValue: 'multi'}\
+											            ]\
+											        \
+											      },\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"crtColCombo",editable:true,emptyText:"Select.."}, \
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria",displayField:"criteria_name",valueField:"criteria_value",itemId:"criteriaCombo",editable:true,emptyText:"Select Criteria..",margin:"0 0 20 0"},\
+{xtype:"fieldset",itemId:"multiCriteria",title:"Multi",margin:"10 2 20 0",hidden:true, layout:"hbox",\
+			items:[\
+				{xtype:"combobox",width:150,labelWidth:45,fieldLabel:"Criteria",displayField:"displayName",valueField:"name",queryMode:"local",margin:"0 5 0 0",comboType:"multiCriteria",itemId:"crtMultiCriteria",editable:true,emptyText:"Select.."}, \
+				{xtype:"numberfield",minValue:"0",allowNegative:false,labelWidth:35,width:100,fieldLabel:"Value",itemId:"criteriarecord",editable:true,margin:"0 0 5 0"}\
+			]\
+		},\
+			]\
+		}\
+,\
+{xtype:"fieldset",title:"Group By for Multiple Charts",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Select Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"groupByCol",editable:true,emptyText:"Select.."}, \
+				\
+			]\
+		}\
+]#appfire#1#appfire#2015-02-24#appfire#1#appfire#2015-02-24#appfire#1#appfire#1
+9#appfire#Error Scatter#appfire#[ \
+  {xtype:"textfield",fieldLabel:"Chart Title",itemId:"chartTitle",emptyText:"Enter Chart Title..",labelPad:18},\
+  {xtype:"fieldset",title: "<input type=radio name=rowColRadio value=0 checked>Row Data",layout:"anchor",itemId:"rowDataFieldSet",listeners:{afterrender:"afterRowFieldSetRender"},\
+	items:[ \
+	{xtype:"combobox",fieldLabel:"Series",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"labelCombo",editable:true,emptyText:"Select..",anchor:"100%"},\
+	 {xtype:"combobox",fieldLabel:"X",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"numeric",itemId:"categoryCombo",editable:true,emptyText:"Select..",anchor:"100%"},\
+	 {xtype:"combobox",fieldLabel:"Y",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"numeric",itemId:"seriesnameCombo",editable:true,emptyText:"Select..",anchor:"100%"},\
+	{xtype:"combobox",fieldLabel:"Error Value",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"numeric",itemId:"valueCombo",editable:true,emptyText:"Select..",anchor:"100%"}\
+\
+	 ]\
+  },\
+  {xtype:"fieldset",title: "<input type=radio name=rowColRadio value=1>Column Data",layout:"anchor",itemId:"colDataFieldSet", hidden:true,listeners:{afterrender:"afterColFieldSetRender"},disabled:true,\
+	items:[ \
+		{xtype:"combobox",anchor:"100%",fieldLabel:"Category",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"categoryCombo1",editable:true,emptyText:"Select.."},\
+		{xtype:"tagfield",anchor:"100%",fieldLabel:"SeriesName",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"seriesnameTagField",editable:true,emptyText:"Select.."}\
+	]\
+  }	 ,\
+		{xtype:"fieldset",title:"Filter Criteria",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+{\
+											   	   xtype: 'radiogroup',\
+											   	   fieldLabel:'Criteria',\
+											   	   itemId:'reportFormRadio',\
+											   	   columns: 2,\
+											   	   width:"30%",\
+											   	   vertical: true,\
+											   	   items: [\
+											            { boxLabel: 'Single Chart', name: 'radio', inputValue: 'single', margin:'0 5 0 0',checked: true },\
+											            { boxLabel: 'Multi Chart', name: 'radio', inputValue: 'multi'}\
+											            ]\
+											        \
+											      },\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"crtColCombo",editable:true,emptyText:"Select.."}, \
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Criteria",displayField:"criteria_name",valueField:"criteria_value",itemId:"criteriaCombo",editable:true,emptyText:"Select Criteria..",margin:"0 0 20 0"},\
+{xtype:"fieldset",itemId:"multiCriteria",title:"Multi",margin:"10 2 20 0",hidden:true, layout:"hbox",\
+			items:[\
+				{xtype:"combobox",width:150,labelWidth:45,fieldLabel:"Criteria",displayField:"displayName",valueField:"name",queryMode:"local",margin:"0 5 0 0",comboType:"multiCriteria",itemId:"crtMultiCriteria",editable:true,emptyText:"Select.."}, \
+				{xtype:"numberfield",minValue:"0",allowNegative:false,labelWidth:35,width:100,fieldLabel:"Value",itemId:"criteriarecord",editable:true,margin:"0 0 5 0"}\
+			]\
+		},\
+			]\
+		}\
+,\
+{xtype:"fieldset",title:"Group By for Multiple Charts",layout:"anchor",margin:"10 0 20 0",\
+			items:[\
+				{xtype:"combobox",anchor:"100%",fieldLabel:"Select Column",displayField:"displayName",valueField:"name",queryMode:"local",comboType:"all",itemId:"groupByCol",editable:true,emptyText:"Select.."}, \
+				\
+			]\
+		}\
+]#appfire#1#appfire#2015-02-24#appfire#1#appfire#2015-02-24#appfire#1#appfire#1

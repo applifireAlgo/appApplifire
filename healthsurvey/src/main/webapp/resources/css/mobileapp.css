@@ -1,0 +1,61 @@
+.drawerIcon{
+	height:35px;
+	width:40px;
+}
+.menuFolder{
+	color: #2E2E2E;
+	font-size:14px;
+	margin:5px 0px 5px 0px;
+	vertical-align: middle;
+	padding:0px;
+	font-style:normal;
+	font-weight: bold;
+	background:#F2F2F2;
+	height:45px;
+	
+}
+.menuLeaf{
+	color: #2E2E2E;
+	font-size:14px;
+	margin:5px 0px 5px 0px;
+	vertical-align: middle;
+	padding:0px;
+	font-style:normal;
+	background:#ffffff;
+	height:45px;
+	
+}
+.treeFolder{
+	color: #2E2E2E;
+	font-size:14px;
+	margin:5px 0px 5px 0px;
+	vertical-align: middle;
+	padding:0px;
+	font-style:normal;
+	font-weight: bold;
+	background:#fff;
+	height:45px;
+	
+}
+.treeLeaf{
+	color: #2E2E2E;
+	font-size:14px;
+	margin:5px 0px 5px 0px;
+	vertical-align: middle;
+	padding:0px;
+	font-style:normal;
+	background:#ffffff;
+	height:45px;
+	
+}
+.uiFormTitle{
+	color: white;
+	font-size:14px;
+	font-weight: bold;
+}
+.mbLogoutBtn{
+	height:40px;
+	width: 40px;
+	margin:0px;
+	padding:0px;
+}

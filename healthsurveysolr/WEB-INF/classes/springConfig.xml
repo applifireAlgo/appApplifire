@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean class="org.eclipse.persistence.jpa.PersistenceProvider" id="provider"/>
+	<bean class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean" id="entityManagerFactoryBean">
+		<property name="persistenceXmlLocation" value="classpath:META-INF/persistence.xml"/>
+		<property name="ValidationMode" value="NONE"/>
+		<property name="SharedCacheMode" value="ENABLE_SELECTIVE"/>
+		<property name="jpaVendorAdapter">
+			<bean class="org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter">
+				<property name="showSql" value="true"/>
+				<property name="generateDdl" value="false"/>
+			</bean>
+		</property>
+	<property name="packagesToScan" value="sales1.app,com.athena,com.spartan"/>
+    <property name="persistenceUnitName" value="sales1"/>
+    </bean>
+	<bean class="org.springframework.web.multipart.commons.CommonsMultipartResolver" id="multipartResolver">
+		<property name="maxUploadSize" value="3145728"/>
+	</bean>
+
+
+	<bean class="org.springframework.orm.jpa.JpaTransactionManager" id="transactionManager">
+		<property name="entityManagerFactory" ref="entityManagerFactoryBean"/>
+	</bean>
+
+</beans>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+
+
+	<persistence-unit name="sales1" transaction-type="RESOURCE_LOCAL">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<jar-file>lib/spartan-healthmeter-1.0.jar</jar-file>
+		<jar-file>lib/spartan-shield-1.0.jar</jar-file>
+		<jar-file>lib/spartan-sprinkler-1.0.jar</jar-file>
+
+		<jar-file>lib/athena-query-1.0.jar</jar-file>
+		<jar-file>lib/athena-report-1.0.jar</jar-file>
+		<jar-file>lib/athena-cloud-1.0.jar</jar-file>
+
+		<jar-file>lib/athena-config-1.0.jar</jar-file>
+		<jar-file>lib/athena-core-1.0.jar</jar-file>
+		<jar-file>lib/athena-framework-1.0.jar</jar-file>
+		<jar-file>lib/athena-rule-engine-1.0.jar</jar-file>
+		<jar-file>lib/athena-search-engine-1.0.jar</jar-file>
+		<jar-file>lib/athena-data-endpoint-orchestration-1.0.jar</jar-file>
+		<properties>
+			<property name="eclipselink.session.customizer" value="com.athena.config.server.uuidGenerator.UUIDGenerator"/>
+			<property name="eclipselink.ddl-generation" value="none"/>
+			<property name="eclipselink.logging.level" value="FINEST"/>
+			<property name="eclipselink.weaving" value="false"/>
+			<property name="eclipselink.jdbc.allow-native-sql-queries" value="true"/>
+			<property name="eclipselink.deploy-on-startup" value="true"/>
+
+			<property name="eclipselink.connection-pool.default.initial" value="15"/>
+			<property name="eclipselink.connection-pool.default.min" value="6"/>
+			<property name="eclipselink.connection-pool.default.max" value="10"/>
+		<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/healthdb"/><property name="javax.persistence.jdbc.user" value="appdbs"/><property name="javax.persistence.jdbc.password" value="appdbs"/><property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/><property name="eclipselink.dialect" value="org.eclipse.persistence.platform.database.MySQLPlatform"/></properties>
+		<class>sales1.app.shared.location.Timezone</class>
+		<class>sales1.app.shared.location.Language</class>
+		<class>sales1.app.shared.location.Country</class>
+		<class>sales1.app.shared.location.Currency</class>
+		<class>sales1.app.shared.location.State</class>
+		<class>sales1.app.shared.location.Region</class>
+		<class>sales1.app.shared.location.District</class>
+		<class>sales1.app.shared.location.City</class>
+		<class>sales1.app.shared.location.Taluka</class>
+		<class>sales1.app.shared.location.Village</class>
+		<class>sales1.app.shared.location.AddressType</class>
+		<class>sales1.app.shared.location.Address</class>
+		<class>sales1.app.shared.location.AddressExtended</class>
+		<class>sales1.app.shared.contacts.ContactType</class>
+		<class>sales1.app.shared.contacts.CommunicationGroup</class>
+		<class>sales1.app.shared.contacts.CommunicationType</class>
+		<class>sales1.app.shared.contacts.Gender</class>
+		<class>sales1.app.shared.contacts.Title</class>
+		<class>sales1.app.shared.contacts.CoreContacts</class>
+		<class>sales1.app.shared.contacts.CommunicationData</class>
+		<class>sales1.app.shared.authentication.PasswordAlgo</class>
+		<class>sales1.app.shared.authentication.PasswordPolicy</class>
+		<class>sales1.app.shared.authentication.Question</class>
+		<class>sales1.app.shared.authentication.UserAccessLevel</class>
+		<class>sales1.app.shared.authentication.UserAccessDomain</class>
+		<class>sales1.app.shared.authentication.User</class>
+		<class>sales1.app.shared.authentication.Login</class>
+		<class>sales1.app.shared.authentication.LoginSession</class>
+		<class>sales1.app.shared.authentication.PassRecovery</class>
+		<class>sales1.app.shared.authentication.UserData</class>
+		<class>sales1.app.shared.authentication.SessionData</class>
+		<class>sales1.app.shared.authorization.Roles</class>
+		<class>sales1.app.shared.authorization.AppMenus</class>
+		<class>sales1.app.shared.authorization.RoleMenuBridge</class>
+		<class>sales1.app.shared.authorization.UserRoleBridge</class>
+		<class>sales1.app.shared.customers.AppCustomerType</class>
+		<class>sales1.app.shared.customers.AppCustomerCategory</class>
+		<class>sales1.app.shared.customers.AppCustomer</class>
+	</persistence-unit>
+
+</persistence>

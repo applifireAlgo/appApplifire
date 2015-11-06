@@ -1,0 +1,227 @@
+1#appfire#1#appfire#Align Caption With Canvas#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+10#appfire#10#appfire#Canvas Background Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+100#appfire#100#appfire#Pivot Background Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+101#appfire#101#appfire#Pivot Border Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+102#appfire#102#appfire#Pivot Border Thickness#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+103#appfire#103#appfire#Pivot Radius#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+104#appfire#104#appfire#Place Values Inside Chart#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+105#appfire#105#appfire#Plot Border Alpha#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+106#appfire#106#appfire#Plot Fill Alpha#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+107#appfire#107#appfire#Plot Fill Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+108#appfire#108#appfire#Plot Fill Hover Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+109#appfire#109#appfire#Plot Tool Text#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+11#appfire#11#appfire#Canvas Border Alpha#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+110#appfire#110#appfire#Pointer Background Alpha#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+111#appfire#111#appfire#Pointer Background Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+112#appfire#112#appfire#Primary Y Axis Name#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+113#appfire#113#appfire#Quadrant Label Bottom Left#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+114#appfire#114#appfire#Quadrant Label Bottom Right#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+115#appfire#115#appfire#Quadrant Label Top Left#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+116#appfire#116#appfire#Quadrant Label Top Right#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+117#appfire#117#appfire#Quadrant Line Alpha#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+118#appfire#118#appfire#Quadrant Line Thickness#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+119#appfire#119#appfire#Quadrant X Value#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+12#appfire#12#appfire#Canvas Border Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+120#appfire#120#appfire#Quadrant Y Value#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+121#appfire#121#appfire#Refesh Interval Time#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+122#appfire#122#appfire#Reverse Legend#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+123#appfire#123#appfire#Scroll Height#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+124#appfire#124#appfire#Show Axis Lines#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+125#appfire#125#appfire#Show Border#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+126#appfire#126#appfire#Show Canvas Border#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+127#appfire#127#appfire#Show Color Range#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+128#appfire#128#appfire#Show Form Button#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+129#appfire#129#appfire#Show Hover Effect#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+13#appfire#13#appfire#Canvas Border Thickness#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+130#appfire#130#appfire#Show Labels#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+131#appfire#131#appfire#Show Legend#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+132#appfire#132#appfire#Show Pivot Border#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+133#appfire#133#appfire#Show Plot Border#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+134#appfire#134#appfire#Show RealTime Value#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+135#appfire#135#appfire#Show Shadow#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+136#appfire#136#appfire#Show TrendLine Labels#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+137#appfire#137#appfire#Show Value#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+138#appfire#138#appfire#Show X Axis Line#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+139#appfire#139#appfire#Slack Bar Fill Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+14#appfire#14#appfire#Caption#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+140#appfire#140#appfire#Slant Labels#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+141#appfire#141#appfire#Drag To Division Line Only#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+142#appfire#142#appfire#Secondary Number Suffix#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+143#appfire#143#appfire#Sub Caption#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+144#appfire#144#appfire#Sub Caption Font#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+145#appfire#145#appfire#Sub Caption Font Bold#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+146#appfire#146#appfire#Sub Caption Font Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+147#appfire#147#appfire#Sub Caption Font Size#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+148#appfire#148#appfire#Submit Data As Xml#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+149#appfire#149#appfire#Secondary Y Axis Max Value#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+15#appfire#15#appfire#Caption Alignment#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+150#appfire#150#appfire#Secondary Y Axis Name#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+151#appfire#151#appfire#Target Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+152#appfire#152#appfire#Theme#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+153#appfire#153#appfire#Thermometer Bulb Radius#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+154#appfire#154#appfire#Thermometer Fill Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+155#appfire#155#appfire#Tick Mark Distance#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+156#appfire#156#appfire#Tick Value Distance#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+157#appfire#157#appfire#Tool Tip Background Alpha#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+158#appfire#158#appfire#Tool Tip Background Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+159#appfire#159#appfire#Tool Tip Border Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+16#appfire#16#appfire#Caption Font#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+160#appfire#160#appfire#Tool Tip Border Radius#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+161#appfire#161#appfire#Tool Tip Border Thickness#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+162#appfire#162#appfire#Tool Tip Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+163#appfire#163#appfire#Tool Tip Padding#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+164#appfire#164#appfire#Upper Limit Value#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+165#appfire#165#appfire#Upper Limit Display Label#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+166#appfire#166#appfire#Use 3D Lighting#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+167#appfire#167#appfire#Use Color Name As Value#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+168#appfire#168#appfire#Use Forward Steps#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+169#appfire#169#appfire#Use Hover Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+17#appfire#17#appfire#Caption Font Bold#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+170#appfire#170#appfire#Use Plot Gradient Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+171#appfire#171#appfire#Show Value Above Pointer#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+172#appfire#172#appfire#Value Background Alpha#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+173#appfire#173#appfire#Value Background Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+174#appfire#174#appfire#Value Font Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+175#appfire#175#appfire#Vertical Div Line Alpha#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+176#appfire#176#appfire#ViewMode#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+177#appfire#177#appfire#V Number Prefix#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+178#appfire#178#appfire#V Y Axisname#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+179#appfire#179#appfire#Win Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+18#appfire#18#appfire#Caption Font Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+180#appfire#180#appfire#X Axis Labels On Top#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+181#appfire#181#appfire#X Axis Line Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+182#appfire#182#appfire#X Axis Line Thickness#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+183#appfire#183#appfire#X Axis Max Value#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+184#appfire#184#appfire#X Axis Min Value#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+185#appfire#185#appfire#X Axis Name#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+186#appfire#186#appfire#X Number Prefix#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+187#appfire#187#appfire#X Number Suffix#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+188#appfire#188#appfire#Y Axis Line Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+189#appfire#189#appfire#Y Axis Line Thickness#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+19#appfire#19#appfire#Caption Font Size#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+190#appfire#190#appfire#Y Axis Max Value#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+191#appfire#191#appfire#Y Axis Min Value#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+192#appfire#192#appfire#Y Axis Name#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+193#appfire#193#appfire#Y Axis Name#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+194#appfire#194#appfire#Y Number Prefix#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+195#appfire#195#appfire#Y Number Suffix#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+196#appfire#196#appfire#Height#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+197#appfire#197#appfire#Width#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+198#appfire#198#appfire#Type#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+199#appfire#199#appfire#Caption Alignment#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+2#appfire#2#appfire#Allow Axis Change#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+20#appfire#20#appfire#Caption Horizontal Padding#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+200#appfire#200#appfire#Show Y Axis Line#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+201#appfire#201#appfire#Starting Angle of Chart#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+202#appfire#202#appfire#Center Label#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+203#appfire#203#appfire#Show Values in %#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+204#appfire#204#appfire#Number Suffix#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+205#appfire#205#appfire#Place Value Inside Chart#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+206#appfire#206#appfire#Number Visible Plot#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+207#appfire#207#appfire#Pixels Per Label#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+208#appfire#208#appfire#Pixels Per Point#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+209#appfire#209#appfire#Show Values#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+21#appfire#21#appfire#Connector Line Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+210#appfire#210#appfire#2D#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+211#appfire#211#appfire#Hollow#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+212#appfire#212#appfire#Show % Values#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+213#appfire#213#appfire#Use Same Slant Angle#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+214#appfire#214#appfire#Chart Bottom Margin#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+215#appfire#215#appfire#Chart Top Margin#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+216#appfire#216#appfire#Chart Right Margin#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+217#appfire#217#appfire#Pie Fill Color Gradient#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+218#appfire#218#appfire#Pie Border Thickness#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+219#appfire#219#appfire#Hover Fill Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+22#appfire#22#appfire#Cylinder Fill Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+220#appfire#220#appfire#Pie Border Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+221#appfire#221#appfire#Compact Data Mode#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+222#appfire#222#appfire#Data Separator#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+223#appfire#223#appfire#Show Restore Button#appfire#1#appfire#1#appfire#2015-03-16#appfire#1#appfire#2015-03-16#appfire#2#appfire#1
+224#appfire#224#appfire#Caption On Top#appfire#1#appfire#1#appfire#2015-03-18#appfire#1#appfire#2015-03-18#appfire#2#appfire#1
+225#appfire#225#appfire#Show Tool Tip#appfire#1#appfire#1#appfire#2015-06-15#appfire#1#appfire#2015-06-15#appfire#2#appfire#1
+226#appfire#226#appfire#Legend Caption#appfire#1#appfire#1#appfire#2015-06-15#appfire#1#appfire#2015-06-15#appfire#2#appfire#1
+227#appfire#227#appfire#Allow Pin Mode#appfire#1#appfire#1#appfire#2015-06-26#appfire#1#appfire#2015-06-26#appfire#2#appfire#1
+23#appfire#23#appfire#Data Stream File Url#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+24#appfire#24#appfire#Date Format#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+25#appfire#25#appfire#Show Decimals#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+26#appfire#26#appfire#Div Line Alpha#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+27#appfire#27#appfire#Div Line Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+28#appfire#28#appfire#Div Line Dashed#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+29#appfire#29#appfire#Div Line Dash Length#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+3#appfire#3#appfire#Allow Selection#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+30#appfire#30#appfire#Div Line Gap Length#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+31#appfire#31#appfire#Div Line Dashed#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+32#appfire#32#appfire#Div Line Thickness#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+33#appfire#33#appfire#Draw Quadrant#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+34#appfire#34#appfire#Draw Vertical Joints#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+35#appfire#35#appfire#Error Bar Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+36#appfire#36#appfire#Fill Alpha#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+37#appfire#37#appfire#Show Flat Scrollbars#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+38#appfire#38#appfire#Gantt Pane Duration#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+39#appfire#39#appfire#Gantt Pane Duration Unit#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+4#appfire#4#appfire#Alternate Vertical Grid Alpha#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+40#appfire#40#appfire#Gantt Width %#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+41#appfire#41#appfire#Gauge Alpha#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+42#appfire#42#appfire#Gauge End Angle#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+43#appfire#43#appfire#Gauge Fill Mix#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+44#appfire#44#appfire#Gauge Origin X#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+45#appfire#45#appfire#Gauge Origin Y#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+46#appfire#46#appfire#Gauge Outer Radius#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+47#appfire#47#appfire#Gauge Start Angle#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+48#appfire#48#appfire#Grid Border Alpha#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+49#appfire#49#appfire#Grid Border Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+5#appfire#5#appfire#Base Font#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+50#appfire#50#appfire#Half Error Bar#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+51#appfire#51#appfire#Half Vertical Error Bar#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+52#appfire#52#appfire#Hover Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+53#appfire#53#appfire#Interactive Legend#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+54#appfire#54#appfire#3D View#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+55#appfire#55#appfire#Label Display#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+56#appfire#56#appfire#Legend Allow Dragging#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+57#appfire#57#appfire#Legend Background Alpha#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+58#appfire#58#appfire#Legend Background Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+59#appfire#59#appfire#Legend Border Alpha#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+6#appfire#6#appfire#Base Font Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+60#appfire#60#appfire#Legend Border Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+61#appfire#61#appfire#Legend Border Thickness#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+62#appfire#62#appfire#Legend Caption Alignment#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+63#appfire#63#appfire#Legend Caption Bold#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+64#appfire#64#appfire#Legend Caption Font#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+65#appfire#65#appfire#Legend Caption Font Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+66#appfire#66#appfire#Legend Caption Font Size#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+67#appfire#67#appfire#Legend Icon Size#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+68#appfire#68#appfire#Legend Item Font#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+69#appfire#69#appfire#Legend Item Font Bold#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+7#appfire#7#appfire#Background Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+70#appfire#70#appfire#Legend Item Font Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+71#appfire#71#appfire#Legend Item Font Size#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+72#appfire#72#appfire#Legend Item Hidden Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+73#appfire#73#appfire#Legend Position#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+74#appfire#74#appfire#Legend Scale Line Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+75#appfire#75#appfire#Legend Scroll Background Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+76#appfire#76#appfire#Legend Shadow#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+77#appfire#77#appfire#Line Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+78#appfire#78#appfire#Line Thickness#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+79#appfire#79#appfire#Loss Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+8#appfire#8#appfire#Border Alpha#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+80#appfire#80#appfire#Lower Limit Value#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+81#appfire#81#appfire#Lower Limit Display Label#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+82#appfire#82#appfire#Major Tick Mark Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+83#appfire#83#appfire#Major Tick Mark Height#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+84#appfire#84#appfire#Major Tick Mark Number#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+85#appfire#85#appfire#Major Tick MarkThickness#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+86#appfire#86#appfire#Auto Resize#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+87#appfire#87#appfire#Minor Tick Mark Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+88#appfire#88#appfire#Minor Tick Mark Height#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+89#appfire#89#appfire#Minor Tivk Mark Number#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+9#appfire#9#appfire#Border Color#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+90#appfire#90#appfire#Minor Tick Mark Thickness#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+91#appfire#91#appfire#Number Prefix#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+92#appfire#92#appfire#Number of Data Display Sets#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+93#appfire#93#appfire#Number of Division Lines#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+94#appfire#94#appfire#Number of Vertical Division Lines#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+95#appfire#95#appfire#Original Height#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+96#appfire#96#appfire#Original Width#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+97#appfire#97#appfire#Output Date Format#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+98#appfire#98#appfire#Palette Index#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+99#appfire#99#appfire#Palette Colors#appfire#1#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1

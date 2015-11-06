@@ -1,0 +1,23 @@
+
+<dataConfig>
+ 
+    <dataSource type="JdbcDataSource"
+   driver="com.mysql.jdbc.Driver"
+   url="jdbc:mysql://192.168.2.202:3306/buzzor_v1.2_dev_test"
+
+   user="root"
+   password="Glass4#21"
+     
+   batchSize="1"
+   /> 
+
+<document name="test">
+
+         
+
+
+</document>
+
+</dataConfig>
+
+

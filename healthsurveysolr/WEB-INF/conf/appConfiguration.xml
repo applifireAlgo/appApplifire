@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppliFire.App.Setup>
+
+<!-- 
+ WARNING: 
+ 	 	 BASE FILE PATH FOR THE APPLIFIRE APP  
+ 	 	  SHOULD BE USED ONLY IF THE ABSOLUTE PATH 
+ 	 	  CANNOT BE AUTOMATICALLY DERIVED -->
+	 	 <base.File.Path os="linux">
+	 	 <![CDATA[/home/applifire]]>
+
+	 	 </base.File.Path>
+
+	 	 <!-- DATABASE PROPERTIES -->
+	  <database.Config>
+	 	 <!-- Connection Properties -->
+	 	 <connection.Config>
+	 	 	 <driverName>com.mysql.jdbc.Driver</driverName>
+	 	 	 <protocol>    <![CDATA[jdbc:mysql://]]></protocol>
+	 	 	 <host>localhost</host>
+	 	 	 <port>3306</port>
+	 	 	 <database>healthdb</database>
+	 	 	 <optionalParams>
+	 	 	 <![CDATA[?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull]]>
+	 	 	 </optionalParams>
+	 	 	 <userName>appdbs</userName>
+	 	 	 <password>appdbs</password>
+	 	 </connection.Config>
+
+
+	 	 <!-- JDBC Properties -->
+	 	 <connection.Pooling>
+	 	 	 <initialSize>1</initialSize>
+	 	 	 <maxActive>1</maxActive>
+	 	 	 <maxIdle>1</maxIdle>
+	 	 	 <minIdle>1</minIdle>
+	 	 	 <testOnBorrow>true</testOnBorrow>
+	 	 	 <testOnReturn>true</testOnReturn>
+	 	 	 <testWhileIdle>true</testWhileIdle>
+	 	 	 <validationQuery>SELECT 1;</validationQuery>
+	 	 	 <timeBetweenEvictionRunsMillis>1</timeBetweenEvictionRunsMillis>
+	 	 	 <numTestPerEvictionRun>1</numTestPerEvictionRun>
+	 	 </connection.Pooling>
+	</database.Config>
+
+<!-- CUSTOMER FILE PROPERTIES USER OR CUSTOMER SPECIFIC DIRECTORY INFO OR FILE INFO ARE NOT ALLOWED 
+ 	  1. Customer Properties will Start with Customer UUID inside the c folder 
+ 2. Inside the Customer UUID Folder will be the folder u for users which contains users UUID 
+ 3. All Code and BluePrint related folders / files will be stored under workspace folder.
+For Example		
+   Customers = /AbsolutePath/c/c23d95cc-3cd4-4484-b262-3828446f79ec 
+			Users 	  = /../c/../u/e25e384e-ec88-40d8-8714-0d0b859ec086/ 
+				  = /../c../u/../tempData/ 
+				  = /../c../u/../sessionData/	
+			  = /../c../u/../drivePrivate/ 
+				             = /../c../u/../drivePrivate/../reports 
+	-->
+	 	 <app.Properties>
+	 	 	 <searchEngineDocResultFields>id,subject,author,creation_date,last_save_date,attr_content</searchEngineDocResultFields>
+	 	 	 <searchengine.search.language>[{"name":"English","value":"en"},{"name":"मराठी","value":"mr"},{"name":"ગુજરાતી","value":"gu"},{"name":"தமிழ்","value":"ta"},{"name":"हिन्दी","value":"hi"},{"name":"FranÃ§ais","value":"fr"},{"name":"తెలుగు","value":"te"}]</searchengine.search.language>
+	 	 	 <authentication.type>1</authentication.type>
+	 	 	 <ldap.domain>ActiveDirServer.com</ldap.domain>
+	 	 	 <ldap.url>ldap://server.ActiveDirServer.com:389</ldap.url>
+	 	 	 <solrProjectURL>http://localhost:8080/healthsurveysolr</solrProjectURL>
+	 	 </app.Properties>
+<!--Cloud Drive Properties : Search Engine will use the Public Drive and Private Drive 
+		 Exclusively for the logged in user. 
+		In the RAD		Customers = /AbsolutePath/c/c23d95cc-3cd4-4484-b262-3828446f79ec 
+			Users 	  = /../c/../u/e25e384e-ec88-40d8-8714-0d0b859ec086/ 
+			Public	  = /../c/../drive/ 
+			Private	  = /../c../u/../drivePrivate/	-->
+	 	 <drive.Properties>
+	 	  	 <drive>drive</drive>
+	 	 	 <drive.public>public</drive.public>
+	 	 	 <drive.shared>drivePrivate</drive.shared>
+	 	 </drive.Properties>
+
+	 	 <solr.Properties>
+	 	 	 <solr.home>/home/applifire/workspace/LIFAHFMVSXANRRKY9FY9Q/healthsurveySolr-4.9.0</solr.home>
+	 	 </solr.Properties>
+	 	 <!-- Email Configuration -->
+	 	 <mail.Config>
+	 	 	 <userName>admin@algorhythm.co.in</userName>
+	 	 	 <password>algo#1234</password>
+	 	 	 <mail.smtp.auth>true</mail.smtp.auth>
+	 	 	 <mail.smtp.host>smtp.gmail.com</mail.smtp.host>
+	 	 	 <mail.smtp.port>25</mail.smtp.port>
+	 	 	 <mail.smtps.port>465</mail.smtps.port>
+	 	 	 <mail.smtp.starttls.enable>true</mail.smtp.starttls.enable>
+	 	 	 <mail.smtp.ssl.enable>false</mail.smtp.ssl.enable>
+	 	 </mail.Config>
+	 	 <!-- Scheduler url -->
+	 	 <scheduler>
+	 	 	 <schedulerurl>http://localhost:8080/healthsurveyScheduler</schedulerurl>
+	 	 	 <schedulerRefreshTime>300000</schedulerRefreshTime>
+	 	 </scheduler>
+	 	 <!-- Integration Connectors  -->
+<recaptcha>false</recaptcha>
+<webServer.BasePath>
+	 	 <![CDATA[/Softwares/tomcat/webapps/healthsurvey]]>
+</webServer.BasePath>
+</AppliFire.App.Setup>

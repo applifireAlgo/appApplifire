@@ -1,0 +1,473 @@
+1#appfire#alignCaptionWithCanvas#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+10#appfire#canvasBgColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+100#appfire#pivotbgcolor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+101#appfire#pivotbordercolor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+102#appfire#pivotborderthickness#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+103#appfire#pivotradius#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+104#appfire#placeValuesInside#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+105#appfire#plotBorderAlpha#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+106#appfire#plotFillAlpha#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+107#appfire#plotFillColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+108#appfire#plotFillHoverColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+109#appfire#plotTooltext#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+11#appfire#canvasBorderAlpha#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+110#appfire#pointerBgAlpha#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+111#appfire#pointerBgColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+112#appfire#pYAxisName#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+113#appfire#quadrantLabelBL#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+114#appfire#quadrantLabelBR#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+115#appfire#quadrantLabelTL#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+116#appfire#quadrantLabelTR#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+117#appfire#quadrantLineAlpha#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+118#appfire#quadrantLineThickness#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+119#appfire#quadrantXVal#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+12#appfire#canvasBorderColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+120#appfire#quadrantYVal#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+121#appfire#refreshInterval#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+122#appfire#reverseLegend#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+123#appfire#scrollheight#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+124#appfire#showAxisLines#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+125#appfire#showBorder#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+126#appfire#showCanvasBorder#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+127#appfire#showcolorrange#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+128#appfire#showformbtn#appfire#displayfield#appfire#{\
+     editor:{\
+	    xtype:"displayfield"\
+     }\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+129#appfire#showHoverEffect#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+13#appfire#canvasBorderThickness#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+130#appfire#showlabels#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+131#appfire#showLegend#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+132#appfire#showpivotborder#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+133#appfire#showPlotBorder#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+134#appfire#showRealTimeValue#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+135#appfire#showShadow#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+136#appfire#showTrendlineLabels#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+137#appfire#showValue#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+138#appfire#showXAxisLine#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+139#appfire#slackFillColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+14#appfire#caption#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+140#appfire#slantLabels#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+141#appfire#snapToDivOnly#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+142#appfire#sNumberSuffix#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+143#appfire#subCaption#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+144#appfire#subCaptionFont#appfire#combobox#appfire#{\
+editor:{\
+	 xtype:"combobox",\
+	 store: ["Arial","Arial Black","Book Antiqua","Calibri","Comic Sans MS",\
+		 "Courier New","Charcoal","Georgia","Geneva","Helvetica","Impact","Lucida Sans Unicode",\
+		 "Palatino","sans-serif","Tahoma","Times New Roman","Trebuchet MS"],\
+	 forceSelection: true\
+}\
+}\
+#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+145#appfire#subCaptionFontBold#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+146#appfire#subCaptionFontColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+147#appfire#subCaptionFontSize#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+148#appfire#submitdataasxml#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+149#appfire#sYAxisMaxValue#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+15#appfire#captionAlignment#appfire#combobox#appfire#{\
+editor:{\
+	 xtype:"combobox",\
+	 store: ["left","right","center"],\
+	 forceSelection: true\
+}\
+}\
+#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+150#appfire#sYAxisName#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+151#appfire#targetColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+152#appfire#theme#appfire#combobox#appfire#{\
+editor:{\
+	 xtype:"combobox",\
+	 store: ["carbon","fint","ocean","zune",],\
+	 forceSelection: true\
+}\
+}\
+#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+153#appfire#thmbulbradius#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+154#appfire#thmFillColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+155#appfire#tickMarkDistance#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+156#appfire#tickvaluedistance#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+157#appfire#toolTipBgAlpha#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+158#appfire#toolTipBgColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+159#appfire#tooltipbordercolor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+16#appfire#captionFont#appfire#combobox#appfire#{\
+editor:{\
+	 xtype:"combobox",\
+	 store: ["Arial","Arial Black","Book Antiqua","Calibri","Comic Sans MS",\
+		 "Courier New","Charcoal","Georgia","Geneva","Helvetica","Impact","Lucida Sans Unicode",\
+		 "Palatino","sans-serif","Tahoma","Times New Roman","Trebuchet MS"],\
+	 forceSelection: true\
+}\
+}\
+#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+160#appfire#toolTipBorderRadius#appfire#displayfield#appfire#{\
+     editor:{\
+	    xtype:"displayfield"\
+     }\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+161#appfire#toolTipBorderThickness#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+162#appfire#toolTipColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+163#appfire#toolTipPadding#appfire#number#appfire#{\
+     type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+164#appfire#upperLimit#appfire#number#appfire#{\
+    type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+165#appfire#upperLimitDisplay#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+166#appfire#use3dlighting#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+167#appfire#useColorNameAsValue#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+168#appfire#useforwardsteps#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+169#appfire#usehovercolor#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+17#appfire#captionFontBold#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+170#appfire#usePlotGradientColor#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+171#appfire#valueAbovePointer#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+172#appfire#valueBgAlpha#appfire#number#appfire#{\
+    type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+173#appfire#valueBgColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+174#appfire#valueFontColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+175#appfire#vdivlinealpha#appfire#number#appfire#{\
+    type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+176#appfire#viewmode#appfire#displayfield#appfire#{\
+	editor:{\
+		xtype:"displayfield"\
+	}\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+177#appfire#vNumberPrefix#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+178#appfire#vYAxisName#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+179#appfire#winColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+18#appfire#captionFontColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+180#appfire#xAxisLabelsOnTop#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+181#appfire#xAxisLineColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+182#appfire#xAxisLineThickness#appfire#number#appfire#{\
+    type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+183#appfire#xAxisMaxValue#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+184#appfire#xAxisMinValue#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+185#appfire#xAxisName#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+186#appfire#xnumberprefix#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+187#appfire#xNumberSuffix#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+188#appfire#yAxisLineColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+189#appfire#yAxisLineThickness#appfire#number#appfire#{\
+    type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+19#appfire#captionFontSize#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+190#appfire#yAxisMaxValue#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+191#appfire#yAxisMinValue#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+192#appfire#yaxisname#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+193#appfire#yAxisName#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+194#appfire#yNumberPrefix#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+195#appfire#yNumberSuffix#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+196#appfire#height#appfire#number#appfire#{type:"number"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+197#appfire#width#appfire#number#appfire#{type:"number"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+198#appfire#type#appfire#combobox#appfire#{\
+editor:{\
+	 xtype:"combobox",\
+	 forceSelection: true\
+}\
+}\
+#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+199#appfire#captionPosition#appfire#combobox#appfire#{\
+editor:{\
+	 xtype:"combobox",\
+	 store:["top center","top left","top right","bottom left","bottom right"],\
+	 forceSelection: true\
+}\
+}\
+#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+2#appfire#allowAxisChange#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+20#appfire#captionHorizontalPadding#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+200#appfire#showYAxisLine#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+201#appfire#startingangle#appfire#number#appfire#{type:"number"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+202#appfire#defaultCenterLabel#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+203#appfire#showPercent#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+204#appfire#numberSuffix#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+205#appfire#placeValuesInside#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+206#appfire#numVisiblePlot#appfire#displayfield#appfire#{\
+	editor:{\
+		xtype:"displayfield"\
+	}\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+207#appfire#pixelsPerLabel#appfire#displayfield#appfire#{\
+	editor:{\
+		xtype:"displayfield"\
+	}\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+208#appfire#pixelsPerPoint#appfire#displayfield#appfire#{\
+	editor:{\
+		xtype:"displayfield"\
+	}\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+209#appfire#showValues#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+21#appfire#connectorcolor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+210#appfire#is2D#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+211#appfire#isHollow#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+212#appfire#showPercentValues#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+213#appfire#usesameslantangle#appfire#combobox#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+214#appfire#chartBottomMargin#appfire#number#appfire#{type:"number"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+215#appfire#chartTopMargin#appfire#number#appfire#{type:"number"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+216#appfire#chartRightMargin#appfire#number#appfire#{type:"number"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+217#appfire#pieFillAlpha#appfire#displayfield#appfire#{\
+	editor:{\
+		xtype:"displayfield"\
+	}\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+218#appfire#pieBorderThickness#appfire#number#appfire#{type:"number"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+219#appfire#hoverFillColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+22#appfire#cylFillColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+220#appfire#pieBorderColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+221#appfire#compactdatamode#appfire#displayfield#appfire#{\
+	editor:{\
+		xtype:"displayfield"\
+	}\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+222#appfire#dataseparator#appfire#displayfield#appfire#{\
+	editor:{\
+		xtype:"displayfield"\
+	}\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+223#appfire#showRestoreBtn#appfire#displayfield#appfire#{\
+	editor:{\
+		xtype:"displayfield"\
+	}\
+}#appfire#1#appfire#2015-03-16#appfire#1#appfire#2015-03-16#appfire#2#appfire#1
+224#appfire#captionOnTop#appfire#radiofield#appfire##appfire#1#appfire#2015-03-18#appfire#1#appfire#2015-03-18#appfire#2#appfire#1
+225#appfire#showToolTip#appfire#combobox#appfire#\N#appfire#1#appfire#2015-06-15#appfire#1#appfire#2015-06-15#appfire#2#appfire#1
+226#appfire#legendCaption#appfire#textfield#appfire#\N#appfire#1#appfire#2015-06-15#appfire#1#appfire#2015-06-15#appfire#2#appfire#1
+227#appfire#allowPinMode#appfire#diplayField#appfire#{\
+	editor:{\
+		xtype:"displayfield"\
+	}\
+}#appfire#1#appfire#2015-06-26#appfire#1#appfire#2015-06-26#appfire#2#appfire#1
+23#appfire#dataStreamUrl#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+24#appfire#dateformat#appfire#displayfield#appfire#{\
+	editor:{\
+		xtype:"displayfield"\
+	}\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+25#appfire#decimals#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+26#appfire#divlineAlpha#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+27#appfire#divlineColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+28#appfire#divLineDashed#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+29#appfire#divLineDashLen#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+3#appfire#allowSelection#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+30#appfire#divLineGapLen#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+31#appfire#divLineIsDashed#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+32#appfire#divLineThickness#appfire#combobox#appfire#{\
+	editor:{\
+		xtype:"combobox",\
+		store:["1","2","3","4","5"],\
+		forceSelection:true\
+	}\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+33#appfire#drawQuadrant#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+34#appfire#drawverticaljoints#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+35#appfire#errorBarColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+36#appfire#fillalpha#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+37#appfire#flatScrollBars#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+38#appfire#ganttPaneDuration#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+39#appfire#ganttPaneDurationUnit#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+4#appfire#alternatevgridalpha#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+40#appfire#ganttwidthpercent#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+41#appfire#gaugealpha#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+42#appfire#gaugeendangle#appfire#displayfield#appfire#{\
+	editor:{\
+		xtype:"displayfield"\
+	}\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+43#appfire#gaugeFillMix#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+44#appfire#gaugeoriginx#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+45#appfire#gaugeoriginy#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+46#appfire#gaugeouterradius#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+47#appfire#gaugestartangle#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+48#appfire#gridborderalpha#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+49#appfire#gridbordercolor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+5#appfire#baseFont#appfire#combobox#appfire#{\
+editor:{\
+	 xtype:"combobox",\
+	 store: ["Arial","Arial Black","Book Antiqua","Calibri","Comic Sans MS",\
+		 "Courier New","Charcoal","Georgia","Geneva","Helvetica","Impact","Lucida Sans Unicode",\
+		 "Palatino","sans-serif","Tahoma","Times New Roman","Trebuchet MS"],\
+	 forceSelection: true\
+}\
+}\
+#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+50#appfire#halfErrorBar#appfire#displayfield#appfire#{\
+	editor:{\
+		xtype:"displayfield"\
+	}\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+51#appfire#halfverticalerrorbar#appfire#displayfield#appfire#{\
+	editor:{\
+		xtype:"displayfield"\
+	}\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+52#appfire#hovercolor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+53#appfire#interactiveLegend#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+54#appfire#is3D#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+55#appfire#labeldisplay#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+56#appfire#legendAllowDrag#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+57#appfire#legendBgAlpha#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+58#appfire#legendBgColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+59#appfire#legendBorderAlpha#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+6#appfire#baseFontColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+60#appfire#legendBorderColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+61#appfire#legendBorderThickness#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+62#appfire#legendCaptionAlignment#appfire#combobox#appfire#{\
+editor:{\
+	 xtype:"combobox",\
+	 store: ["left","right","center"],\
+	 forceSelection: true\
+}\
+}\
+#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+63#appfire#legendCaptionBold#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+64#appfire#legendCaptionFont#appfire#combobox#appfire#{\
+editor:{\
+	 xtype:"combobox",\
+	 store: ["Arial","Arial Black","Book Antiqua","Calibri","Comic Sans MS",\
+		 "Courier New","Charcoal","Georgia","Geneva","Helvetica","Impact","Lucida Sans Unicode",\
+		 "Palatino","sans-serif","Tahoma","Times New Roman","Trebuchet MS"],\
+	 forceSelection: true\
+}\
+}\
+#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+65#appfire#legendCaptionFontColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+66#appfire#legendCaptionFontSize#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+67#appfire#legendIconScale#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+68#appfire#legendItemFont#appfire#combobox#appfire#{\
+editor:{\
+	 xtype:"combobox",\
+	 store: ["Arial","Arial Black","Book Antiqua","Calibri","Comic Sans MS",\
+		 "Courier New","Charcoal","Georgia","Geneva","Helvetica","Impact","Lucida Sans Unicode",\
+		 "Palatino","sans-serif","Tahoma","Times New Roman","Trebuchet MS"],\
+	 forceSelection: true\
+}\
+}\
+#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+69#appfire#legendItemFontBold#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+7#appfire#bgColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+70#appfire#legendItemFontColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+71#appfire#legendItemFontSize#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+72#appfire#legendItemHiddenColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+73#appfire#legendPosition#appfire#combobox#appfire#{\
+editor:{\
+	 xtype:"combobox",\
+	 store: ["bottom","right"],\
+	 forceSelection: true\
+}\
+}\
+#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+74#appfire#legendScaleLineColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+75#appfire#legendScrollBgColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+76#appfire#legendShadow#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+77#appfire#lineColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+78#appfire#lineThickness#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+79#appfire#lossColor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+8#appfire#borderAlpha#appfire#number#appfire#{\
+   type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+80#appfire#lowerLimit#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+81#appfire#lowerLimitDisplay#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+82#appfire#majortmcolor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+83#appfire#majortmheight#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+84#appfire#majortmnumber#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+85#appfire#majortmthickness#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+86#appfire#manageresize#appfire#radiogroup#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+87#appfire#minortmcolor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+88#appfire#minortmheight#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+89#appfire#minortmnumber#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+9#appfire#bordercolor#appfire#colorpicker#appfire#{"editor":"vdColorPicker"}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+90#appfire#minortmthickness#appfire#number#appfire#{\
+  type:"number"\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+91#appfire#numberPrefix#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+92#appfire#numdisplaysets#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+93#appfire#numDivlines#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+94#appfire#numvdivlines#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+95#appfire#origh#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+96#appfire#origw#appfire#textfield#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+97#appfire#outputdateformat#appfire#displayfield#appfire#{\
+	editor:{\
+		xtype:"displayfield"\
+	}\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+98#appfire#palette#appfire#displayfield#appfire#{\
+	editor:{\
+		xtype:"displayfield"\
+	}\
+}#appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1
+99#appfire#paletteColors#appfire#colorpicker#appfire##appfire#1#appfire#2014-12-25#appfire#1#appfire#2014-12-25#appfire#2#appfire#1

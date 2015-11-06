@@ -1,0 +1,5 @@
+1#appfire#AVG#appfire#{"name":"AVG","syntax":"AVG(fieldname)","totalParamsAllowed":1,"dataTypeAllowed":["INT","DOUBLE","FLOAT","DECIMAL"]}#appfire#1#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+2#appfire#COUNT#appfire#{"name":"COUNT","syntax":"COUNT(fieldname)","totalParamsAllowed":1,"dataTypeAllowed":[]}#appfire#1#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+3#appfire#MAX#appfire#{"name":"MAX","syntax":"MAX(fieldname)","totalParamsAllowed":1,"dataTypeAllowed":["INT","DOUBLE","FLOAT","DECIMAL"]}#appfire#1#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+4#appfire#MIN#appfire#{"name":"MIN","syntax":"MIN(fieldname)","totalParamsAllowed":1,"dataTypeAllowed":["INT","DOUBLE","FLOAT","DECIMAL"]}#appfire#1#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+5#appfire#SUM#appfire#{"name":"SUM","syntax":"SUM(fieldname)","totalParamsAllowed":1,"dataTypeAllowed":["INT","DOUBLE","FLOAT","DECIMAL"]}#appfire#1#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1

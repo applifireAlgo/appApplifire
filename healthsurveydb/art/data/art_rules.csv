@@ -1,0 +1,42 @@
+6c9e3db2-d966-4aec-b1d6-68bde4203ffa#appfire#SurveyResultProcessing#appfire#<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\
+<package name="survey.health" xmlns="http://drools.org/drools-5.2">\
+    <import name="com.app.app.shared.survey.health.SurveyResultDto"/>\
+    <import name="com.athena.framework.server.helper.RuntimeLogInfoHelper"/>\
+    <rule name="Insert Survey Result">\
+        <rule-attribute name="no-loop" value="true"/>\
+        <lhs>\
+            <pattern identifier="surveyResult" object-type="com.app.app.shared.survey.health.SurveyResultDto">\
+                <expr>( getSurveyAnswerId() != null ) &amp;&amp; ( getSurveyQuestionId() != null )</expr>\
+            </pattern>\
+            <pattern identifier="runtimeLogInfoHelper" object-type="com.athena.framework.server.helper.RuntimeLogInfoHelper">\
+                <expr>( getRuntimeLogInfo().getUserId() != null )</expr>\
+            </pattern>\
+        </lhs>\
+        <rhs>	\
+	com.app.app.shared.health.SurveyResult	surveyresult_0	=	 new com.app.app.shared.health.SurveyResult();\
+	surveyresult_0.setSurveyAnswerId(java.lang.String.valueOf(surveyResult.getSurveyAnswerId()));\
+	surveyresult_0.setSurveyQuestionId(java.lang.String.valueOf(surveyResult.getSurveyQuestionId()));\
+	surveyresult_0.setSurveyDate(new java.sql.Date(java.util.Calendar.getInstance().getTime().getTime()));\
+	surveyresult_0.setContactId(java.lang.String.valueOf(runtimeLogInfoHelper.getRuntimeLogInfo().getUserId()));\
+	insert(surveyresult_0);\
+</rhs>\
+    </rule>\
+    <query name="retrivesurveyresult_0">\
+        <lhs>\
+            <pattern field-name="surveyresult_0" identifier="surveyresult_0" object-type="com.app.app.shared.health.SurveyResult"/>\
+        </lhs>\
+    </query>\
+</package>\
+#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-05 20:53:46#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-05 20:53:46#appfire#1#appfire#1#appfire#LIFAHFMVSXANRRKY9FY9Q#appfire#1
+8423f751-4cc3-4c82-b605-1f84de5cdc67#appfire#GeneralQuestions#appfire#<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\
+<package name="survey.health" xmlns="http://drools.org/drools-5.2"/>\
+#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-05 22:23:33#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-05 22:23:33#appfire#1#appfire#1#appfire#LIFAHFMVSXANRRKY9FY9Q#appfire#1
+9259d0ca-98e0-433f-89ff-82d68ef553a8#appfire#BehaviourQuestions#appfire#<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\
+<package name="survey.health" xmlns="http://drools.org/drools-5.2"/>\
+#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-05 22:22:39#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-05 22:22:39#appfire#1#appfire#1#appfire#LIFAHFMVSXANRRKY9FY9Q#appfire#1
+bb3c9cf1-b33c-45d9-8c78-76e2441bbedc#appfire#LifeStyleQuestions#appfire#<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\
+<package name="survey.health" xmlns="http://drools.org/drools-5.2"/>\
+#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-05 22:21:37#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-05 22:21:37#appfire#1#appfire#1#appfire#LIFAHFMVSXANRRKY9FY9Q#appfire#1
+bbac0916-fc83-41f7-9189-56035cab0f74#appfire#CHDQuestions#appfire#<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\
+<package name="survey.health" xmlns="http://drools.org/drools-5.2"/>\
+#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-05 21:16:44#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-05 21:16:44#appfire#1#appfire#1#appfire#LIFAHFMVSXANRRKY9FY9Q#appfire#1

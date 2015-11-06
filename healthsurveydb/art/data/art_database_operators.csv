@@ -1,0 +1,15 @@
+10#appfire#Less than#appfire#<#appfire#1#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+11#appfire#Less than or equal to#appfire#<=#appfire#1#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+12#appfire#Not equal to#appfire#<>#appfire#1#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+13#appfire#[NOT] BETWEEN#appfire##appfire#0#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+14#appfire#Like#appfire#like#appfire#1#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+15#appfire#[NOT] IN#appfire##appfire#0#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+16#appfire#IS [NOT] NULL#appfire##appfire#0#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+17#appfire#IS [NOT] EMPTY#appfire##appfire#0#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+18#appfire#[NOT] MEMBER [OF]#appfire##appfire#0#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+19#appfire#AND#appfire##appfire#0#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+20#appfire#OR#appfire##appfire#0#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+21#appfire#NOT#appfire##appfire#0#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+7#appfire#Equal to#appfire#=#appfire#1#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+8#appfire#Greater than#appfire#>#appfire#1#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1
+9#appfire#Greater than or equal to#appfire#>=#appfire#1#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1#appfire#1900-01-01 00:00:00#appfire#-1

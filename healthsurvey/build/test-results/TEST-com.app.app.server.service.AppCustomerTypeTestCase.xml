@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.app.app.server.service.AppCustomerTypeTestCase" tests="4" skipped="0" failures="0" errors="0" timestamp="2015-11-06T07:38:17" hostname="034a8a84f6ba" time="0.219">
+  <properties/>
+  <testcase name="test1Save" classname="com.app.app.server.service.AppCustomerTypeTestCase" time="0.108"/>
+  <testcase name="test2Update" classname="com.app.app.server.service.AppCustomerTypeTestCase" time="0.055"/>
+  <testcase name="test3FindById" classname="com.app.app.server.service.AppCustomerTypeTestCase" time="0.005"/>
+  <testcase name="test4Delete" classname="com.app.app.server.service.AppCustomerTypeTestCase" time="0.049"/>
+  <system-out><![CDATA[Setting logged in user info for ADD
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:18.044--ClientSession(1466747974)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_AppCustomerType_M (appcustTypeId, customerType, defaults, sequenceId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [4F7ADD5B-3DD0-424D-8133-9AF9EF5C741E, uuqhhM2tgunqIT6QdUNtTcGqGSA7rhQX8pUxvtPWwtB2Fyk4lM, 1, 2147483647, 1, AAAAA, 2015-11-06 13:08:18.004, null, 2015-11-06 13:08:18.004, 1, null]
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:18.101--ClientSession(61579593)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT appcustTypeId, customerType, defaults, sequenceId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerType_M WHERE ((activeStatus = ?) AND (appcustTypeId = ?))
+	bind => [1, 4F7ADD5B-3DD0-424D-8133-9AF9EF5C741E]
+Setting logged in user info for UPDATE
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:18.104--ClientSession(1561556476)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT appcustTypeId, customerType, defaults, sequenceId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerType_M WHERE (appcustTypeId = ?)
+	bind => [4F7ADD5B-3DD0-424D-8133-9AF9EF5C741E]
+[EL Fine]: sql: 2015-11-06 07:38:18.105--ClientSession(1561556476)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--UPDATE ast_AppCustomerType_M SET customerType = ?, updatedBy = ?, versionId = ? WHERE ((appcustTypeId = ?) AND (versionId = ?))
+	bind => [H6VR8TO5PJqFGDUJ5ST6CN3gvh8QYDUmc1Swuta5FFN3Nn7dRu, AAAAA, 2, 4F7ADD5B-3DD0-424D-8133-9AF9EF5C741E, 1]
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:18.156--ClientSession(936432616)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT appcustTypeId, customerType, defaults, sequenceId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerType_M WHERE ((activeStatus = ?) AND (appcustTypeId = ?))
+	bind => [1, 4F7ADD5B-3DD0-424D-8133-9AF9EF5C741E]
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:18.161--ClientSession(1858320428)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT appcustTypeId, customerType, defaults, sequenceId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppCustomerType_M WHERE (appcustTypeId = ?)
+	bind => [4F7ADD5B-3DD0-424D-8133-9AF9EF5C741E]
+[EL Fine]: sql: 2015-11-06 07:38:18.162--ClientSession(1858320428)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_AppCustomerType_M WHERE ((appcustTypeId = ?) AND (versionId = ?))
+	bind => [4F7ADD5B-3DD0-424D-8133-9AF9EF5C741E, 2]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

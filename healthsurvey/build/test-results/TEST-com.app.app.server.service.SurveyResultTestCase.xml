@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.app.app.server.service.SurveyResultTestCase" tests="7" skipped="0" failures="0" errors="0" timestamp="2015-11-06T07:38:09" hostname="034a8a84f6ba" time="0.848">
+  <properties/>
+  <testcase name="test1Save" classname="com.app.app.server.service.SurveyResultTestCase" time="0.576"/>
+  <testcase name="test2Update" classname="com.app.app.server.service.SurveyResultTestCase" time="0.055"/>
+  <testcase name="test3FindById" classname="com.app.app.server.service.SurveyResultTestCase" time="0.008"/>
+  <testcase name="test3findBycontactId" classname="com.app.app.server.service.SurveyResultTestCase" time="0.008"/>
+  <testcase name="test3findBysurveyAnswerId" classname="com.app.app.server.service.SurveyResultTestCase" time="0.006"/>
+  <testcase name="test3findBysurveyQuestionId" classname="com.app.app.server.service.SurveyResultTestCase" time="0.005"/>
+  <testcase name="test4Delete" classname="com.app.app.server.service.SurveyResultTestCase" time="0.185"/>
+  <system-out><![CDATA[In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:09.44--ClientSession(1512296178)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_UserAccessDomain_M (userAccessDomainId, domainDescription, domainHelp, domainIcon, domainName, userAccessDomain, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [1D1F402F-7BD7-498D-95F1-567C45069DF5, tCf2QIhKsGVO3lPxt1eIZa249K8biEk6KDDzKnuhCv3p918K9S, GOXqOlT1h48HI3XLYvjkySbxC2ErDU1z8gt2owzcAhDyq1BDTg, PEfEgav6ofDl8ztB5mCsa4Epuu2hqfXaq5jpzTXZle064xyvwI, 8mRerdC7ZrdVJQtfwYbJ8CPkGfKYex8Kz2TQti573iHfvX23IZ, 64822, 1, AAAAA, 2015-11-06 13:08:09.416, null, 2015-11-06 13:08:09.416, 1, null]
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:09.512--ClientSession(1724095278)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_UserAccessLevel_M (userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [4E0A886E-0372-4254-8942-96BA07BF1692, lupZ3grtIVQxijx64SHRGXfqVdipVpvKYxvNDKPSfTwgTega1n, yZFiFOAZJ12IWNc4qBbyxxjSNAgdlmrAFN6G9EKUelR6GwymrM, 3huPDAIqFGwYWhr57D4wGDQ4pJAzmOn8N42KoNlPVZAcI8ayUB, WCVOaTmG86AEPlwZhsIsDUIHJAq2HkMRdeUFEjsKKnQgd6EOxF, 64950, 1, AAAAA, 2015-11-06 13:08:09.487, null, 2015-11-06 13:08:09.487, 1, null]
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:09.556--ClientSession(1618076640)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_User_T (userId, allowMultipleLogin, changePasswordNextLogin, genTempOneTimePassword, isDeleted, isLocked, lastPasswordChangeDate, multiFactorAuthEnabled, passwordAlgo, passwordExpiryDate, sessionTimeout, userAccessCode, userAccessDomainId, userAccessLevelId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [C51AFDA0-7FFF-41A0-92EB-5466676FDF64, 0, 0, 1, 1, 1, 1970-01-02 15:47:36.789, 1, dhKPO9zK8vThQZLxkx5bXxBdVnSBInmDs8sP4mBLGVEJiFsk8a, 1970-01-02 15:47:36.789, 1207, 3, 1D1F402F-7BD7-498D-95F1-567C45069DF5, 4E0A886E-0372-4254-8942-96BA07BF1692, 1, AAAAA, 2015-11-06 13:08:09.416, null, 2015-11-06 13:08:09.416, 1, null]
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:09.623--ClientSession(749079861)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_SurveyAnswer_M (surveyAnswerId, surveyAnswerDesc, surveyAnswerName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [C6B4B379-124D-4268-B44C-942679B715A5, iCdEsdhyucjQhcDCcQG2PjGccBmIHKGTbe5cn3Zl7Z0gTYbCrX, 3jPPAovYPPnZpSURydoQty2PMPydHUKwJtphHUX56fOkZuc9RA, 1, AAAAA, 2015-11-06 13:08:09.598, null, 2015-11-06 13:08:09.598, 1, null]
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:09.693--ClientSession(871926796)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_SurveyQuestionGroup_M (surveyQuestionGroupDesc, surveyQuestionGroupName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [Vtk, PQN1WImOeHDUCWno2CprcszQ7itXqCDyjlAITm1dZbYClSo8Mp, 1, AAAAA, 2015-11-06 13:08:09.665, null, 2015-11-06 13:08:09.665, 1, null]
+[EL Fine]: sql: 2015-11-06 07:38:09.694--ClientSession(871926796)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT LAST_INSERT_ID()
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:09.795--ClientSession(956563523)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_SurveyQuestion_M (surveyQuestionId, surveyQuestionDesc, surveyQuestionGroupId, surveyQuestionName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [042BB683-7F93-48E4-8591-0A2FF3D76CCA, SBghTM0oNXUMOnyctpulyp060cVC7HhwXnT12dTqtjkoecQNKr, 8, QEAtgD7UMcUltmSA7zpr02NC1bqOTZfbk7iGTKKr0lN3M2zj4e, 1, AAAAA, 2015-11-06 13:08:09.665, null, 2015-11-06 13:08:09.665, 1, null]
+Setting logged in user info for ADD
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:09.915--ClientSession(1579367870)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_SurveyResult_T (surveyResultId, contactId, surveyAnswerId, surveyDate, surveyQuestionId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [2E18EC65-D3FC-45DC-9D88-6BC2F5D736E0, C51AFDA0-7FFF-41A0-92EB-5466676FDF64, C6B4B379-124D-4268-B44C-942679B715A5, 1970-01-02, 042BB683-7F93-48E4-8591-0A2FF3D76CCA, 1, AAAAA, 2015-11-06 13:08:09.887, null, 2015-11-06 13:08:09.887, 1, null]
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:09.981--ClientSession(2059787481)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT surveyResultId, contactId, surveyAnswerId, surveyDate, surveyQuestionId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SurveyResult_T WHERE ((activeStatus = ?) AND (surveyResultId = ?))
+	bind => [1, 2E18EC65-D3FC-45DC-9D88-6BC2F5D736E0]
+Setting logged in user info for UPDATE
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:09.984--ClientSession(436292234)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT surveyResultId, contactId, surveyAnswerId, surveyDate, surveyQuestionId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SurveyResult_T WHERE (surveyResultId = ?)
+	bind => [2E18EC65-D3FC-45DC-9D88-6BC2F5D736E0]
+[EL Fine]: sql: 2015-11-06 07:38:09.986--ClientSession(436292234)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--UPDATE ast_SurveyResult_T SET surveyDate = ?, updatedBy = ?, versionId = ? WHERE ((surveyResultId = ?) AND (versionId = ?))
+	bind => [1970-01-02, AAAAA, 2, 2E18EC65-D3FC-45DC-9D88-6BC2F5D736E0, 1]
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:10.038--ClientSession(1757536870)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT surveyResultId, contactId, surveyAnswerId, surveyDate, surveyQuestionId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SurveyResult_T WHERE ((activeStatus = ?) AND (surveyResultId = ?))
+	bind => [1, 2E18EC65-D3FC-45DC-9D88-6BC2F5D736E0]
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:10.047--ClientSession(836873075)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT surveyResultId, contactId, surveyAnswerId, surveyDate, surveyQuestionId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SurveyResult_T WHERE ((activeStatus = ?) AND (contactId = ?))
+	bind => [1, C51AFDA0-7FFF-41A0-92EB-5466676FDF64]
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:10.055--ClientSession(452628157)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT surveyResultId, contactId, surveyAnswerId, surveyDate, surveyQuestionId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SurveyResult_T WHERE ((activeStatus = ?) AND (surveyAnswerId = ?))
+	bind => [1, C6B4B379-124D-4268-B44C-942679B715A5]
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:10.061--ClientSession(355013800)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT surveyResultId, contactId, surveyAnswerId, surveyDate, surveyQuestionId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SurveyResult_T WHERE ((activeStatus = ?) AND (surveyQuestionId = ?))
+	bind => [1, 042BB683-7F93-48E4-8591-0A2FF3D76CCA]
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:10.066--ClientSession(453913754)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT surveyResultId, contactId, surveyAnswerId, surveyDate, surveyQuestionId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SurveyResult_T WHERE (surveyResultId = ?)
+	bind => [2E18EC65-D3FC-45DC-9D88-6BC2F5D736E0]
+[EL Fine]: sql: 2015-11-06 07:38:10.067--ClientSession(453913754)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_SurveyResult_T WHERE ((surveyResultId = ?) AND (versionId = ?))
+	bind => [2E18EC65-D3FC-45DC-9D88-6BC2F5D736E0, 2]
+In around repository aspect
+[EL Fine]: sql: 2015-11-06 07:38:10.159--ClientSession(1292984802)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT surveyQuestionId, surveyQuestionDesc, surveyQuestionGroupId, surveyQuestionName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_SurveyQuestion_M WHERE (surveyQuestionId = ?)
+	bind => [042BB683-7F93-48E4-8591-0A2FF3D76CCA]
+[EL Fine]: sql: 2015-11-06 07:38:10.162--ClientSession(1292984802)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--SELECT t1.surveyAnswerId, t1.surveyAnswerDesc, t1.surveyAnswerName, t1.versionId, t1.createdBy, t1.createdDate, t1.updatedBy, t1.updatedDate, t1.activeStatus, t1.txnAccessCode FROM ast_SurveyQueAnsBridge_B t0, ast_SurveyAnswer_M t1 WHERE ((t0.surveyQuestionId = ?) AND (t1.surveyAnswerId = t0.surveyAnswerId))
+	bind => [042BB683-7F93-48E4-8591-0A2FF3D76CCA]
+[EL Fine]: sql: 2015-11-06 07:38:10.165--ClientSession(1292984802)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_SurveyQueAnsBridge_B WHERE (surveyQuestionId = ?)
+	bind => [042BB683-7F93-48E4-8591-0A2FF3D76CCA]
+[EL Fine]: sql: 2015-11-06 07:38:10.166--ClientSession(1292984802)--Connection(1489045188)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_SurveyQuestion_M WHERE ((surveyQuestionId = ?) AND (versionId = ?))
+	bind => [042BB683-7F93-48E4-8591-0A2FF3D76CCA, 1]
+]]></system-out>
+  <system-err><![CDATA[java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Integer
+	at com.app.app.server.service.SurveyResultTestCase.test4Delete(SurveyResultTestCase.java:282)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+]]></system-err>
+</testsuite>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="LoginPage" ng-controller="LoginController" ng-init="getLocation()">
+<head>
+	<title>Health Survey</title>
+	
+	<link href="resources/css/loginStyle.css" rel="stylesheet" >
+	
+	<!-- Angular Js Scripts -->	
+	<script src="angular-1.4.7/angular.min.js"></script>
+    <!-- <script src="angular-1.4.7/angular-route.js"></script> -->
+    <script src="angular-1.4.7/angular-cookies.js"></script>
+    <script src="angular-1.4.7/angular-loader.min.js"></script>
+    
+    <!-- RECAPTCHA Script -->
+</head>
+
+<body class="gray-bg">
+
+        <div align="center"><br>
+            <div>
+	      <img src="resources/css/images/logo.png" alt="Logo" width="17%" height="250">
+            </div>
+            <h3>Welcome to Health Survey</h3>
+           <!--<p>health </p>-->
+            <form ng-submit="login()" role="form">
+                <div class="form-group">
+                    <input type="text" class="space form-widget" placeholder="Username" id="userName" ng-model="userName">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-widget"  placeholder="Password" id="pwd" ng-model="pwd">
+                </div>
+                <br>
+                <!-- RECAPTCHA div tag -->
+				<br>
+				<div ng-show="error" class="errorMsg">{{error}}</div>
+				<div align="center"><img id="mySpinner" src="images/ajax-loader.gif" ng-show="loading" style="margin-bottom:10px;"/></div>
+                <button type="submit"  class="space btn-orange btn">Login</button>
+				<br>
+				<button type="button"  class="space btn-blue btn" ng-click="onForgetPasswordClick()">Forgot password? Need Help</button>
+            </form>
+            <p><small>Powered by AppliFire &copy; 2015</small> </p>
+        </div>
+        
+    <!-- Mainly scripts -->
+    <script src="loginModule/loginApp.js"></script>
+	<script src="loginModule/LoginControllers.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,39 @@
+<project name="AndroidApp" >
+
+    <loadproperties srcfile="local.properties" />
+
+    <loadproperties srcfile="ant.properties" />
+
+    <loadproperties srcfile="project.properties" />
+
+    <!--
+         <property
+        name="out.packaged.file"
+        location="${out.dir}/${apk.name}-debug-unaligned.apk" />
+    -->
+
+    <property
+        name="out.packaged.file"
+        location="${out.dir}/${apk.name}-release.apk" />
+
+    <property
+        name="out.unaligned.file"
+        location="${out.dir}/${apk.name}-release-unaligned.apk" />
+    
+    <property
+        name="out.final.file"
+        location="${out.dir}/${apk.name}.apk" />
+
+    <!-- <signjar -->
+    <!-- sigalg="MD5withRSA" -->
+    <!-- digestalg="SHA1" -->
+    <!-- jar="${out.unaligned.file}" -->
+    <!-- signedjar="${out.packaged.file}" -->
+    <!-- keystore="${key.store}" -->
+    <!-- storepass="${key.store.password}" -->
+    <!-- alias="${key.alias}" -->
+    <!-- keypass="${key.alias.password}"/> -->
+
+    <import file="${sdk.dir}/tools/ant/build.xml" />
+
+</project>

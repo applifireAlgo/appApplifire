@@ -1,0 +1,458 @@
+System Memory Usage#appfire#0CB76687-FD37-43BB-9BFD-E8BB01E258F3#appfire#E3506E72-BF4F-467E-9BBF-CB834B5F0DC4#appfire#{"sqlId":"E3506E72-BF4F-467E-9BBF-CB834B5F0DC4","summaryGroups":[],"displayType":"1","gridColumns":[{"field":{"xtype":"VARCHAR"},"datatype":"VARCHAR","dataIndex":"server_Ip_Address","width":100,"header":"IP Address","sortable":true,"align":"left"},{"field":{"xtype":"DATETIME"},"datatype":"DATETIME","dataIndex":"scheduled_DateTime","width":200,"header":"Date","sortable":true,"align":"left"},{"fieldCol":false,"columns":[{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"total_Space","width":150,"header":"Total  Space(MB)","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"used_Space","width":150,"header":"Used Space(%)","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"free_Space","width":150,"header":"Free Space(%)","sortable":true,"align":"right"}],"name":"","text":"Memory Space"},{"field":{"xtype":"VARCHAR"},"datatype":"VARCHAR","dataIndex":"status","width":150,"header":" DB status","sortable":true,"align":"left"}],"qcContext":0,"gridmodel":[{"name":"server_Ip_Address","type":"string"},{"name":"scheduled_DateTime","type":"date"},{"name":"total_Space","type":"float"},{"name":"used_Space","type":"float"},{"name":"free_Space","type":"float"},{"name":"status","type":"string"}],"isSummaryGrid":0,"defaultCColumn":"","sorters":[],"report_name":"System Memory Usage","queryCWidgetU":[],"dataEndPoint":[{"dValueField":null,"isGroupBy":false,"displayName":"Total  Space(KB)","criteria":"Max","dfieldName":"total_Space","label":"Total Space(MB)","type":"Data","aggregate":"Sum","criteriaColumn":"scheduled_DateTime"},{"dValueField":null,"isGroupBy":false,"displayName":"Used Space(%)","criteria":"Max","dfieldName":"used_Space","label":"Used Space(%)","type":"Data","aggregate":"Sum","criteriaColumn":"scheduled_DateTime"},{"dValueField":null,"isGroupBy":false,"displayName":"Free Space(%)","criteria":"Max","dfieldName":"free_Space","label":"Free Space(%)","type":"Data","aggregate":"Sum","criteriaColumn":"scheduled_DateTime"}]}#appfire#[{"type":"angulargauge","height":300,"width":400,"dataSource":{"chart":{"palette":"3","bgColor":"FFFFFF","caption":"System Used Space(%)","captionFontSize":"15","subCaption":"","subCaptionFontSize":"11","captionAlignment":"center","captionFont":"Arial","subCaptionFont":"Calibri","captionFontColor":"\#000000","subCaptionFontColor":"\#000000","captionFontBold":true,"subCaptionFontBold":true,"yAxisName":"Units","showValues":true,"legendBorderAlpha":"0","showBorder":false,"captionOnTop":true},"colorrange":{"color":[{"minvalue":"0","maxvalue":"45"},{"minvalue":"45","maxvalue":"75"},{"minvalue":"75","maxvalue":"100"}]},"dials":{"dial":[{"value":"62","rearextension":"1","radius":"100","bgcolor":"333333","bordercolor":"333333","basewidth":"8"}]},"data":[]},"chartId":"234","javaClass":"com.athena.report.utils.ChartGaugeJSONConverter","chartTitle":"Used Space","value":"used_Space","aggregate":"","dataType":0,"criteria":"Max","criteriaColumn":"scheduled_DateTime","groupByCol":""}]#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-05#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-05#appfire#LIFAHFMVSXANRRKY9FY9Q#appfire#1#appfire#ba9dced8-453e-49a3-b627-d497a1f91b17#appfire#1#appfire#1#appfire#{"enableCharts":"on","hour":"","minute":""}#appfire#\N
+Request Details#appfire#0E010BBF-6473-47D0-996A-C3391B04DB3E#appfire#33D4FC12-25D9-4448-A2A6-F72BCBE8999C#appfire#{"sqlId":"33D4FC12-25D9-4448-A2A6-F72BCBE8999C","summaryGroups":["requestId"],"displayType":"1","gridColumns":[{"fieldCol":false,"columns":[{"field":{"xtype":"VARCHAR"},"datatype":"VARCHAR","dataIndex":"firstName","width":100,"header":"User","sortable":true,"align":"left"},{"field":{"xtype":"VARCHAR"},"datatype":"VARCHAR","dataIndex":"ip_Address","width":300,"header":"IP Address","sortable":true,"align":"left"},{"field":{"xtype":"VARCHAR"},"datatype":"VARCHAR","dataIndex":"appSessionId","width":300,"header":"Session ID","sortable":true,"align":"left"}],"name":"","text":"User Info"},{"field":{"xtype":"VARCHAR"},"datatype":"VARCHAR","dataIndex":"requestId","width":100,"header":"requestId","sortable":true,"align":"left"},{"fieldCol":false,"columns":[{"field":{"xtype":"DATETIME"},"datatype":"DATETIME","dataIndex":"request_Time","width":200,"header":"Request Time","sortable":true,"align":"left"},{"field":{"xtype":"VARCHAR"},"datatype":"VARCHAR","dataIndex":"class_Name","width":300,"header":"Class Name","sortable":true,"align":"left"},{"field":{"xtype":"VARCHAR"},"datatype":"VARCHAR","dataIndex":"method_Name","width":150,"header":"Method Name","sortable":true,"align":"left"},{"field":{"xtype":"VARCHAR"},"datatype":"VARCHAR","dataIndex":"request_Method","width":150,"header":"Request Method","sortable":true,"align":"left"},{"field":{"xtype":"VARCHAR"},"datatype":"VARCHAR","dataIndex":"typeofClass","width":120,"header":"Request Type","sortable":true,"align":"left"}],"name":"","text":"Request Info"},{"fieldCol":false,"columns":[{"field":{"xtype":"VARCHAR"},"datatype":"VARCHAR","dataIndex":"http_Status","width":100,"header":"HTTP Status","sortable":true,"align":"left"},{"field":{"xtype":"VARCHAR"},"datatype":"VARCHAR","dataIndex":"return_Status","width":120,"header":"Return Status","sortable":true,"align":"left"},{"field":{"xtype":"INT"},"datatype":"INT","dataIndex":"exceptionId","width":100,"header":"Exception","sortable":true,"align":"right"}],"name":"","text":"Status"},{"fieldCol":false,"columns":[{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"execution_Time","summaryType":"sum","width":150,"header":"Execution Time","summaryCaption":"value + '(ms)'","sortable":true,"align":"right"},{"field":{"xtype":"DATETIME"},"datatype":"DATETIME","dataIndex":"end_Time","width":150,"header":"Request End Time","sortable":true,"align":"right"}],"name":"","text":"Request Time"}],"qcContext":0,"gridmodel":[{"name":"firstName","type":"string"},{"name":"ip_Address","type":"string"},{"name":"appSessionId","type":"string"},{"name":"requestId","type":"string"},{"name":"request_Time","type":"date"},{"name":"class_Name","type":"string"},{"name":"method_Name","type":"string"},{"name":"request_Method","type":"string"},{"name":"typeofClass","type":"string"},{"name":"http_Status","type":"string"},{"name":"return_Status","type":"string"},{"name":"exceptionId","type":"int"},{"name":"execution_Time","type":"float"},{"name":"end_Time","type":"date"}],"isSummaryGrid":1,"defaultCColumn":"","sorters":[],"report_name":"Request Details","queryCWidgetU":[],"dataEndPoint":[{"dValueField":"userId","isGroupBy":false,"displayName":"requestId","criteria":null,"dfieldName":"requestId","label":"Total Request","type":"Data","aggregate":"Count","criteriaColumn":null},{"dValueField":"typeofClass","isGroupBy":true,"displayName":"Request Type","criteria":null,"dfieldName":"typeofClass","label":"Request Type","type":"Data","aggregate":"Count","criteriaColumn":null},{"dValueField":"request_Method","isGroupBy":true,"displayName":"Request Method","criteria":null,"dfieldName":"request_Method","label":"Request Status","type":"Data","aggregate":"Count","criteriaColumn":null},{"dValueField":"http_Status","isGroupBy":true,"displayName":"HTTP Status","criteria":null,"dfieldName":"http_Status","label":"Request Status","type":"Data","aggregate":"Count","criteriaColumn":null}]}#appfire#[null]#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-05#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-05#appfire#LIFAHFMVSXANRRKY9FY9Q#appfire#1#appfire#ba9dced8-453e-49a3-b627-d497a1f91b17#appfire#1#appfire#1#appfire#{"enableCharts":"on","hour":"","minute":""}#appfire#\N
+GroupQuestionAnswer#appfire#15B46D1E-CD9A-4223-A5F5-B8470AE0579E#appfire#68815159-1B72-49D9-9164-F7069EEAAF12#appfire#{\
+	"report_name": "GroupQuestionAnswer",\
+	"sqlId": "68815159-1B72-49D9-9164-F7069EEAAF12",\
+	"sorters": [],\
+	"gridColumns": [\
+		{\
+			"header": "Name",\
+			"dataIndex": "surveyQuestionGroupName",\
+			"datatype": "VARCHAR",\
+			"width": 100,\
+			"align": "left",\
+			"field": {\
+				"xtype": "VARCHAR"\
+			}\
+		},\
+		{\
+			"header": "Desc",\
+			"dataIndex": "surveyQuestionGroupDesc",\
+			"datatype": "TEXT",\
+			"width": 100,\
+			"align": "right",\
+			"field": {\
+				"xtype": "TEXT"\
+			}\
+		},\
+		{\
+			"header": "Name",\
+			"dataIndex": "surveyAnswerName",\
+			"datatype": "VARCHAR",\
+			"width": 100,\
+			"align": "left",\
+			"field": {\
+				"xtype": "VARCHAR"\
+			}\
+		},\
+		{\
+			"header": "Desc",\
+			"dataIndex": "surveyAnswerDesc",\
+			"datatype": "VARCHAR",\
+			"width": 100,\
+			"align": "left",\
+			"field": {\
+				"xtype": "VARCHAR"\
+			}\
+		},\
+		{\
+			"header": "Name",\
+			"dataIndex": "surveyQuestionName",\
+			"datatype": "VARCHAR",\
+			"width": 100,\
+			"align": "left",\
+			"field": {\
+				"xtype": "VARCHAR"\
+			}\
+		},\
+		{\
+			"header": "Desc",\
+			"dataIndex": "surveyQuestionDesc",\
+			"datatype": "VARCHAR",\
+			"width": 100,\
+			"align": "left",\
+			"field": {\
+				"xtype": "VARCHAR"\
+			}\
+		}\
+	],\
+	"queryCWidgetU": [\
+		{\
+			"xtype": "textfield",\
+			"fieldLabel": "SurveyQuestionId",\
+			"labelAlign": "left",\
+			"margin": "5 5 0 5",\
+			"widgetId": 1,\
+			"serviceId": "",\
+			"serviceOpId": "",\
+			"defaultValue": "",\
+			"name": "surveyQuestionId",\
+			"datatype": "VARCHAR",\
+			"parentWidget": 0,\
+			"serviceUrl": "",\
+			"index": ""\
+		}\
+	],\
+	"qcContext": 0,\
+	"dataEndPoint": [],\
+	"displayType": "1",\
+	"summaryGroups": [],\
+	"pageSize": 20,\
+	"isSummaryGrid": 0,\
+	"gridmodel": [\
+		{\
+			"name": "surveyQuestionGroupName",\
+			"type": "string"\
+		},\
+		{\
+			"name": "surveyQuestionGroupDesc"\
+		},\
+		{\
+			"name": "surveyAnswerName",\
+			"type": "string"\
+		},\
+		{\
+			"name": "surveyAnswerDesc",\
+			"type": "string"\
+		},\
+		{\
+			"name": "surveyQuestionName",\
+			"type": "string"\
+		},\
+		{\
+			"name": "surveyQuestionDesc",\
+			"type": "string"\
+		}\
+	],\
+	"defaultCColumn": null,\
+	"qcPosition": "north",\
+	"checkboxgrid": 0,\
+	"actionbutton": [\
+		"->"\
+	],\
+	"calendar": {\
+		"calIsCalendar": false,\
+		"calSName": "",\
+		"calDateColumn": null,\
+		"calDispColumn": null,\
+		"aggregate": []\
+	}\
+}#appfire#[]#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-06#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-06#appfire#LIFAHFMVSXANRRKY9FY9Q#appfire#1#appfire#ba9dced8-453e-49a3-b627-d497a1f91b17#appfire#1#appfire#1#appfire#{"enableCharts":"on","hour":"","minute":""}#appfire#{"interval":"","mapView":{"mapSName":"","mapLatColumn":"","mapLongColumn":"","displayName":""}}
+GroupQuestion#appfire#566BBEBD-7AE9-47CA-AFDA-1836899F85E1#appfire#5AE3B545-582D-46E4-89B9-842B8524A03E#appfire#{\
+	"report_name": "GroupQuestion",\
+	"sqlId": "5AE3B545-582D-46E4-89B9-842B8524A03E",\
+	"sorters": [],\
+	"gridColumns": [\
+		{\
+			"header": "Name",\
+			"dataIndex": "surveyQuestionGroupName",\
+			"datatype": "VARCHAR",\
+			"width": 100,\
+			"align": "left",\
+			"field": {\
+				"xtype": "VARCHAR"\
+			}\
+		},\
+		{\
+			"header": "Group Desc",\
+			"dataIndex": "surveyQuestionGroupDesc",\
+			"datatype": "TEXT",\
+			"width": 100,\
+			"align": "right",\
+			"field": {\
+				"xtype": "TEXT"\
+			}\
+		},\
+		{\
+			"header": "Question",\
+			"dataIndex": "surveyQuestionName",\
+			"datatype": "VARCHAR",\
+			"width": 100,\
+			"align": "left",\
+			"field": {\
+				"xtype": "VARCHAR"\
+			},\
+			"href": true,\
+			"targetRList": [\
+				{\
+					"report_id": "15B46D1E-CD9A-4223-A5F5-B8470AE0579E",\
+					"report_name": "GroupQuestionAnswer",\
+					"type": "r",\
+					"menuAction": "",\
+					"reffId": "",\
+					"targetSrc": "tab"\
+				}\
+			],\
+			"qFieldName": "surveyQuestionId"\
+		},\
+		{\
+			"header": "Question Desc",\
+			"dataIndex": "surveyQuestionDesc",\
+			"datatype": "VARCHAR",\
+			"width": 100,\
+			"align": "left",\
+			"field": {\
+				"xtype": "VARCHAR"\
+			}\
+		}\
+	],\
+	"queryCWidgetU": [\
+		{\
+			"xtype": "textfield",\
+			"fieldLabel": "SurveyQuestionGroupId",\
+			"labelAlign": "left",\
+			"margin": "5 5 0 5",\
+			"widgetId": 1,\
+			"serviceId": "",\
+			"serviceOpId": "",\
+			"defaultValue": "",\
+			"name": "surveyQuestionGroupId1",\
+			"datatype": "INT",\
+			"parentWidget": 0,\
+			"serviceUrl": "",\
+			"index": ""\
+		}\
+	],\
+	"qcContext": 0,\
+	"dataEndPoint": [],\
+	"displayType": "1",\
+	"summaryGroups": [],\
+	"pageSize": 20,\
+	"isSummaryGrid": 0,\
+	"gridmodel": [\
+		{\
+			"name": "surveyQuestionGroupName",\
+			"type": "string"\
+		},\
+		{\
+			"name": "surveyQuestionGroupDesc"\
+		},\
+		{\
+			"name": "surveyQuestionName",\
+			"type": "string"\
+		},\
+		{\
+			"name": "surveyQuestionDesc",\
+			"type": "string"\
+		}\
+	],\
+	"defaultCColumn": null,\
+	"qcPosition": "north",\
+	"checkboxgrid": 0,\
+	"actionbutton": [\
+		"->"\
+	],\
+	"calendar": {\
+		"calIsCalendar": false,\
+		"calSName": "",\
+		"calDateColumn": null,\
+		"calDispColumn": null,\
+		"aggregate": []\
+	}\
+}#appfire#[]#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-06#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-06#appfire#LIFAHFMVSXANRRKY9FY9Q#appfire#1#appfire#ba9dced8-453e-49a3-b627-d497a1f91b17#appfire#1#appfire#1#appfire#{"enableCharts":"on","hour":"","minute":""}#appfire#{"interval":"","mapView":{"mapSName":"","mapLatColumn":"","mapLongColumn":"","displayName":""}}
+User Result By Group Type#appfire#8ABB54AC-7BF7-4A42-B571-B0496D00668E#appfire#1640C646-41FA-49D9-AF8F-2F978B73EAB1#appfire#{\
+	"report_name": "User Result By Group Type",\
+	"sqlId": "1640C646-41FA-49D9-AF8F-2F978B73EAB1",\
+	"sorters": [],\
+	"gridColumns": [\
+		{\
+			"header": "score",\
+			"dataIndex": "score",\
+			"datatype": "INT",\
+			"width": 100,\
+			"align": "right",\
+			"field": {\
+				"xtype": "INT"\
+			}\
+		},\
+		{\
+			"header": "points",\
+			"dataIndex": "points",\
+			"datatype": "INT",\
+			"width": 100,\
+			"align": "right",\
+			"field": {\
+				"xtype": "INT"\
+			}\
+		},\
+		{\
+			"header": "First Name",\
+			"dataIndex": "firstName",\
+			"datatype": "VARCHAR",\
+			"width": 100,\
+			"align": "left",\
+			"field": {\
+				"xtype": "VARCHAR"\
+			}\
+		},\
+		{\
+			"header": "Middle Name",\
+			"dataIndex": "middleName",\
+			"datatype": "VARCHAR",\
+			"width": 100,\
+			"align": "left",\
+			"field": {\
+				"xtype": "VARCHAR"\
+			}\
+		},\
+		{\
+			"header": "Last Name",\
+			"dataIndex": "lastName",\
+			"datatype": "VARCHAR",\
+			"width": 100,\
+			"align": "left",\
+			"field": {\
+				"xtype": "VARCHAR"\
+			}\
+		},\
+		{\
+			"header": "Name",\
+			"dataIndex": "surveyQuestionGroupName",\
+			"datatype": "VARCHAR",\
+			"width": 100,\
+			"align": "left",\
+			"field": {\
+				"xtype": "VARCHAR"\
+			}\
+		}\
+	],\
+	"queryCWidgetU": [\
+		{\
+			"xtype": "textfield",\
+			"fieldLabel": "userId",\
+			"labelAlign": "left",\
+			"margin": "5 5 0 5",\
+			"widgetId": 1,\
+			"serviceId": "",\
+			"serviceOpId": "",\
+			"defaultValue": "",\
+			"name": "userId1",\
+			"datatype": "VARCHAR",\
+			"parentWidget": 0,\
+			"serviceUrl": "",\
+			"index": "",\
+			"sessionInput": true,\
+			"attributeName": "userId",\
+			"attributeDatatype": "java.lang.String",\
+			"hidden": true\
+		}\
+	],\
+	"qcContext": 0,\
+	"dataEndPoint": [],\
+	"displayType": "1",\
+	"summaryGroups": [],\
+	"pageSize": 20,\
+	"isSummaryGrid": 0,\
+	"gridmodel": [\
+		{\
+			"name": "score",\
+			"type": "int"\
+		},\
+		{\
+			"name": "points",\
+			"type": "int"\
+		},\
+		{\
+			"name": "firstName",\
+			"type": "string"\
+		},\
+		{\
+			"name": "middleName",\
+			"type": "string"\
+		},\
+		{\
+			"name": "lastName",\
+			"type": "string"\
+		},\
+		{\
+			"name": "surveyQuestionGroupName",\
+			"type": "string"\
+		}\
+	],\
+	"defaultCColumn": null,\
+	"qcPosition": "north",\
+	"checkboxgrid": 0,\
+	"actionbutton": [\
+		"->"\
+	],\
+	"calendar": {\
+		"calIsCalendar": false,\
+		"calSName": "",\
+		"calDateColumn": null,\
+		"calDispColumn": null,\
+		"aggregate": []\
+	}\
+}#appfire#[{"type":"pie3d","height":"400","width":"500","dataSource":{"chart":{"caption":"Group wise score","captionFontSize":"15","subCaption":"","subCaptionFontSize":"11","captionAlignment":"center","captionFont":"Arial","subCaptionFont":"Calibri","captionFontColor":"\#000000","subCaptionFontColor":"\#000000","captionFontBold":true,"subCaptionFontBold":true,"alignCaptionWithCanvas":true,"captionHorizontalPadding":"3","numberPrefix":"","theme":"fint","bgColor":"\#ffffff","showBorder":false,"showPercentValues":true,"showLegend":"0","legendShadow":true,"defaultCenterLabel":"","showToolTip":false,"legendItemFontBold":true,"legendCaption":"","legendItemFont":"Arial","legendItemFontSize":"12","legendItemFontColor":"\#000000","legendPosition":"bottom","legendCaptionAlignment":"center","legendCaptionBold":true,"legendCaptionFont":"Arial","legendCaptionFontSize":"10","legendCaptionFontColor":"\#000000","legendIconScale":"2","legendBgColor":"\#FFFFFF","legendBorderColor":"\#000000","legendBorderThickness":"2","legendAllowDrag":true,"legendScrollBgColor":"\#FFFFFF","reverseLegend":false,"interactiveLegend":true},"data":[]},"chartId":"19","javaClass":"com.athena.report.utils.ChartLabelValueJSONConverter","chartTitle":"Group By Result","label":["surveyQuestionGroupName"],"value":"score","aggregate":"Sum","dataType":0,"groupByCol":"surveyQuestionGroupName","criteriatype":"single","criteria":"","criteriaColumn":""}]#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-06#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-06#appfire#LIFAHFMVSXANRRKY9FY9Q#appfire#1#appfire#ba9dced8-453e-49a3-b627-d497a1f91b17#appfire#1#appfire#1#appfire#{"enableCharts":"on","hour":"","minute":""}#appfire#{"interval":"","mapView":{"mapSName":"","mapLatColumn":"","mapLongColumn":"","displayName":""}}
+App Server Memory Usage#appfire#A74BBC1D-5DFD-46FA-8551-89DC3392EC71#appfire#6E176AF4-C2C6-46E5-A966-4E404FEB336D#appfire#{"sqlId":"6E176AF4-C2C6-46E5-A966-4E404FEB336D","summaryGroups":[],"displayType":"1","gridColumns":[{"field":{"xtype":"VARCHAR"},"datatype":"VARCHAR","dataIndex":"server_Ip_Address","width":100,"header":"IP Address","sortable":true,"align":"left"},{"field":{"xtype":"DATETIME"},"datatype":"DATETIME","dataIndex":"scheduled_DateTime","width":300,"header":"Date","sortable":true,"align":"left"},{"fieldCol":false,"columns":[{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"used_Memory","width":100,"header":"Used(%)","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"free_Memory","width":100,"header":"Free(%)","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"total_Memory","width":100,"header":"Total(MB)","sortable":true,"align":"right"}],"name":"","text":"JVM Memory"},{"fieldCol":false,"columns":[{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"used_Physical_Memory","width":100,"header":"Used(MB)","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"free_Physical_Size","width":100,"header":"Free(MB)","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"total_Physical_Memory_Size","width":100,"header":"Total(MB)","sortable":true,"align":"right"}],"name":"","text":"Physical Memory"},{"fieldCol":false,"columns":[{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"used_Swap_Size","width":100,"header":"Used(MB)","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"free_Swap_Size","width":100,"header":"Free(MB)","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"total_Swap_Size","width":100,"header":"Total(MB)","sortable":true,"align":"right"}],"name":"","text":"Swap Space"},{"fieldCol":false,"columns":[{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"heap_Used","width":100,"header":"Heap Used(MB)","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"non_Heap_used","width":170,"header":"Non Heap Used(MB)","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"non_Heap_Committed","width":170,"header":"Non Heap Commited(MB)","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"heap_Committed","width":170,"header":"Heap Commited","sortable":true,"align":"right"}],"name":"","text":"Heap Info"},{"fieldCol":false,"columns":[{"field":{"xtype":"INT"},"datatype":"INT","dataIndex":"class_Loaded","width":100,"header":"Loaded","sortable":true,"align":"right"},{"field":{"xtype":"INT"},"datatype":"INT","dataIndex":"class_Unloaded","width":100,"header":"UnLoaded","sortable":true,"align":"right"},{"field":{"xtype":"INT"},"datatype":"INT","dataIndex":"total_Class","width":100,"header":"Total","sortable":true,"align":"right"}],"name":"","text":"Java Class Info."},{"fieldCol":false,"columns":[{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"total_Thread","width":120,"header":"Total Thread","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"thread_Peak_Count","width":120,"header":"Peak Thread","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"thread_Started_Count","width":120,"header":"Started Thread","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"thread_Daemon_Count","width":120,"header":"Daemon Thread","sortable":true,"align":"right"},{"field":{"xtype":"VARCHAR"},"datatype":"VARCHAR","dataIndex":"thread_User_Time","width":170,"header":"Thread User Time","sortable":true,"align":"left"}],"name":"","text":"Thread Info."},{"fieldCol":false,"columns":[{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"cpu_Time","width":100,"header":"CPU Time","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"cpu_Load_Time","width":150,"header":"CPU Load Time","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"cpu_Load_Time","width":150,"header":"CPU Load Time","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"thread_Cpu_Time","width":170,"header":"Thread CPU Time","sortable":true,"align":"right"}],"name":"","text":"CPU Info."},{"fieldCol":false,"columns":[{"field":{"xtype":"INT"},"datatype":"INT","dataIndex":"gc_Collection_Time","width":150,"header":"GC Collection Time","sortable":true,"align":"right"},{"field":{"xtype":"VARCHAR"},"datatype":"VARCHAR","dataIndex":"gc_Memory_Name","width":170,"header":"GC Memory Name","sortable":true,"align":"left"}],"name":"","text":"GC Info."},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"max_Memory","width":170,"header":"Max Memory Alloc.(MB)","sortable":true,"align":"right"},{"field":{"xtype":"DATETIME"},"datatype":"DATETIME","dataIndex":"start_Time","width":200,"header":"Start Time","sortable":true,"align":"right"},{"field":{"xtype":"INT"},"datatype":"INT","dataIndex":"up_Time","width":100,"header":"Up Time","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"system_Load_Average","width":200,"header":"System Load AVerage","sortable":true,"align":"right"},{"field":{"xtype":"DOUBLE"},"datatype":"DOUBLE","dataIndex":"available_Processor","width":100,"header":"Available Processor","sortable":true,"align":"right"},{"fieldCol":true,"name":"server_Instance_Id","text":"server_Instance_Id"},{"name":"monitor_id","text":"monitor_id"}],"qcContext":0,"gridmodel":[{"name":"server_Ip_Address","type":"string"},{"name":"scheduled_DateTime","type":"date"},{"name":"used_Memory","type":"float"},{"name":"free_Memory","type":"float"},{"name":"total_Memory","type":"float"},{"name":"used_Physical_Memory","type":"float"},{"name":"free_Physical_Size","type":"float"},{"name":"total_Physical_Memory_Size","type":"float"},{"name":"used_Swap_Size","type":"float"},{"name":"free_Swap_Size","type":"float"},{"name":"total_Swap_Size","type":"float"},{"name":"heap_Used","type":"float"},{"name":"non_Heap_used","type":"float"},{"name":"non_Heap_Committed","type":"float"},{"name":"heap_Committed","type":"float"},{"name":"class_Loaded","type":"int"},{"name":"class_Unloaded","type":"int"},{"name":"total_Class","type":"int"},{"name":"total_Thread","type":"float"},{"name":"thread_Peak_Count","type":"float"},{"name":"thread_Started_Count","type":"float"},{"name":"thread_Daemon_Count","type":"float"},{"name":"thread_User_Time","type":"string"},{"name":"cpu_Time","type":"float"},{"name":"cpu_Load_Time","type":"float"},{"name":"cpu_Load_Time","type":"float"},{"name":"thread_Cpu_Time","type":"float"},{"name":"gc_Collection_Time","type":"int"},{"name":"gc_Memory_Name","type":"string"},{"name":"max_Memory","type":"float"},{"name":"start_Time","type":"date"},{"name":"up_Time","type":"int"},{"name":"system_Load_Average","type":"float"},{"name":"available_Processor","type":"float"}],"isSummaryGrid":0,"defaultCColumn":"2","sorters":[],"report_name":"App Server Memory Usage","queryCWidgetU":[],"dataEndPoint":[{"dValueField":null,"isGroupBy":false,"displayName":"total_Memory","criteria":"Max","dfieldName":"total_Memory","label":"JVM Total Memory(MB)","type":"Data","aggregate":"Sum","criteriaColumn":"scheduled_DateTime"},{"dValueField":null,"isGroupBy":false,"displayName":"total_Physical_Memory_Size","criteria":"Max","dfieldName":"total_Physical_Memory_Size","label":"Physical Memory(MB)","type":"Data","aggregate":"Sum","criteriaColumn":"scheduled_DateTime"},{"dValueField":null,"isGroupBy":false,"displayName":"total_Swap_Size","criteria":"Max","dfieldName":"total_Swap_Size","label":"Total Swap Space(MB)","type":"Data","aggregate":"Sum","criteriaColumn":"scheduled_DateTime"},{"dValueField":null,"isGroupBy":false,"displayName":"heap_Used","criteria":"Max","dfieldName":"heap_Used","label":"Heap Used(MB)","type":"Data","aggregate":"Sum","criteriaColumn":"scheduled_DateTime"},{"dValueField":null,"isGroupBy":false,"displayName":"non_Heap_used","criteria":"Max","dfieldName":"non_Heap_used","label":"Non Heap Used(MB)","type":"Data","aggregate":"Sum","criteriaColumn":"non_Heap_used"},{"dValueField":null,"isGroupBy":false,"displayName":"total_Class","criteria":"Max","dfieldName":"total_Class","label":"Total Class Running","type":"Data","aggregate":"Sum","criteriaColumn":"scheduled_DateTime"},{"dValueField":null,"isGroupBy":false,"displayName":"Total Thread","criteria":"Max","dfieldName":"total_Thread","label":"Total Thread","type":"Data","aggregate":"Sum","criteriaColumn":"scheduled_DateTime"}]}#appfire#[{"type":"angulargauge","height":250,"width":350,"dataSource":{"chart":{"palette":"3","bgColor":"FFFFFF","caption":"","captionFontSize":"15","subCaption":"JVM Memory Usage(%)","subCaptionFontSize":"11","captionAlignment":"center","captionFont":"Arial","subCaptionFont":"Calibri","captionFontColor":"\#000000","subCaptionFontColor":"\#000000","captionFontBold":true,"subCaptionFontBold":true,"yAxisName":"Units","showValues":true,"legendBorderAlpha":"0","showBorder":false,"captionOnTop":true},"colorrange":{"color":[{"minvalue":"0","maxvalue":"45"},{"minvalue":"45","maxvalue":"75"},{"minvalue":"75","maxvalue":"100"}]},"dials":{"dial":[{"value":"62","rearextension":"1","radius":"100","bgcolor":"333333","bordercolor":"333333","basewidth":"8"}]},"data":[]},"chartId":"234","javaClass":"com.athena.report.utils.ChartGaugeJSONConverter","chartTitle":"CPU Memory","value":"used_Memory","aggregate":"","dataType":0,"criteria":"Max","criteriaColumn":"scheduled_DateTime","groupByCol":""},{"type":"pie2d","height":250,"width":350,"dataSource":{"chart":{"caption":"","captionFontSize":"15","subCaption":"Physical Memory Usage(MB)","subCaptionFontSize":"11","captionAlignment":"center","captionFont":"Arial","subCaptionFont":"Calibri","captionFontColor":"\#000000","subCaptionFontColor":"\#000000","captionFontBold":true,"subCaptionFontBold":true,"alignCaptionWithCanvas":true,"captionHorizontalPadding":"3","showPercent":false,"defaultcenterlabel":"Label","startingangle":"120","showLegend":true,"legendItemFontBold":true,"legendItemFont":"Arial","legendItemFontSize":"12","legendItemFontColor":"\#000000","legendPosition":"bottom","legendCaptionAlignment":"center","legendCaptionBold":true,"legendCaptionFont":"Arial","legendCaptionFontSize":"10","legendCaptionFontColor":"\#000000","legendItemHiddenColor":"\#FFFFFF","legendIconScale":"2","legendBgColor":"\#FFFFFF","legendBorderColor":"\#000000","legendBorderThickness":"2","legendShadow":false,"legendAllowDrag":true,"legendScrollBgColor":"\#FFFFFF","reverseLegend":false,"interactiveLegend":true,"plotTooltext":"$label, $datavalue(MB)","theme":"ocean","canvasBgColor":"\#FFFFFF","canvasBorderAlpha":"0","bgColor":"\#FFFFFF","showBorder":false,"enableSmartLabels":0,"formatNumberScale":0},"data":[]},"chartId":"19","javaClass":"com.athena.report.utils.ChartLabelValueJSONConverter","chartTitle":"Physical memory","label":["used_Physical_Memory","free_Physical_Size"],"value":"","aggregate":"","dataType":1,"criteria":"Max","criteriaColumn":"scheduled_DateTime","groupByCol":""},{"type":"pie2d","height":250,"width":350,"dataSource":{"chart":{"caption":"","captionFontSize":"15","subCaption":"Swap Space Usage(MB)","subCaptionFontSize":"11","captionAlignment":"center","captionFont":"Arial","subCaptionFont":"Calibri","captionFontColor":"\#000000","subCaptionFontColor":"\#000000","captionFontBold":true,"subCaptionFontBold":true,"alignCaptionWithCanvas":true,"captionHorizontalPadding":"3","showPercent":true,"defaultcenterlabel":"Label","startingangle":120,"showLegend":true,"legendItemFontBold":true,"legendItemFont":"Arial","legendItemFontSize":"12","legendItemFontColor":"\#000000","legendPosition":"bottom","legendCaptionAlignment":"center","legendCaptionBold":true,"legendCaptionFont":"Arial","legendCaptionFontSize":"10","legendCaptionFontColor":"\#000000","legendItemHiddenColor":"\#FFFFFF","legendIconScale":"2","legendBgColor":"\#FFFFFF","legendBorderColor":"\#000000","legendBorderThickness":"2","legendShadow":false,"legendAllowDrag":true,"legendScrollBgColor":"\#FFFFFF","reverseLegend":false,"interactiveLegend":true,"plotTooltext":"$label , $datavalue(MB)","theme":"ocean","canvasBgColor":"\#FFFFFF","canvasBorderAlpha":"0","bgColor":"\#FFFFFF","showBorder":false,"enableSmartLabels":0,"formatNumberScale":0,"numberSuffix":"","showPercentageInLabel":0},"data":[]},"chartId":"19","javaClass":"com.athena.report.utils.ChartLabelValueJSONConverter","chartTitle":"Swap Size","label":["free_Swap_Size","used_Swap_Size"],"value":"","aggregate":"","dataType":1,"criteria":"Max","criteriaColumn":"scheduled_DateTime","groupByCol":""},{"type":"pie2d","height":250,"width":350,"dataSource":{"chart":{"caption":"","captionFontSize":"15","subCaption":"Java Class Info.","subCaptionFontSize":"11","captionAlignment":"center","captionFont":"Arial","subCaptionFont":"Calibri","captionFontColor":"\#000000","subCaptionFontColor":"\#000000","captionFontBold":true,"subCaptionFontBold":true,"alignCaptionWithCanvas":true,"captionHorizontalPadding":"3","showPercent":true,"defaultcenterlabel":"Label","startingangle":"120","showLegend":true,"legendItemFontBold":true,"legendItemFont":"Arial","legendItemFontSize":"12","legendItemFontColor":"\#000000","legendPosition":"bottom","legendCaptionAlignment":"center","legendCaptionBold":true,"legendCaptionFont":"Arial","legendCaptionFontSize":"10","legendCaptionFontColor":"\#000000","legendItemHiddenColor":"\#FFFFFF","legendIconScale":"2","legendBgColor":"\#FFFFFF","legendBorderColor":"\#000000","legendBorderThickness":"2","legendShadow":false,"legendAllowDrag":true,"legendScrollBgColor":"\#FFFFFF","reverseLegend":false,"interactiveLegend":true,"plotTooltext":" $label,$datavalue","theme":"fint","canvasBgColor":"\#FFFFFF","canvasBorderAlpha":"0","bgColor":"\#FFFFFF","showBorder":false,"enableSmartLabels":0,"formatNumberScale":0,"numberSuffix":"","showPercentageInLabel":0},"data":[]},"chartId":"19","javaClass":"com.athena.report.utils.ChartLabelValueJSONConverter","chartTitle":"total Class","label":["class_Loaded","class_Unloaded"],"value":"","aggregate":"","dataType":1,"criteria":"Max","criteriaColumn":"scheduled_DateTime","groupByCol":""}]#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-05#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-05#appfire#LIFAHFMVSXANRRKY9FY9Q#appfire#1#appfire#ba9dced8-453e-49a3-b627-d497a1f91b17#appfire#1#appfire#1#appfire#{"enableCharts":"on","hour":"","minute":""}#appfire#\N
+Group#appfire#DE73399D-833A-4E0E-B16F-F89B57F46554#appfire#979C6E6F-AEEF-4772-8371-E0C2BC2CE48D#appfire#{\
+	"report_name": "Group",\
+	"sqlId": "979C6E6F-AEEF-4772-8371-E0C2BC2CE48D",\
+	"sorters": [],\
+	"gridColumns": [\
+		{\
+			"header": "Name",\
+			"dataIndex": "surveyQuestionGroupName",\
+			"datatype": "VARCHAR",\
+			"width": 100,\
+			"align": "left",\
+			"field": {\
+				"xtype": "VARCHAR"\
+			},\
+			"href": true,\
+			"targetRList": [\
+				{\
+					"report_id": "566BBEBD-7AE9-47CA-AFDA-1836899F85E1",\
+					"report_name": "GroupQuestion",\
+					"type": "r",\
+					"menuAction": "",\
+					"reffId": "",\
+					"targetSrc": "tab"\
+				}\
+			],\
+			"qFieldName": "surveyQuestionGroupId"\
+		},\
+		{\
+			"header": "Desc",\
+			"dataIndex": "surveyQuestionGroupDesc",\
+			"datatype": "TEXT",\
+			"width": 100,\
+			"align": "right",\
+			"field": {\
+				"xtype": "TEXT"\
+			}\
+		},\
+		{\
+			"header": "versionId",\
+			"dataIndex": "versionId",\
+			"datatype": "INT",\
+			"width": 100,\
+			"align": "right",\
+			"field": {\
+				"xtype": "INT"\
+			}\
+		}\
+	],\
+	"queryCWidgetU": [],\
+	"qcContext": 0,\
+	"dataEndPoint": [],\
+	"displayType": "1",\
+	"summaryGroups": [],\
+	"pageSize": 20,\
+	"isSummaryGrid": 0,\
+	"gridmodel": [\
+		{\
+			"name": "surveyQuestionGroupName",\
+			"type": "string"\
+		},\
+		{\
+			"name": "surveyQuestionGroupDesc"\
+		},\
+		{\
+			"name": "versionId",\
+			"type": "int"\
+		}\
+	],\
+	"defaultCColumn": null,\
+	"qcPosition": "north",\
+	"checkboxgrid": 0,\
+	"actionbutton": [\
+		"->"\
+	],\
+	"calendar": {\
+		"calIsCalendar": false,\
+		"calSName": "",\
+		"calDateColumn": null,\
+		"calDispColumn": null,\
+		"aggregate": []\
+	}\
+}#appfire#[]#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-06#appfire#18D01ABF-F632-496A-B379-FC50EDEAB8C0#appfire#2015-11-06#appfire#LIFAHFMVSXANRRKY9FY9Q#appfire#1#appfire#ba9dced8-453e-49a3-b627-d497a1f91b17#appfire#1#appfire#1#appfire#{"enableCharts":"on","hour":"","minute":""}#appfire#{"interval":"","mapView":{"mapSName":"","mapLatColumn":"","mapLongColumn":"","displayName":""}}

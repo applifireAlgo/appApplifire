@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppLogConfig>
+<LoggingProperties>
+<!--Logging Framework is Asynchronous in nature. Log Events goes to the Queue first and connectors takes the event from the queue for processing. Event Queue Type 0 - Circular Queue (RECOMMENDED) 1 - Infinite Queue with Initial Capacity and events will be wrapped in Soft References (JVM will garbage collect these soft references when it runs out of memory). 2 - Infinite Queue (NOT RECOMMENDED)-->
+<eventQueueType value="0"/>
+ <eventQueueSize value="100000"/>
+<!--Refresh Time to reload this configuration file In a production environment, if you want to debug a specific component you can change the Alarm Log Levels (for specific Target like File, DB etc) of that specific components. Once the configuration is refreshed new Log Events will be written to the configured Target (File, DB etc). This will help to isolate and troubleshoot a production environment without shutting down the application. -->
+<refresh timeUnit="minutes">0</refresh>
+<eventSeverity>
+<map>
+<property id="0B792D14-8E03-4514-B74C-39F8E279A130" name="2">Info</property>
+<property id="1486E399-6DA0-4112-90DA-1C1878266143" name="3">Warning</property>
+<property id="6EADBEEF-395C-4C9D-ABFC-7839704B091E" name="0">Debug</property>
+<property id="8E1BC695-62BC-4D20-B59D-1F2FBD75EEF0" name="1">Trace</property>
+<property id="D7447BA5-D662-45B5-83A5-5B202D7E13E8" name="4">Critical</property>
+<property id="DB24EA56-03EF-4154-8526-589D4E85BB26" name="5">Fatal</property>
+</map>
+</eventSeverity>
+</LoggingProperties>
+<connectors>
+<connector cid="4" logLevel="3">
+<name enable="false" class="com.spartan.sprinkler.connectors.socket.SocketConnector"  id="socket.tcp.server" isSystemDefined="false">TCPSocketConnector</name>
+<map>
+<!--  Server Port Number -->
+<attribute name="port">4444</attribute>
+<!-- Server IP Address / Host Name -->
+<attribute name="hostname">192.168.2.40</attribute>
+</map>
+</connector>
+<connector cid="1" logLevel="2">
+<name enable="true" class="com.spartan.sprinkler.connectors.file.FileConnector"  id="file.connector" isSystemDefined="true">FileConnector</name>
+<map>
+<!--  Flush time in seconds -->
+<attribute name="flush.period">60</attribute>
+<!-- File Roll Over Time Unit Valid values (Hours, Days, Months) -->
+<attribute name="file.rollover.time.unit">Hours</attribute>
+<attribute name="backup.date.pattern">yyyyMMddHHmmss</attribute>
+<attribute name="backup.path">logs/backups</attribute>
+<!--  Buffer size in KB -->
+<attribute name="buffer.size">1</attribute>
+<!-- File Roll Over Size Unit. Valid Values (MB, GB) -->
+<attribute name="file.rollover.size.unit">MB</attribute>
+<!-- File Roll Over based on File Size. -->
+<attribute name="file.rollover.size">100</attribute>
+<attribute name="output.path">logs</attribute>
+<!-- File Roll Over based on Time -->
+<attribute name="file.rollover.time">1</attribute>
+<!-- Keep Latest X number of Backup Files. Valid values = Greater than ZERO or MINUS 1 If you want to keep all the files then give -1 -->
+<attribute name="backup.keep.last.x.files">2</attribute>
+<!-- File Roll Over Policy 0 - Based on Time ONLY 1 - Based on Size ONLY 2 - Based on Time or Size, which ever happens first. -->
+<attribute name="file.rollover.policy">0</attribute>
+</map>
+</connector>
+<connector cid="3" logLevel="3">
+<name enable="false" class="com.spartan.sprinkler.connectors.syslog.SyslogConnector"  id="socket.udp.syslog" isSystemDefined="false">SyslogConnector</name>
+<map>
+<!-- Syslog Receiver IP Address -->
+<attribute name="hostname">192.168.2.28</attribute>
+<!-- Syslog Receiver Port Number -->
+<attribute name="port">5001</attribute>
+</map>
+</connector>
+<connector cid="2" logLevel="2">
+<name enable="true" class="com.spartan.sprinkler.connectors.db.DBConnector"  id="db.connector" isSystemDefined="true">DatabaseConnector</name>
+<map>
+<!-- JDBC Connection Pool Size -->
+<attribute name="threadPoolSize">5</attribute>
+<!-- Batch will be commited if Time Out happens before the batch size reached. -->
+<attribute name="thread.timeout">5000</attribute>
+<attribute name="tablename">art_log_events_t</attribute>
+<!-- JDBC Batch Size -->
+<attribute name="batchSize">500</attribute>
+</map>
+</connector>
+</connectors>
+</AppLogConfig>
