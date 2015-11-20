@@ -1,5 +1,11 @@
+#!/bin/bash
+
 rm -r $MAVEN_HOME/.m2/repository/athena/athena*
 rm -r $MAVEN_HOME/.m2/repository/spartan/spartan*
+mkdir $MAVEN_HOME/appJars
+CURRENT_DIR="$(dirname $0)"
+cp $CURRENT_DIR/athena/*.jar $MAVEN_HOME/appJars
+cp $CURRENT_DIR/spartan/*.jar $MAVEN_HOME/appJars
 
 mvn install:install-file -Dfile=$MAVEN_HOME/appJars/athena-annotation-1.0.jar -DgroupId=athena -DartifactId=athena-annotation -Dversion=1.0 -Dpackaging=jar
 echo "athena maven jarapplifire-app-config installed"
