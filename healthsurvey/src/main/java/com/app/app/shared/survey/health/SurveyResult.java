@@ -1,10 +1,12 @@
 package com.app.app.shared.survey.health;
+import java.sql.Date;
+
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class SurveyResult {
 
-    private date date;
+    private Date date;
 
     private Integer point;
 
@@ -12,11 +14,11 @@ public class SurveyResult {
 
     private Integer type;
 
-    public date getDate() {
+    public Date getDate() {
         return date;
     }
 
-    public void setDate(date _date) {
+    public void setDate(Date _date) {
         this.date = _date;
     }
 
